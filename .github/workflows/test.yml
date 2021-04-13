@@ -10,5 +10,5 @@ jobs:
         with:
           java-version: 1.8
       - name: Test the action
-        uses: ./action
+        uses: ./
         
