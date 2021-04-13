@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright University of Victoria.
+$Date: 2020-08-12 23:22:20 -0700 (Wed, 12 Aug 2020) $
+$Id: STPA3.xml 16984 2020-08-13 06:22:20Z lucassimpson $
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="STPA3" version="5.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St. Paul’s Churchyard</title>
+                <respStmt>
+                    <resp ref="molresp:aut">Author<date notBefore="2015"/></resp>
+                    <name ref="mol:AINS1">Sarah-Jayne Ainsworth</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:ged">Guest Editor</resp>
+                    <name ref="mol:FROS1">Briony Frost</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:aut">Abstract Author<date notBefore="2019"/></resp>
+                    <name ref="mol:LEBE1">Kate LeBere</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:edt">Editor<date when="2019"/></resp>
+                    <name ref="mol:LEBE1">Kate LeBere</name>
+                </respStmt>
+            <respStmt>
+                <resp ref="molresp:edt">Editor<date when="2019"/></resp>
+                <name ref="mol:HORN6">Chris Horne</name>
+            </respStmt>
+                <respStmt>
+                    <resp ref="molresp:pfr">Proofreader<date when="2019-06"/></resp>
+                    <name ref="mol:SIMP5">Lucas Simpson</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:pfr">Proofreader<date when="2019-06"/></resp>
+                    <name ref="mol:LEBE1">Kate LeBere</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:pfr">Proofreader<date when="2019-06"/></resp>
+                    <name ref="mol:SIMP5">Lucas Simpson</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:mrk">Encoder<date when="2019-06"/></resp>
+                    <name ref="mol:HORN6">Chris Horne</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:gis">Geo-Coordinate Researcher<date when="2019-07"/></resp>
+                    <name ref="mol:HORN6">Chris Horne</name>
+                </respStmt>
+                <respStmt>
+<resp ref="molresp:dtm">Data Manager<date notBefore="2015"/></resp>
+<name ref="mol:LAND2">Tye Landels</name>
+</respStmt>
+<respStmt>
+               <resp ref="molresp:prg">Junior Programmer<date notBefore="2015"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:prg">Programmer<date notBefore="2011"/></resp>
+               <name ref="mol:HOLM3">Martin Holmes</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:rth">Associate Project Director<date notBefore="2015"/></resp>
+               <name ref="mol:MCFI1">Kim McLean-Fiander</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:pdr">Project Director<date notBefore="1999"/></resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+         </titleStmt>
+            
+         <publicationStmt>
+      <publisher><title level="m">The Map of Early Modern London</title></publisher><idno type="URL">http://mapoflondon.uvic.ca/includes.xml</idno><pubPlace>Victoria, BC, Canada</pubPlace><address>
+        <addrLine>Department of English</addrLine>
+        <addrLine>P.O.Box 3070 STNC CSC</addrLine>
+        <addrLine>University of Victoria</addrLine>
+        <addrLine>Victoria, BC</addrLine>
+        <addrLine>Canada</addrLine>
+        <addrLine>V8W 3W1</addrLine>
+    </address><date when="2016">2016</date><distributor>University of Victoria</distributor><idno type="ISBN">978-1-55058-519-3</idno><authority>
+          <name ref="mol:JENS1">Janelle Jenstad</name>
+          <email>london@uvic.ca</email>
+        </authority><availability>
+            <p>Copyright held by <title level="m">The Map of Early Modern London</title> on behalf of the contributors.</p>
+            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+              <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. </p>
+            </licence>
+            <p>Further details of licences are available from our
+              <ref target="mol:licence">Licences</ref> page. For more
+              information, contact the project director, <name ref="mol:JENS1">Janelle Jenstad</name>, for
+              specific information on the availability and licensing of content
+              found in files on this site.</p>
+        </availability>
+    </publicationStmt>
+    
+            <sourceDesc><p>Born digital.</p></sourceDesc>
+        </fileDesc>
+      <profileDesc>
+      <textClass>
+    <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtBornDigital"/>
+          <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtEncyclopediaLocationChurch"/>
+          <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtPedagogicalPartner"/>
+          <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtGraduate"/>
+          </textClass>
+          <abstract>
+              <p>Surrounding <ref target="mol:STPA2">St. Paul’s Cathedral</ref>, <ref target="mol:STPA3">St. Paul’s Churchyard</ref> has had a multi-faceted history in use and function, being the location of burial, crime, public gathering, and celebration. Before its destruction during the civil war, <ref target="mol:STPA6">St. Paul’s Cross</ref> was located in the middle of the churchyard, providing a place for preaching and the delivery of Papal edicts (<ref target="mol:THOR8" type="bibl">Thornbury</ref>).</p>
+          </abstract>
+  
+  
+  
+    </profileDesc>
+  
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef ident="mol" matchPattern="(.+)(#.+)?" replacementPattern="../../$1.htm$2">
+          <p>Most MoEML documents, or significant fragments with <att>xml:id</att> attributes, can
+            be addressed using the <code>mol:</code> prefix and accessed through the web application
+            with their id + <code>.xml</code>.</p>
+        </prefixDef>
+        <prefixDef ident="molagas" matchPattern="(.+)" replacementPattern="http://mapoflondon.uvic.ca/agas.htm?locIds=$1">
+          <p>The molagas prefix points to the shape representation of a location on 
+            MoEML’s OpenLayers3-based
+          rendering of the Agas Map.</p>
+        </prefixDef>
+        <prefixDef ident="moleebo" matchPattern="([0-9]+)\|([0-9]+)" replacementPattern="http://eebo.chadwyck.com/fetchimage?vid=$1&amp;page=$2&amp;width=1200">
+          <p>Links to page-images in the Chadwyck-Healey <title level="m">Early English Books Online</title> (EEBO)
+            repository. Note that this is a subscription service, and may not be accessible to those
+            accessing it from locations outside member institutions.</p>
+        </prefixDef>
+        <prefixDef ident="molebba" matchPattern="(.+)" replacementPattern="http://ebba.english.ucsb.edu/ballad/$1">
+          <p>Links to page-images in the <title level="m">English Broadside Ballad Archive</title> (EBBA).</p>
+        </prefixDef>
+        <prefixDef ident="mdt" matchPattern="(.+)" replacementPattern="includes.xml#$1">
+          <p>The mdt (MoEML Document Type) prefix used on <gi>catRef</gi>/<att>target</att> points
+            to a central taxonomy in the includes file.</p>
+        </prefixDef>
+        <prefixDef ident="mdtlist" matchPattern="(.+)" replacementPattern="$1.xml">
+          <p>The mdtlist (MoEML Document Type listing) prefix used in linking attributes points to a listings page constructed from a category in the central MDT taxonomy in the includes file. There are two variants, one with the plain <att>xml:id</att> of the category, meaning all documents in the specified category, and one with the suffix <q>_subcategories</q>, meaning all subcategories of the category.</p>
+        </prefixDef>
+        <prefixDef ident="molgls" matchPattern="(.+)" replacementPattern="GLOSS1.xml#$1">
+          <p>The molgls (MoEML gloss) prefix used on <gi>term</gi>/<att>corresp</att> points
+            to a a glossary entry in the GLOSS1.xml file.</p>
+        </prefixDef>
+        <prefixDef ident="molvariant" matchPattern="(.*)\|(.+)" replacementPattern="spelling_variants.xml#$2">
+          <p>This molvariant prefix is used on <gi>ref</gi>/<att>target</att> attributes during automated 
+          generation of gazetteer index files. It points to an element in the generated variant spellings
+          listing file which lists all documents which contain a particular spelling variant for a 
+          location.</p>
+        </prefixDef>
+        <prefixDef ident="molajax" matchPattern="(.+)" replacementPattern="../../ajax/$1.xml">
+          <p>This molajax prefix is used on <gi>ref</gi>/<att>target</att> attributes during the static build 
+          process, to specify links which point to MoEML resources which should not be loaded into the source 
+          page during standalone processing; instead, these should be turned into links to the XML source 
+          documents, and at HTML page load time, these should be turned into AJAX calls. This is to handle 
+          the scenario in which a page such as an A-Z index of the whole site would end up containing 
+          virtually the whole site inside itself.</p>
+        </prefixDef>
+        <prefixDef ident="molstow" matchPattern="(.+)|(.+)" replacementPattern="http://hcmc.uvic.ca/stow/$1/SL$1_$2.jpg">
+          <p>The molstow prefix is used on <att>facs</att> attributes to link to the HCMC verison of the Stow facsimiles.
+          Usually the first group is the year (1633) and then last is the image number (0001).</p>
+        </prefixDef>
+      </listPrefixDef>
+            
+                <p>Our editorial and encoding practices are documented in detail in the <ref target="mol:praxis">Praxis</ref> section of our website.</p>
+            
+        </encodingDesc>
+  
+        
+      <!--
+        Changes recorded here are only major changes or those resulting from 
+        automated processing. Later changes should be placed first. A complete
+        record of the history of any of our files is available through the Subversion
+        log.
+      -->
+      <revisionDesc status="published">
+          <change who="mol:JENS1" when="2020-06-25" status="published">Published article</change>
+      <change who="mol:HORN6" when="2019-06-19">Encoded and tagged document content.</change>
+      <change who="mol:TAKE1" when="2016-02-27">Added <gi>sourceDesc</gi> information for born-digital documents.</change>
+          <change who="mol:TANI1" when="2015-12-01" status="assigned">Assigned to Briony Frost.</change>
+         <change who="mol:TAKE1" when="2015-06-23">Standardized <gi>respStmt</gi>s for JENS1, MCFI1, and HOLM3 and added TAKE1 as Junior Programmer.</change>
+         <change who="mol:HOLM3" when="2014-09-29">Added XInclude for <gi>listPrefixDef</gi> in the header.</change>
+        <change who="mol:HOLM3" when="2014-02-26">Fixed erroneous <att>status</att> attribute 
+        on <gi>revisionDesc</gi>, changing it from <val>stub</val> to <val>empty</val>.</change>
+         <change who="mol:HOLM3" when="2013-12-19">Added global publicationStmt through XInclude.</change>
+         <change who="mol:HOLM3" when="2013-08-23">Eliminated superfluous catRef elements from the header.</change>
+         <change who="mol:HOLM3" when="2013-08-23">Added <gi>catRef</gi> elements based on the <gi>place</gi>/<att>type</att> values in the document.</change>
+         <change who="mol:HOLM3" when="2013-08-13">Put <gi>change</gi> elements inside <gi>revisionDesc</gi> into the correct (latest first) order.</change>
+         <change who="mol:HOLM3" when="2013-08-12">Added <gi>profileDesc</gi> containing document type information expressed in <gi>catRef</gi> elements.</change>
+         <change who="mol:HOLM3" when="2013-02-04">Converted @rend to @style, through XSLT transformation.
+      </change>
+         <change who="mol:HOLM3" when="2012-09-10">Added <gi>front</gi> element with <gi>docTitle</gi> as part of a
+      normalization process. This will be used as the definitive page title on rendering.</change>
+         <change when="2011-10" who="mol:HOLM3">Various updates and fixes made through XSLT, to standardize and normalize encoding practices.</change>
+         <change who="mol:HOLM3" when="2011-09">
+                <list rend="simple">
+                    <item>Data in the old INDEX1.xml was merged into this file in the form of a <gi>facsimile</gi> element and a <gi>listPlace</gi> in the body of the text.</item>
+                    <item>Various markup errors were fixed, and markup was normalized to some degree, to make it valid against tei_all.</item>
+                </list>
+            </change>
+         <change who="mol:JENS1" when="2010-07-22">
+                <date>22 July 2010</date>
+                <name ref="mol:JENS1">Janelle Jenstad</name>
+                Made a new page, hoping to fix some of the encoding glitches.                
+            <list rend="simple">
+                    <item>Used the article template to create a new page and saved it under the old id for this location</item>
+                </list>
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        
+        
+        <surface>
+            <graphic url="agas_full.jpg"/>
+            <zone xml:id="STPA3_agas" points="12063,5093 11962,5093 11974,5127 11957,5132 11961,5175 11834,5223 11856,5251 11850,5272 11877,5250 11907,5265 11906,5280 12000,5268 12017,5295 12034,5283 12076,5302 12078,5331 12103,5307 12138,5326 12142,5364 12156,5362 12155,5343 12169,5339 12173,5355 12194,5361 12231,5324 12268,5356 12297,5328 12339,5362 12339,5373 12352,5371 12351,5354 12368,5354 12366,5368 12376,5368 12406,5404 12416,5466 12451,5461 12440,5366 12474,5334 12525,5365 12528,5373 12546,5369 12544,5349 12559,5349 12562,5372 12592,5371 12591,5352 12604,5350 12615,5373 12615,5354 12647,5319 12686,5347 12721,5309 12758,5343 12782,5337 12793,5316 12850,5304 12880,5273 12921,5275 12918,5251 12936,5217 12955,5216 12953,5199 12952,5179 12974,5156 13010,5182 13007,5129 13003,5103 12990,5097 12970,5097 12967,5082 12937,5063 12925,5062 12916,4971 12910,4961 12919,4929 12902,4856 12915,4845 12904,4800 12888,4793 12873,4752 12803,4741 12799,4723 12809,4643 12805,4615 12816,4562 12787,4560 12780,4603 12739,4619 12679,4645 12633,4669 12630,4803 12673,4833 12673,4814 12686,4809 12700,4819 12696,4883 12695,4932 12698,4915 12855,4916 12886,4959 12902,4971 12903,5057 12913,5065 12915,5088 12911,5103 12914,5134 12919,5164 12889,5167 12894,5217 12872,5236 12791,5280 12700,5304 12603,5317 12500,5319 12397,5315 12275,5304 12191,5283 12114,5263 12038,5221 12008,5179 12066,5175 12063,5093"/>
+        </surface>
+    </facsimile>
+    <text>
+      <front>
+         <docTitle>
+            <titlePart type="main">St. Paul’s Churchyard</titlePart>
+         </docTitle>
+      </front>
+        <body>
+            <div type="placeInfo" xml:id="STPA3_placeInfo">
+                
+                <listPlace>
+                    <place>
+                        <placeName>St. Paul’s Churchyard</placeName>
+                        <location>
+                         <!--   <geo resp="mol:TEMP6"> <!-\-CT: Cross-referenced Ogilby & Morgan with Carlin & Belcher and Faithorne and Newcourt to determine approximate location. Churchyard appears to have remained relatively static in shape with some deviations around the edges.-\->0.100436,51.513811 -0.100162,51.513635 -0.099757,51.513439 -0.099543,51.513371 -0.099082,51.513312 -0.098473,51.513315 -0.098213,51.513302 -0.09781,51.513211 -0.09651,51.512944 -0.096433,51.513068 -0.096396,51.513466 -0.096476,51.513767 -0.096627,51.513943 -0.096851,51.514116 -0.096991,51.514199 -0.097006,51.51433 -0.09717,51.514362 -0.097657,51.514312 -0.097671,51.514351 -0.098648,51.514265 -0.099612,51.514185 -0.099603,51.514127 -0.099902,51.514096 -0.100205,51.514001 -0.100436,51.513811</geo>-->
+                        </location>
+                    </place>
+                    <place>
+                        <placeName>St. Paul’s Churchyard</placeName>
+                        <location>
+                            <geo><!--Geographical coordinates will go here when available.--></geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </div>
+            <div xml:id="STPA3_location"><head>Location</head>             
+                <p><ref target="mol:STPA3">St. Paul’s Churchyard</ref> is the area surrounding the <ref target="mol:STPA2">Cathedral of St. Paul</ref>. 
+                    According to Walter Thornbury, <quote>the precinct wall of <ref target="mol:STPA2">St. Paul’s</ref> first ran from <ref target="mol:AVEM1">Ave
+                        Maria Lane</ref> eastward along <ref target="mol:PATE1">Paternoster Row</ref> to the <ref target="mol:OLDC1">old Exchange</ref>, 
+                        <ref target="mol:CHEA2">Cheapside</ref>, then southwards to
+                <ref target="mol:CART1">Carter Lane</ref>, at the end of which it turned to <ref target="mol:LUDG1">Ludgate Archway</ref></quote> 
+                    (<ref type="bibl" target="mol:THOR8">Thornbury</ref>). When he became bishop of <ref target="mol:STPA2">St. Paul’s</ref> in 
+                    <date when-custom="1107" calendar="mol:julianSic" datingMethod="mol:julianSic">1107</date>, <name ref="mol:BELM1">Richard de Belmeis</name> 
+                    inherited the rebuilding of the church, which had begun in <date when-custom="1087" datingMethod="mol:julianSic" calendar="mol:julianSic">1087</date>. 
+                    <name ref="mol:STOW6">Stow</name>’s <date when-custom="1603" calendar="mol:julianSic" datingMethod="mol:julianSic">1603</date> account of the churchyard 
+                    describes the way in which land around it was incorporated:</p>
+                <cit><quote><p>This <name ref="mol:MAUR1">Mauricius</name> deceased in the yeare <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1107">1107</date>.
+                    <name ref="mol:BELM1">Richard Beamor</name> succeeded him in the Bishopricke, who did wonderfully increase the said church, purchasing of his owne cost the large
+                    streetes and lanes about it, wherin were wont to dwel many lay people, which ground he began to compasse about, with a strong wall of stone, &amp; gates. 
+                    <name ref="mol:HENR3">King H</name>. the first gaue to the said <name ref="mol:BELM1">Richard</name>, so much of the Mote (or wall) of the castle, on the 
+                    <ref target="mol:THAM2">Thames</ref> side to the South, as should be needfull to make the said wall of the church, &amp; so much as should suffise to make 
+                    a wal without the way on the north side<gap reason="editorial" resp="mol:HORN6"/></p>
+                <p>It should seeme that this <name ref="mol:BELM1">Richard</name> inclosed but two sides of the said church or <ref target="mol:STPA3">Cemitory of S.Paule</ref>, 
+                    to wit, the South and North side: for <name ref="mol:EDWA5">King Edward the second</name>, in the 
+                    <date notBefore-custom="1316-07-08" notAfter-custom="1317-07-07" datingMethod="mol:julianJan" calendar="mol:regnal">tenth of his raigne</date>,
+                    granted that the said churchyard should be inclosed with a wall where it wanted, for the murthers and robberies that were there 
+                    committed. But the cittizens then claimed the East part of the church yarde to be the place of assembly to their folkemotes, and that the great steeple there scituate was to that vse, their common bell, which being there rung, al the inhabitants of the citie might heare and come together. They also claimed the west side, that they might there assemble themselues together, with the Lord of <ref target="mol:BAYN1">Baynards Castle</ref>,<note type="editorial" resp="mol:LEBE1"><name ref="mol:FITZ21">Robert Fitz Richard</name>.</note> for view of their armour in defence of the cittie. This matter was in the <ref target="mol:TOWE5">Tower of London</ref> referred to <name ref="mol:STAN25">Haruius de Stanton</name>, and his fellow Iustices Itenerantes, but I finde not the decision or judgement of that controuersie.</p>
+                    <p>True it is, that <name ref="mol:EDWA3">Edward the third</name>, in the <date datingMethod="mol:julianJan" calendar="mol:regnal" from-custom="1343-01-25" to-custom="1344-01-24">seuenteene of
+                        his raigne</date>, gaue commandement for the finishing of that wall, which was then performed, and to this day it continueth; although now on both the sides 
+                        (to wit, within and without) it be hidden with dwelling houses. <name ref="mol:BELM1">Richard Beamer</name> deceased in the yeare 
+                        <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1127">1127</date>. and his successors in processe of time performed the worke
+                        begun.</p></quote><bibl><ref type="bibl" target="mol:STOW1">Stow 1: 325-326</ref></bibl></cit>
+                <p>There were six access points into the enclosure: <ref target="mol:FLEE2">Ludgate Street</ref>; <ref target="mol:STPA16">Paul’s Alley</ref> from 
+                    <ref target="mol:PATE1">Paternoster Row</ref>; <ref target="mol:CANN1">Canon Alley</ref> leading to the north door; the gate from 
+                    <ref target="mol:CHEA2">Cheapside</ref>; <ref target="mol:AUST2">St. Augustine’s Gate</ref> into <ref target="mol:WATL1">Watling Street</ref>; and the gate at 
+                    <ref target="mol:PAUL1">Paul’s Chain</ref>. Posterns were opened from dawn until night. <ref target="mol:PAUL1">Paul’s Chain</ref> is first mentioned in
+                    <date when-custom="1444" calendar="mol:julianSic" datingMethod="mol:julianSic">1444</date> as <quote>Poules-cheyne</quote> (<ref type="bibl" target="mol:HARB1">Harben 461</ref>) 
+                    and was a chain or barrier which was put across the carriage way during the hours of public worship to stop people entering the churchyard whilst worship was in progress.</p>  
+                <p>The new enclosure included the land where the mayor and citizens had once held court. They called this assembly the <soCalled>Folkmoot,</soCalled> a word derived from the old
+                    English <foreign xml:lang="ang">folcgemōt</foreign>, from <foreign xml:lang="ang">folc</foreign>, meaning <soCalled>folk,</soCalled> and <foreign xml:lang="ang">gemót</foreign>,
+                    meaning <soCalled>meeting</soCalled> (<ref type="bibl" target="mol:OEDI1"><title level="m">OED</title> folkmoot|fokemoot, n.</ref>). However, the inclusion of the gate of St.
+                    Augustine meant that people no longer had free access and egress. Thornbury refers to a number of buildings that were situated within the churchyard, including the Bishop’s palace,
+                    a slaughter-house, and a brewery (<ref type="bibl" target="mol:THOR8">Thornbury</ref>). Slaughter-houses were normally housed outside of the city, and animals were frequently killed 
+                    in the open air. This would have meant considerable mess and the smell of blood, the buzzing of flies, and the noises of distressed animals.  Many of these properties were sold or
+                    leased as shops under <name ref="mol:HENR1">Henry VIII</name>’s dissolution of the monasteries. There was a charnel house in the churchyard, but this was pulled down in 
+                    <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1549">1549</date>, and the bones were moved to <ref target="mol:FINS2">Finsbury Field</ref>. According
+                    to Dugdale, this was replaced by <quote>a stationer’s house and shop viz. the sign of the Rose</quote> (<ref type="bibl" target="mol:DUGD5">Dugdale 131</ref>), reflecting the 
+                    tendency for booksellers and printers to move into the churchyard. In the east of the churchyard was <ref target="mol:STPA4">St. Paul’s School</ref>, which was built in 
+                    <date when-custom="1512" calendar="mol:julianSic" datingMethod="mol:julianSic">1512</date> by <name ref="mol:COLE12">John Colet</name>, and the belfry tower, which held
+                    the Jesus bells until <name ref="mol:HENR1">Henry VIII</name> lost them at dice to <name ref="mol:PART2">Sir Miles Partridge</name>, who pulled down the tower and sold the
+                    materials (<ref type="bibl" target="mol:THOR8">Thornbury</ref>).</p></div>
+                <div xml:id="STPA3_history"><head>History</head>
+                <p><!--THIS FIRST MENTION SENTENCE SHOULD HAVE MORE INFORMATION ABOUT THE SOURCE IF WE ARE TO INCLUDE IT.
+                    HARBEN INDICATES THAT IT IS ON P.12 OF HISTORICAL MANUSCRIPTS COMMISSION 9TH REPREINT. -SIMP5
+                    The first known mention of <ref target="mol:STPA3">St. Paul’s Churchyard</ref> was <quote><foreign xml:lang="la">Cimiteno sive vico regio vocato Pawles-chirchehawe juxta portam Sancti
+                    Pauli</foreign></quote> (<ref type="bibl" target="mol:HARB1">Harben 462</ref>).--> The churchyard was a burial ground for the small parishes around the cathedral, and victims of the 
+                    <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1563">1563</date> and <date when-custom="1666" datingMethod="mol:julianSic" calendar="mol:julianSic">1666</date> plagues were buried there (<ref type="bibl" target="mol:HARD6">Harding</ref>). It was closed for burial in <date when="1874" calendar="mol:gregorian" datingMethod="mol:gregorian">1874</date> (<ref type="bibl" target="mol:GARD4">London Gardens Online</ref>).</p> 
+                <p>In the middle of the churchyard stood <ref target="mol:STPA6">St. Paul’s Cross</ref>, an open-air pulpit where public proclamations and Papal edicts were delivered, before 
+                    the Reformation.
+                    It was destroyed in <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1643">1643</date> during the civil war, and a plaque now marks where it stood. 
+                    The pulpit, along with the <soCalled>Folkmoot,</soCalled> made <ref target="mol:STPA3">St. Paul’s Churchyard</ref> a meeting place for people and a centre for public gathering. On Shrove Tuesday, <date when-custom="1527" calendar="mol:julianSic" datingMethod="mol:julianSic">1527</date>, six Lutherans were processed, in penitential dress, to <ref target="mol:STPA2">St. Paul’s</ref>, and a burning of heretical books took place, possibly including <name ref="mol:TYND1">Tyndale</name>’s version of the New Testament (<ref type="bibl" target="mol:THOR9">Thornbury</ref>).</p>
+                <p><name ref="mol:MACH3">Machyn</name> records the punishments of others. When a man gainsaid a preacher at <ref target="mol:STPA6">St. Paul’s Cross</ref> in 
+                    <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1561-08">August 1561</date>, he had to stand with a sheet around him in 
+                    <date when-custom="1561-11" calendar="mol:julianSic" datingMethod="mol:julianSic">November</date> as punishment (<ref type="bibl" target="mol:MACH1">Machyn 271</ref>). 
+                    In <date datingMethod="mol:julianSic" calendar="mol:julianSic" when-custom="1554">1554</date>, a scaffold was erected for a maid who <quote>spoke in the wall and whistled 
+                        in <ref target="mol:ALDG4">Aldgate Street</ref></quote> (<ref type="bibl" target="mol:MACH1">Machyn 66</ref>). In 
+                    <date when-custom="1555" calendar="mol:julianSic" datingMethod="mol:julianSic">1555</date>, an old man who railed against government and religion was taken to the Counter
+                    (a prison on either <ref target="mol:WOOD1">Wood Street</ref> or <ref target="mol:POUL1">Poultry</ref>) (<ref type="bibl" target="mol:MACH1">Machyn 98</ref>). On 
+                    <date when-custom="1555-11-26" datingMethod="mol:julianSic" calendar="mol:julianSic">26 November 1555</date>, a stripling was whipped for speaking about a Bishop 
+                    who had preached at <ref target="mol:STPA6">St. Paul’s Cross</ref> the Sunday before, and in <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1559">1559</date>,
+                    a preacher did penance for marrying people who had been married before (<ref type="bibl" target="mol:MACH1">Machyn 207</ref>).</p> 
+                <p>Despite <name ref="mol:EDWA5">Edward II</name>’s intention, enclosing the churchyard did not eradicate crime, nor did <name ref="mol:ELIZ1">Elizabeth</name>’s ban
+                    on <quote>fray, drawing of swords in the church or shooting with hand gun or dagg within the church or churchyard</quote> (<ref type="bibl" target="mol:THOR9">Thornbury</ref>),
+                    on punishment of two months’ imprisonment. In <date when-custom="1554" datingMethod="mol:julianSic" calendar="mol:julianSic">1554</date>, a gun was fired over the head of one <name ref="mol:PEND1">Doctor Pendleton</name>, who was preaching at <ref target="mol:STPA6">St. Paul’s Cross</ref> (<ref type="bibl" target="mol:MACH1">Machyn 65</ref>). <name ref="mol:MACH3">Machyn</name> records several other violent incidents that took place within the churchyard. In <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1660">1660</date>, <name ref="mol:NORT18">William North</name> was put on trial at the <ref target="mol:OLDB1">Old Bailey</ref> for killing <name ref="mol:WYNB1">Mr. Wynborne</name> outside the west door of <ref target="mol:STPA2">St. Paul’s</ref> and was hanged in the churchyard (<ref type="bibl" target="mol:MACH1">Machyn 222</ref>). Later that year, <name ref="mol:BODE3">Mr. Bodeley</name>, a <soCalled>gentleman of the temple,</soCalled> was murdered in the churchyard by one of <name ref="mol:ALCO1">Mr. Alcock</name>’s servants (<ref type="bibl" target="mol:MACH1">Machyn 227</ref>). Even when the crimes had not been committed there, <ref target="mol:STPA3">St. Paul’s Churchyard</ref> could be used to host the punishment: in <date when-custom="1554" datingMethod="mol:julianSic" calendar="mol:julianSic">1554</date>, two men (<name ref="mol:WYAT2">Wyatt</name>’s spy and the under-sheriff of Leicester) convicted of carrying letters for the <name ref="mol:GREY10">Duke of Suffolk</name> were hanged in the churchyard (<ref type="bibl" target="mol:MACH1">Machyn 54</ref>). Later that month, four more were hanged.</p> 
+                <p>As a traditional gathering place, <ref target="mol:STPA3">St. Paul’s Churchyard</ref> was used at times of celebration.  <name ref="mol:MACH3">Machyn</name>’s description of
+                    the <date when-custom="1553" datingMethod="mol:julianSic" calendar="mol:julianSic">1553</date> Lord Mayor’s Parade offers readers a taste of the atmosphere that such events created:</p>
+                <cit><quote><p>my lord mayre landyd at <ref target="mol:BAYN1">Banard Castyll</ref> and [in <ref target="mol:STPA2">St.
+                Paul’s] chyrche-yerd</ref> dyd hevere craft wher set in [array]:
+                furst wher ij tallmen bayreng ij gret streamers
+                [of] the <name type="org" ref="mol:META1">Marchand-tayllers</name> armes, then cam one [with
+                a] drume and a flutt playng, and a-nodur with a gret f[ife?]
+                all they in blue sylke, and then cam ij grett wodyn [armed]
+                with ij grett clubes all in grene, and with skwybes bornyng <gap reason="editorial" resp="mol:LEBE1"/>
+                    with gret berds and syd here, and ij targets a-pon ther bake <gap reason="editorial" resp="mol:LEBE1"/>
+                and then cam xvj trumpeters blohyng, and then cam in [blue]
+                gownes, and capes and hosse and blue sylke slevys, and evere
+                man havyng a target and a gayffelyn to the nombur of lxx <gap reason="editorial" resp="mol:LEBE1"/> 
+                and then cam a duyllyll, and after cam the bachelars all in a
+                leveray, and skarlett hods; and then cam the pagant of <name ref="mol:STJO8">sant
+                John Baptyst</name> gorgyusly, with goodly speches; and then cam
+                all the kynges trumpeters blowhyng, and evere trumpeter
+                havyng skarlet capes, and the wetes capes and godly banars.</p></quote><bibl><ref type="bibl" target="mol:MACH1">Machyn 47-48</ref></bibl></cit>
+                <p>Similar processions took place on <name ref="mol:PAUL4">St. Paul</name>’s day, for example in <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1555">1555</date>,
+                    when clergy and children from <ref target="mol:STPA4">St. Paul’s School</ref> and <ref target="mol:GREY2">Grey Friars</ref> walked through the churchyard and into the cathedral (<ref type="bibl" target="mol:MACH1">Machyn 80</ref>).
+                    When the new Lord Mayor, <name ref="mol:CURT4">Thomas Curtes</name>, took office in <date when-custom="1557-10" datingMethod="mol:julianSic" calendar="mol:julianSic">October 1557</date>, he was treated 
+                    to a pageant in the churchyard  (<ref type="bibl" target="mol:MACH1">Machyn 155</ref>).</p></div>
+                <div xml:id="STPA3_literary"><head>Literary References</head>
+                    <p>In <title level="m">The Queen’s Majesty’s Passage</title>, <name ref="mol:ELIZ1">Queen Elizabeth</name> received an oration from one of the children from <ref target="mol:STPA4">St. Paul’s School</ref>, 
+                        which was closely linked with both the cathedral and the churchyard. The oration offers <ref target="mol:ENGL2">England</ref> as an example of the sort of republic 
+                        that <name ref="mol:PLAT2">Plato</name> described, praising <name ref="mol:ELIZ1">Elizabeth</name> and her nation as the epitome of such a nation, and, as Warkentin suggests,
+                        the <quote>Queen’s accession signified the return of the golden age, though rooted in the ancient praises accorded entering monarchs, is also the first hint of a body of 
+                            imagery that would, in the later years of the Queen’s long reign, be deployed to associate her with the goddess <name ref="mol:ASTR1">Astrea</name></quote>
+                        (<ref type="bibl" target="mol:WARK1">Warkentin 73</ref>). <name ref="mol:ELIZ1">Elizabeth</name> is described as being chosen by <name ref="mol:JESU1">Christ</name> himself: 
+                        <quote><foreign xml:lang="la">Vos igitur Angli tot commoda accepturi Elizabetham Reginam nostram celeberriman ab ipso Christo huibus regni imperio destinatam, honore debito 
+                            prosequimini</foreign></quote> (<ref target="mol:QMPS1" type="mol:bibl"><title level="m">The Queen’s Majesty’s Passage</title> sig. D.ii.r.</ref>). The poem then continues this praise, 
+                        hailing the dawn of a golden age in which everything that has fallen will rise again. At the beginning of the passage, <name ref="mol:ELIZ1">Elizabeth</name>’s reception is 
+                        described: she <quote>was of the people receiued merueylous entierly, as appeared by thassemblie, prayers, wisshes, welcomminges, cryes, tender woordes, and all other signes,
+                            whiche argue a wonderfull earnest loue of most obedient subiectes towarde theyr soueraygne</quote> (<ref target="mol:QMPS1" type="mol:bibl"><title level="m">The Queen’s Majesty’s
+                                Passage</title> sig. A.ii.r.</ref>). Despite the relative lack of detail in the performance and the reception of the oration in <ref target="mol:STPA3">St. Paul’s
+                                    Churchyard</ref>, it is reasonable to assume that the same sort of response awaited her there. The churchyard was a traditional place of gathering, and would
+                        have been full of people anxious to get a glimpse of their sovereign. At several points, <title level="m">The Queen’s Majesty’s Passage</title> refers to the difficulty 
+                        <name ref="mol:ELIZ1">Elizabeth</name> had in hearing the pageants and orations, asking <quote>what that pageant was ere that she came to it</quote> at
+                        <ref target="mol:CORN2">Cornhill</ref>, <quote>because shee feared for the peoples noyse, that she should not here the child which did expounde the same</quote> 
+                        (<ref target="mol:QMPS1" type="mol:bibl"><title level="m">The Queen’s Majesty’s Passage</title> sig. B.iii.r.</ref>). 
+                         The loudest noises of the soundscape would have been bells and canons, with people,
+                        animals, the weather, and so forth providing background noise (<ref type="bibl" target="mol:SMIT30">Smith 49</ref>). There would have been a large crowd in the
+                        churchyard, and the architecture of the place itself would have influenced the sort of sound that they created since sound was absorbed, reflected, and dispersed 
+                        according to the physical characteristics of the cathedral, the other buildings, and the people themselves. Stone would have deflected sound, and plaster-over-lathe would have been reverberant, aiding the oration’s audibility (<ref type="bibl" target="mol:SMIT30">Smith 180</ref>). However, the orator would still have had to compete with the absorbing factor of the people and the background noise created by the people and animals that filled the churchyard.</p>
+                <p>Against a soundscape composed of pre-industrial noises, the sounds from other elements of the passage would have been audible to the people congregated in the churchyard
+                    that day.  At <ref target="mol:STAN17">The Standard</ref> in <ref target="mol:CHEA2">Cheap</ref> <quote>was placed a noyse of Trumpettes</quote>, and at the door to
+                    <ref target="mol:STPE6">St. Peter’s</ref> <quote>stode the waites of the citie, which did geue a pleasant noyse with theyr instrumentes as the Quenes maiestie did 
+                        passe by</quote> (<ref target="mol:QMPS1" type="mol:bibl"><title level="a">The Queen’s Majesty’s Passage</title> sig. C.ii.v.</ref>). Depending on the wind direction, it is
+                    entirely possible that these noises would have been audible in <ref target="mol:STPA3">St. Paul’s Churchyard</ref>, especially the trumpets with their strident,
+                    penetrating timbre. At <ref target="mol:LUDG1">Ludgate</ref>, <name ref="mol:ELIZ1">Elizabeth</name> was <quote>receiued with a noyse of instruments</quote>, and 
+                    again, this was likely to have been audible to the people congregated in the churchyard or by those following the pageant towards it. The description of a <quote>noyse 
+                        of instruments</quote> suggests that louder instruments such as sackbuts and cornetts were chosen, because they were more likely to be heard at distance and above ambient noise.</p>
+                <p>For <name ref="mol:MARY2">Mary I</name> in <date when-custom="1553" calendar="mol:julianSic" datingMethod="mol:julianSic">1553</date>, <quote>[b]oys of <ref target="mol:STPA4">St.
+                    Paul’s school</ref> ‘sang diverse staves in gratifying the Queen’</quote> (<ref type="bibl" target="mol:EDWA21">Edwards 127</ref>). In <name ref="mol:JAME1">King James I</name>’s 
+                    entrance into <ref target="mol:LOND5">London</ref> he went to the Court Royall, <quote>[t]hrough the windows of which he might behold the <ref target="mol:STPA2">Cathedral Temple of
+                        Saint Paule</ref>: upon whose lower batelments an Anthem was sung, by the Quiristers of the church to the music of loud instruments</quote> (<ref type="bibl" target="mol:DEKK22">Dekker H1r</ref>).</p>
+                <p><name ref="mol:DEKK1">Dekker</name>’s <title level="m">Troia-Noua Triumphans</title> has <quote>the second Land-Triumph</quote> in the churchyard 
+                    (<ref type="mol:bibl" target="mol:TROI1"><title level="m">Troia-Nova Triumphans</title> B2r</ref>). In <name ref="mol:MIDD12">Thomas Middleton</name>’s <title level="m">The
+                        Triumphs of Truth</title>, the tableau which had been first seen on water was transferred to <ref target="mol:STPA3">St. Paul’s Churchyard</ref>, where
+                    <quote>ſtand ready the fiue Ilands, thoſe dumb Glories that I ſpake of before vpon the water; vpon the heighth of theſe fiue Ilands ſit fiue perſons repreſenting
+                        the fiue Sences, <name ref="mol:VISU1">Viſus</name>, <name ref="mol:AUDI1">Auditus</name>, <name ref="mol:TACT1">Tactus</name>, <name ref="mol:GUST1">Guſtus</name>, 
+                        <name ref="mol:OLFA1">Olfactus</name> (or) <name ref="mol:VISU1">Seeing</name>, <name ref="mol:AUDI1">Hearing</name>, <name ref="mol:TACT1">Touching</name>, 
+                        <name ref="mol:GUST1">Taſting</name>, <name ref="mol:OLFA1">Smelling</name>; at their feet their proper Emblemes, Aquila, Ceruus, Araneus, Simia, Canis, an
+                        Eagle, a Hart, a Spider, an Ape, a Dogge</quote> (<ref target="mol:TRIU1" type="mol:bibl">Middleton B4r</ref>). <name ref="mol:MUND1">Munday</name>’s <title level="m">Chryſanaleia</title> 
+                    also presented a tableau in the churchyard:</p>
+                <cit><quote><p>Our next deuice, before it be marſhalled in due
+                ranke and order, is a goodly Bower, ſhaped in
+                forme of a flowrie Arbour, and adorned with all
+                the Scutchions of Armes of ſo many worthy men,
+                as haue beene Lord Maiors of the <name type="org" ref="mol:FISH5">Fiſhmongers
+                Company</name>, and each mans name truely ſet downe
+                on them. It is appointed firſt to ſtand in <ref target="mol:STPA3">Paules
+                Church-yard</ref>: And at ſuch a place as is thoght moſt
+                conuenient. In this Bower is a faire Tombe, where
+                on, in Armour lyeth the imaginary body of <name ref="mol:WALW1">Sir
+                William Walworth</name>, ſometime twiſe Lord Maior of
+                    <ref target="mol:LOND5">London</ref>, and a famous Brother of the <name type="org" ref="mol:FISH5">Fiſhmongers
+                Company</name>. The reaſon of this conceit, aimeth at
+                that tempeſtuous and troubleſome time of <name ref="mol:RICH1">King 
+                    Richard the Second</name>, and the <date when-custom="1380" calendar="mol:regnal" datingMethod="mol:julianSic">fourth yeare of his
+                Raigne</date>, whoſe life, Crowne and Dignitie (next vn-
+                der Gods omnipotent power) were manfully defen-
+                ded and preſerued, by that worthy man <name ref="mol:WALW1">Walworth</name>.</p></quote>
+                    <bibl><ref target="mol:CHRY1" type="mol:bibl">Munday B2v</ref></bibl></cit>
+<p>References are made to <ref target="mol:STPA3">St. Paul’s Churchyard</ref> in various plays and poems, such as <name ref="mol:HEYW1">Heywood</name>’s <title level="m">If You Know Not Me, You Know Nobody, Part 2</title>:</p>
+                <cit><quote>
+                    <lg><l><name ref="mol:NOWE1">D. Now</name>.</l>
+                        <l>Nay ſtay good <name ref="mol:GRES4">Iohn</name>, thou knowſt my dwelling <name ref="mol:GRES4">Iohn</name>?</l>
+                        <l><name ref="mol:GRES4">Iohn</name>.</l>
+                        <l>In <ref target="mol:STPA3">Powles Church-yard</ref> Sir.</l></lg>
+                </quote>
+                    <bibl><ref type="bibl" target="mol:HEYW2">Heywood 1.3.582-583</ref></bibl></cit>
+<p>The churchyard is also mentioned in <title level="m">The Staple of News</title>, by <name ref="mol:JONS1">Ben Jonson</name>:</p>
+                <cit><quote>
+                <lg>
+                  <l><name ref="mol:CYMB1">Cymbal</name>. True Paul’s bred, I’the Churchyard.</l>
+                  <l><name ref="mol:PENN4">P. Junior</name>. [Indicating Tom]. And this at the West Door, O’th’other side.</l>
+                </lg>
+                </quote>
+                    <bibl><ref type="bibl" target="mol:JONS3">Jonson 1.5.122b-124a</ref></bibl></cit>
+<p><name ref="mol:WHIT8">Isabella Whitney</name>’s <title level="a">Wyll and Testament</title> makes reference to one of the main activities of the churchyard, book selling:</p>
+                <cit><quote><lg><l>To all the bookbinders by <ref target="mol:STPA2">Paul’s</ref>,</l>
+                <l>because I like their art,</l>
+                <l>They every week shall money have</l>
+                <l>when they from books depart</l></lg></quote>
+                    <bibl><ref type="bibl" target="mol:WHIT32">Whitney lines 229-232</ref></bibl></cit>
+                    <p>Book publishing and selling was a feature of the churchyard from the <date datingMethod="mol:julianSic" calendar="mol:julianSic" notBefore-custom="1300">14th century</date>, and this increased when the old buildings were sold off by <name ref="mol:HENR1">Henry VIII</name>. It was a thriving, bustling place, with numerous businesses publishing and selling a range of texts. These businesses were often distinguished from one another by geographical details, so that, for example, <name ref="mol:PRIC2">Pricke</name> is to be found at the sign of the Golden Ball<!-- Locate, if possible --> from <date from-custom="1677" to-custom="1685" calendar="mol:julianSic" datingMethod="mol:julianSic">1677 to 1685</date> (<ref type="bibl" target="mol:PLOM8">Plomer 244</ref>). Publisher details can also give us an idea of where premises are shared, or where they are bought by others or passed on: <name ref="mol:MOSE5">Humphrey Moseley</name> is at the Princes’ Arms<!-- Locate, if possible --> from <date datingMethod="mol:julianSic" calendar="mol:julianSic" from-custom="1630" to-custom="1661">1630 to 1661</date> (<ref type="bibl" target="mol:PLOM7">Plomer 132</ref>); <name ref="mol:SIMM2">Nevill Simmons</name> is there after <date notBefore-custom="1656" calendar="mol:julianSic" datingMethod="mol:julianSic">1655</date> (<ref type="bibl" target="mol:PLOM7">Plomer 164</ref>). Because many of the people who bought or rented the properties were evangelical Protestants, it became an area known for its religious publications. After the fire, many booksellers moved out into <ref target="mol:PATE1">Paternoster Row</ref>, although there was still publishing activity into the <date notBefore="1800" notAfter="1900" datingMethod="mol:gregorian" calendar="mol:gregorian">1800s</date>.</p>                        
+            </div>
+        </body>
+    </text>
+</TEI>

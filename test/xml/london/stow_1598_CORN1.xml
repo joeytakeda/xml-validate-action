@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="stow_1598_CORN1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Survey of London: Cornhill Ward</title>
+
+            <title>A suruay of London. Contayning the originall, antiquity, increase, moderne
+               estate, and description of that citie, written in the yeare 1598. by Iohn Stow
+               citizen of London. Also an apologie (or defence) against the opinion of some men,
+               concerning that citie, the greatnesse thereof. With an appendix, containing in
+               Latine, Libellum de situ &amp; nobilitate Londini: written by William Fitzstephen, in
+               the raigne of Henry the second.</title>
+
+            <!--Primary respStmts-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_aut_STOW6">
+               <resp ref="molresp:aut">Author<date notAfter-custom="1598" datingMethod="mol:julianMar"/></resp>
+               <name ref="mol:STOW6">John Stow</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_aut_FITZ1">
+               <resp ref="molresp:aut">Secondary Author<date notBefore-custom="1162" notAfter-custom="1174" datingMethod="mol:julianMar"/></resp>
+               <name ref="mol:FITZ1">William fitz Stephen</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_prt_WIND2">
+               <resp ref="molresp:prt">Printer<date notAfter-custom="1598" datingMethod="mol:julianMar"/></resp>
+               <name ref="mol:WIND2">John Windet</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_prt_WOLF1">
+               <resp ref="molresp:prt">Publisher<date notAfter-custom="1598" datingMethod="mol:julianMar"/></resp>
+               <name ref="mol:WOLF1">John Wolfe</name>
+            </respStmt>
+
+            <!--Major Contributors/Transcribers-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_edt_JENS1">
+               <resp ref="molresp:edt">Editor<date notBefore="2012"/></resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_trc_EEBO3">
+               <resp ref="molresp:trc">First Transcribers</resp>
+               <name ref="mol:EEBO3" type="org">EEBO-TCP encoders (names not known)</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_trc_PHIL6">
+               <resp ref="molresp:trc">MoEML Transcriber<date from="2012-09" to="2014-05"/></resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_EEBO3">
+               <resp ref="molresp:mrk">First Encoders</resp>
+               <name ref="mol:EEBO3" type="org">EEBO-TCP encoders (names not known)</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_trc_SCHA2">
+               <resp ref="molresp:trc">Editor of Original EEBO-TCP Encoding<date notAfter="2012"/></resp>
+               <name ref="mol:SCHA2">Paul Schaffner</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_trc_RAHT1">
+               <resp ref="molresp:trc">Creator of TEI Stylesheets for Conversion of EEBO-TCP
+                  Encoding to TEI-P5<date notAfter="2012"/></resp>
+               <name ref="mol:RAHT1">Sebastian Rahtz</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_HOLM3">
+               <resp ref="molresp:mrk">Post-conversion and Markup Editor<date notAfter="2012"/></resp>
+               <name ref="mol:HOLM3">Martin Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_edt_MCFI1">
+               <resp ref="molresp:edt">Managing Editor<date notBefore="2013" notAfter="2015-06"/></resp>
+               <name ref="mol:MCFI1">Kim McLean-Fiander</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_edt_TANI1">
+               <resp ref="molresp:edt">Managing Editor<date notBefore="2015-08"/></resp>
+               <name ref="mol:TANI1">Katie Tanigawa</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_PHIL6">
+               <resp ref="molresp:mrk">Encoder<date from="2012-09" to="2014-05"/></resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <!--Gap Encoders-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_gap_MILL2">
+               <resp ref="molresp:mrk">Gap Encoder</resp>
+               <name ref="mol:MILL2">Sarah Milligan</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_gap_PHIL6">
+               <resp ref="molresp:mrk">Gap Encoder</resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <!--Formeworke Encoders-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_formeworke_PHIL6">
+               <resp ref="molresp:mrk">Formeworke Encoder</resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_formeworke_HOLM4">
+               <resp ref="molresp:mrk">Formeworke Encoder</resp>
+               <name ref="mol:HOLM4">Meredith Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_formeworke_CLOS1">
+               <resp ref="molresp:mrk">Formeworke Encoder</resp>
+               <name ref="mol:CLOS1">Patrick Close</name>
+            </respStmt>
+
+            <!--Toponymists-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_top_PHIL6">
+               <resp ref="molresp:top">Toponymist</resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_top_HOLM4">
+               <resp ref="molresp:top">Toponymist</resp>
+               <name ref="mol:HOLM4">Meredith Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_top_CLOS1">
+               <resp ref="molresp:top">Toponymist</resp>
+               <name ref="mol:CLOS1">Patrick Close</name>
+            </respStmt>
+
+            <!--Name Encoders-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_name_HOLM4">
+               <resp ref="molresp:mrk">Name Encoder</resp>
+               <name ref="mol:HOLM4">Meredith Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_name_TAYL14">
+               <resp ref="molresp:mrk">Name Encoder</resp>
+               <name ref="mol:TAYL14">Brandon Taylor</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_name_JENS1">
+               <resp ref="molresp:mrk">Name Encoder</resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+
+            <!--Date Encoders-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_date_PHIL6">
+               <resp ref="molresp:mrk">Date Encoder</resp>
+               <name ref="mol:PHIL6">Nathan Phillips</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_date_HOLM4">
+               <resp ref="molresp:mrk">Date Encoder</resp>
+               <name ref="mol:HOLM4">Meredith Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_date_CLOS1">
+               <resp ref="molresp:mrk">Date Encoder</resp>
+               <name ref="mol:CLOS1">Patrick Close</name>
+            </respStmt>
+
+            <!--Transcription Proofreaders-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_ROTH4">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:ROTH4">Molly Rothwell</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_JENS1">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_TANI1">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:TANI1">Katie Tanigawa</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_LEBE1">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:LEBE1">Kate LeBere</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_HORN6">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:HORN6">Chris Horne</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_DUNC3">
+               <resp ref="molresp:pfr">Transcription Proofer</resp>
+               <name ref="mol:DUNC3">Catriona Duncan</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pfr_transcription_ISHE1">
+               <resp ref="molresp:pfr">Transcription Proofreader</resp>
+               <name ref="mol:ISHE1">Brooke Isherwood</name>
+            </respStmt>
+
+            <!--Markup Editors-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_mrk_transcription_LEBE1">
+               <resp ref="molresp:mrk">Markup Editor</resp>
+               <name ref="mol:LEBE1">Kate LeBere</name>
+            </respStmt>
+
+            <!--CSS Editors-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_con_LEBE1">
+               <resp ref="molresp:con">CSS Editor</resp>
+               <name ref="mol:LEBE1">Kate LeBere</name>
+            </respStmt>
+
+            <!--Global respStmts-->
+
+            <respStmt xml:id="stow_1598_CORN1_resp_dtm_LAND2">
+               <resp ref="molresp:dtm">Data Manager<date notBefore="2015"/></resp>
+               <name ref="mol:LAND2">Tye Landels</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_prg_TAKE1">
+               <resp ref="molresp:prg">Junior Programmer<date notBefore="2015"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_prg_HOLM3">
+               <resp ref="molresp:prg">Programmer<date notBefore="2011"/></resp>
+               <name ref="mol:HOLM3">Martin Holmes</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_rth_MCFI1">
+               <resp ref="molresp:rth">Associate Project Director<date notBefore="2015"/></resp>
+               <name ref="mol:MCFI1">Kim McLean-Fiander</name>
+            </respStmt>
+
+            <respStmt xml:id="stow_1598_CORN1_resp_pdr_JENS1">
+               <resp ref="molresp:pdr">Project Director<date notBefore="1999"/></resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher><title level="m">The Map of Early Modern London</title></publisher><idno type="URL">http://mapoflondon.uvic.ca/includes.xml</idno><pubPlace>Victoria, BC, Canada</pubPlace><address>
+        <addrLine>Department of English</addrLine>
+        <addrLine>P.O.Box 3070 STNC CSC</addrLine>
+        <addrLine>University of Victoria</addrLine>
+        <addrLine>Victoria, BC</addrLine>
+        <addrLine>Canada</addrLine>
+        <addrLine>V8W 3W1</addrLine>
+    </address><date when="2016">2016</date><distributor>University of Victoria</distributor><idno type="ISBN">978-1-55058-519-3</idno><authority>
+          <name ref="mol:JENS1">Janelle Jenstad</name>
+          <email>london@uvic.ca</email>
+        </authority><availability>
+            <p>Copyright held by <title level="m">The Map of Early Modern London</title> on behalf of the contributors.</p>
+            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+              <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. </p>
+            </licence>
+            <p>Further details of licences are available from our
+              <ref target="mol:licence">Licences</ref> page. For more
+              information, contact the project director, <name ref="mol:JENS1">Janelle Jenstad</name>, for
+              specific information on the availability and licensing of content
+              found in files on this site.</p>
+        </availability>
+            <!--This is the specific ISBN for *this edition of Stow*-->
+            <idno type="ISBN">978-1-55058-520-9</idno>
+            <idno type="STC">23341</idno>
+            <idno type="TCP">A13049</idno>
+            <idno type="BIBNO">99853096</idno>
+            <idno type="EEBO_pageImages">18464</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This semi-diplomatic transcription takes the <name type="org" ref="mol:UVIC3">University of Victoria</name> copy (<idno type="call">DA680 S87 1598</idno>) of
+                  <idno type="STC">STC 23341</idno> (ESTC S117887) as its control text.
+               <!--Digital surrogates of this copy are available in <ref target="">UVic ContentDM</ref> (Collection ??, <idno>???</idno>).-->
+               For convenience, we began with the TEI-XML P4 file of the EEBO-TCP transcription of
+                  <idno type="STC">STC 23341</idno>(<idno type="TCP">TCP A13049</idno>), available
+               on <ref target="https://github.com/textcreationpartnership/A13049">GitHub</ref>). The
+               names of the EEBO-TCP transcribers are unknown. <name ref="mol:SCHA2">Paul
+                  Schaffner</name> edited the original EEBO-TCP markup in or before <date notAfter="2012">2012</date>. <name ref="mol:RAHT1">Sebastian Rahtz</name> created
+               the TEI Stylesheets to convert the EEBO-TCP file to TEI-P5 in or before 2012. <name ref="mol:HOLM3">Martin Holmes</name> downloaded the XML file from the GitHub
+               repository. <name ref="mol:HOLM3">Martin Holmes</name> processed the file
+               programmatically to bring it in line with MoEML’s TEI customization. Holmes added
+               proleptic catchwords (based on the first word on the next page) and converted short s
+               back to long s based on predictable patterns. <name type="org" ref="mol:TEAM1">MoEML
+                  Research Assistants</name> at the <name type="org" ref="mol:UVIC3">University of
+                  Victoria</name> performed the following additional tasks: supplied content for the
+               gaps left by the EEBO-TCP transcribers; checked the transcription against digital
+               surrogates of the <name type="org" ref="mol:UVIC3">UVic</name> copy and against the
+               copy itself; corrected the proleptic catchwords where necessary; transcribed the
+               formeworks; added links to digital surrogates; and tagged all people, places, and
+               dates. The text was then checked by Editor <name ref="mol:JENS1">Janelle
+                  Jenstad</name>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtPrimarySourceStowSection"/>
+
+         </textClass>
+         <abstract>
+            <p>Section Cornhill Ward of stow_1598, pages 156–164.</p>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="mol" matchPattern="(.+)(#.+)?" replacementPattern="../../$1.htm$2">
+               <p>Most MoEML documents, or significant fragments with <att>xml:id</att> attributes,
+                  can be addressed using the <code>mol:</code> prefix and accessed through the web
+                  application with their id + <code>.xml</code>.</p>
+            </prefixDef>
+            <prefixDef ident="molagas" matchPattern="(.+)" replacementPattern="http://mapoflondon.uvic.ca/agas.htm?locIds=$1">
+               <p>The molagas prefix points to the shape representation of a location on MoEML’s
+                  OpenLayers3-based rendering of the Agas Map.</p>
+            </prefixDef>
+            <prefixDef ident="molproq" matchPattern="([0-9]+)\|([0-9]+)" replacementPattern="https://search.proquest.com/eebo/docview/$1/pageLevelImage/?imgSeq=$2">
+               <p>Links to page-images in the ProQuest <title level="m">Early English Books
+                     Online</title> (EEBO) repository. Note that this is a subscription service, and
+                  may not be accessible to those accessing it from locations outside member
+                  institutions.</p>
+            </prefixDef>
+            <prefixDef ident="molebba" matchPattern="(.+)" replacementPattern="http://ebba.english.ucsb.edu/ballad/$1">
+               <p>Links to page-images in the <title level="m">English Broadside Ballad
+                     Archive</title> (EBBA).</p>
+            </prefixDef>
+            <prefixDef ident="mdt" matchPattern="(.+)" replacementPattern="includes.xml#$1">
+               <p>The mdt (MoEML Document Type) prefix used on <gi>catRef</gi>/<att>target</att>
+                  points to a central taxonomy in the includes file.</p>
+            </prefixDef>
+            <prefixDef ident="mdtlist" matchPattern="(.+)" replacementPattern="$1.xml">
+               <p>The mdtlist (MoEML Document Type listing) prefix used in linking attributes points
+                  to a listings page constructed from a category in the central MDT taxonomy in the
+                  includes file. There are two variants, one with the plain <att>xml:id</att> of the
+                  category, meaning all documents in the specified category, and one with the suffix
+                     <q>_subcategories</q>, meaning all subcategories of the category.</p>
+            </prefixDef>
+            <prefixDef ident="molgls" matchPattern="(.+)" replacementPattern="GLOSS1.xml#$1">
+               <p>The molgls (MoEML gloss) prefix used on <gi>term</gi>/<att>corresp</att> points to
+                  a a glossary entry in the GLOSS1.xml file.</p>
+            </prefixDef>
+            <prefixDef ident="molvariant" matchPattern="(.*)\|(.+)" replacementPattern="spelling_variants.xml#$2">
+               <p>This molvariant prefix is used on <gi>ref</gi>/<att>target</att> attributes during
+                  automated generation of gazetteer index files. It points to an element in the
+                  generated variant spellings listing file which lists all documents which contain a
+                  particular spelling variant for a location.</p>
+            </prefixDef>
+            <prefixDef ident="molajax" matchPattern="(.+)" replacementPattern="../../ajax/$1.xml">
+               <p>This molajax prefix is used on <gi>ref</gi>/<att>target</att> attributes during
+                  the static build process, to specify links which point to MoEML resources which
+                  should not be loaded into the source page during standalone processing; instead,
+                  these should be turned into links to the XML source documents, and at HTML page
+                  load time, these should be turned into AJAX calls. This is to handle the scenario
+                  in which a page such as an A-Z index of the whole site would end up containing
+                  virtually the whole site inside itself.</p>
+            </prefixDef>
+            <prefixDef ident="molstow" matchPattern="(.+)|(.+)" replacementPattern="http://hcmc.uvic.ca/stow/SL$1_$2.jpg">
+               <p>The molstow prefix is used on <att>facs</att> attributes to link to the HCMC
+                  verison of the Stow facsimiles. Usually the first group is the year (1633) and
+                  then last is the image number (0001).</p>
+            </prefixDef>
+         </listPrefixDef>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl, TEI @ Oxford. </p>
+         </projectDesc>
+         <editorialDecl n="4">
+            <p>Encoding has been done using the recommendations for Level 4 of the TEI in Libraries
+               Guidelines. Digital page images are linked to the text file.</p>
+            <p> Page images are collected here: <ref target="https://hcmc.uvic.ca/stow/1598/">https://hcmc.uvic.ca/stow/1598/</ref>. </p>
+            <p>Page-image links are provided through the <att>facs</att> attribute, which has values
+               like this: <code>molstow:1633|1</code>. This translates to a URI looking like this:
+                  <code>https://hcmc.uvic.ca/stow/1598/DA680_S87_&amp;_Stow_&amp;.jpg</code>.</p>
+            <p>Other editorial and encoding practices are documented in detail in the <ref target="mol:praxis">Praxis</ref> section of our website.</p>
+         </editorialDecl>
+         <charDecl>
+            <char xml:id="stow_1598_CORN1_ye">
+               <charName>LATIN SMALL LETTER Y WITH LATIN SMALL LETTER E ABOVE</charName>
+               <desc>A common abbreviated form of <mentioned>the</mentioned> appears over a hundred
+                  times in the text. This takes the form of a small latin letter y with a
+                  superscript small latin letter e above it. The <ref target="http://folk.uib.no/hnooh/mufi/">Medieval Unicode Font Initiative</ref>
+                  includes this in its character recommendation 3.0, assigning it to Private Use
+                  Area codepoint U+E781, but it can be composed from a regular latin small letter y
+                  and a combining e above (codepoint U+0364). In the original TCP encoding, this was
+                  encoded as y&lt;SUP&gt;e&lt;/SUP&gt; in some cases, and y&lt;SUP&gt;•&lt;/SUP&gt;
+                  in others. Examination of the page-images suggests that the only difference
+                  between them is one of print clarity; the second variant is clearly not a dot
+                  above, but closer to a stroke, and the stroke could well be part of a small e. In
+                  other cases, there is no apparent difference between instances encoded with e and
+                  others encoded with a dot. This variance was apparently meaningless, and perhaps
+                  at the whim of the encoder, or the result of work by two different encoders with
+                  different approaches, so it has not been retained in this encoding.</desc>
+               <charProp>
+                  <localName>entity</localName>
+                  <value>yesup</value>
+               </charProp>
+               <mapping type="standard">yͤ</mapping>
+               <mapping type="PUA" subtype="mufi"></mapping>
+               <mapping type="simplified">ye</mapping>
+               <mapping type="medieval">þe</mapping>
+               <mapping type="modern">the</mapping>
+            </char>
+         </charDecl>
+
+         <tagsDecl>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_R">font-family: "Georgia";</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_BL">font-family:
+               "Blackletter";</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_IR">font-family: "Georgia"; font-style:
+               italic;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_IBL">font-family: "Blackletter";
+               font-style: italic;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_page">width: 34em; padding-left: 7em;
+               padding-right: 7em; line-height: 1.2; margin-left:auto;
+               margin-right:auto;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_chapterHead">font-family: Georgia;
+               text-align: center; font-size: 200%; margin-bottom: 1em;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_dropCap">float: left; font-size: 200%;
+               line-height: 1.5; padding: 1.2em 1.5em; margin: 0.2em; vertical-align: middle;
+               border: solid 1pt black; font-family: "Georgia";</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_para" selector="p">text-indent:
+               2em;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_lmlabel" selector="label[place='margin-left']">display: block; float: left; margin-left: -8em;
+               width: 7.5em; font-size: 80%; line-height: 1; clear: left; font-family: "Georgia";
+               text-indent: 0;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_rmlabel" selector="label[place='margin-right']">display: block; float: right; margin-right:
+               -8em; width: 7.5em; font-size: 80%; line-height: 1; clear: right; font-family:
+               "Georgia"; text-indent: 0;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_lpagenum" selector="fw[type='pageNum'][place='top-left']">display: block; margin-top: 0;
+               margin-left: 0; margin-right: 0; margin-bottom: -1em; font-family: Georgia;
+               text-indent: 0; text-align: left;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_rpagenum" selector="fw[type='pageNum'][place='top-right']">display: block; margin-top: -2.5em;
+               margin-left: 0; margin-right: 0; margin-bottom: 1em; font-family: Georgia;
+               text-indent: 0; text-align: right;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_runningheader" selector="fw[type='header']">display: block; text-align: center; font-size: 120%;
+               margin-bottom: 1em; font-family: Georgia; text-indent: 0;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_catchword" selector="fw[type='catchword']">display: block; text-align: right; text-indent:
+               0;</rendition>
+            <rendition scheme="css" xml:id="stow_1598_CORN1_signature" selector="fw[type='signature']">display: block; text-align: center; text-indent:
+               0;</rendition>
+         </tagsDecl>
+
+         <p>Our editorial and encoding practices are documented in detail in the <ref target="mol:praxis">Praxis</ref> section of our website.</p>
+         <samplingDecl>
+            <p>This document is a generated segment taken from <ref target="mol:stow_1598">stow_1598</ref> for ease of processing.</p>
+         </samplingDecl>
+      </encodingDesc>
+
+      <revisionDesc status="inPeerReview">
+         <change who="mol:LEBE1" when="2020-09-11">Changed status to inPeerReview.</change>
+         <change who="mol:SIMP5" when="2020-07-14">Transformed pb facs elements for UVic image
+            links.</change>
+         <change who="mol:SIMP5" when="2020-06-25">Transformed pb facs elements for EEBO-proquest
+            transition.</change>
+         <change who="mol:ELHA1" when="2018-07-19">Collapsed element rendition using XSLT.</change>
+         <change who="mol:TAKE1" when="2018-07-07">Created individual section from stow_1598.xml
+            using XSLT. The changes prior to this one reflect changes to the entire stow_1598.xml
+            file and not this section in particular.</change>
+         <change who="mol:TAKE1" when="2018-06-13" status="inPeerReview">Changed <att>status</att>
+            of stow_1598_CORN1 to <val>inPeerReview</val>.</change>
+         <change who="mol:JENS1" when="2018-06-01">Fixed an erroneous entity tag that was producing
+            a diagnostics error.</change>
+         <change who="mol:TAKE1" when="2018-04-28">Changed calendar value from "julian" to
+            "julianSic" using XSLT.</change>
+         <change who="mol:HOLM3" when="2014-01-13">Transformed the use of <gi>supplied</gi> and its
+               <att>reason</att> attribute to conform with TEI Guidelines and our updated
+            schema.</change>
+         <change who="mol:HOLM3" when="2013-12-16">Standardized the use of @resp in editorial
+            notes.</change>
+         <change who="mol:HOLM3" when="2013-08-13">Put <gi>change</gi> elements inside
+               <gi>revisionDesc</gi> into the correct (latest first) order.</change>
+         <change who="mol:HOLM3" when="2013-02-04">Converted @rend to @style, through XSLT
+            transformation. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text prev="mol:stow_1598_BROA3" next="mol:stow_1598_LANG1" xml:lang="en">
+      <body>
+         <div xml:id="stow_1598_CORN1_text" rendition="#stow_1598_CORN1_page #stow_1598_CORN1_BL">
+
+            <pb n="L2r" facs="molstow:1598|081" xml:id="stow_1598_CORN1_sig_L2r"/>
+
+            <head rendition="#stow_1598_CORN1_chapterHead"><ref target="mol:CORN1">Cornhill
+                  VVarde</ref>.</head>
+            <p style="text-indent: 0;"><hi rendition="#stow_1598_CORN1_dropCap">T</hi>He next ward
+               towardes the ſouth, is <ref target="mol:CORN1"><hi rendition="#stow_1598_CORN1_R">Corn<lb type="hyphenInWord"/>hill</hi> warde</ref>,<label place="margin-right"><ref target="mol:CORN1">Cornhill ward</ref></label> ſo called
+               of a corne market, time<lb/>out of mind there holden, and is a part of<lb/>the
+               principall high ſtreete, beginning at the<lb/>weſt end of <ref target="mol:LEAD1">Leaden hall</ref>, ſtretching downe<lb/>weſt on both the ſides by the ſouth end of<lb/>
+               <hi rendition="#stow_1598_CORN1_R"><ref target="mol:FINC1">Finckes lane</ref>,</hi>
+               on the right hand, and by the<lb/>North ende of <ref rendition="#stow_1598_CORN1_R" target="mol:BIRC1">Birchouers lane</ref>, on the<lb/>left part of which lanes, to
+               wit, to the middle of them is of this<lb/>ward and ſo down to the <ref target="mol:STOC1">Stockes market</ref>, and this is the bounds<lb/> of this Ward.
+               The vpper, or Eaſt part of this Warde, and al<lb type="hyphenInWord"/>ſo a part of
+                  <ref rendition="#stow_1598_CORN1_R" target="mol:LIME1">Lymeſtreete warde</ref>
+               hath beene (as I ſaide) a<lb/>market place, eſpecially for Corne, and ſince for all
+               kinde<lb/>of victuals, as is partly ſhewed in <ref rendition="#stow_1598_CORN1_R" target="mol:LIME1">Limeſtreete warde</ref>, yet it ap<lb type="hyphenInWord"/>peareth of record, that in the yere <date rendition="#stow_1598_CORN1_R" when-custom="1522" datingMethod="mol:julianSic" calendar="mol:julianSic">1522</date>. the Rippars of <hi rendition="#stow_1598_CORN1_R">Rie</hi>
+               and<lb/>other places ſolde their freſh fiſh in <ref target="mol:LEAD5">Leaden hall
+                  market</ref>, vpon<lb/><ref rendition="#stow_1598_CORN1_R" target="mol:CORN2">Cornhil</ref>, but forren Butchers were not admitted, there to ſel fleſh<lb/><fw type="signature">L 2</fw>
+               <fw type="catchword" style="margin-top: -1em;">till</fw>
+               <pb facs="molstow:1598|082" n="L2v" xml:id="stow_1598_CORN1_sig_L2v"/>
+               <fw type="pageNum" place="top-left">148</fw>
+               <fw type="header" style="margin-top: -1em;"><ref target="mol:CORN1">Cornehill
+                     warde</ref>.</fw>til the yere <date rendition="#stow_1598_CORN1_R" when-custom="1533" datingMethod="mol:julianSic" calendar="mol:julianSic">1533</date>. &amp; ſhortly after it was enacted, that the ſaid But<lb type="hyphenInWord"/>chers &amp; other ſhould ſel their beefe and mutton by
+                  weight,<label place="margin-left">Fleſhmarket<lb/>at <ref target="mol:LEAD1">Leadenhal</ref><lb/> and alteration<lb/>of prices in a<lb/>ſhort time.</label>
+               to wit<lb/>beefe not aboue a halfpennie the pound, and mutton halfpenny
+               half<lb/>farthing: which act being deuiſed for the great commodity of the<lb/>
+               realme, (as it was then thought) hath ſince proued far otherwaies,<lb/> for before
+               that time a fat oxe was ſolde at <hi rendition="#stow_1598_CORN1_R"><ref target="mol:LOND5">London</ref>,</hi> for ſixe and<lb/>twentie ſhillings <hi rendition="#stow_1598_CORN1_R">8</hi>. ď. at the moſt, a fat Wether for thrée
+                  ſhillings<lb/><hi rendition="#stow_1598_CORN1_R">4.</hi> pence, a fat Calfe the
+               like price, a fat Lambe for twelue pence,<lb/>peeces of beefe weighed two poundes and
+               a halfe, at the leaſt, yea<lb/>thrée pound or better for a pennie on euerie Butchers
+               ſtal in this<lb/>Citie: and of thoſe peeces of beefe thirteene or foureteene for<lb/>
+               twelue pence, fat mutton for eight pence the quarter, and one hun<lb type="hyphenInWord"/>dred weight of beefe for foure ſhillinges eight pence at the
+               deareſt:<lb/>What the price is now, I néede not to ſet downe, many men<lb/>thought
+               the ſame to raiſe in price: by meane that euerie Graſier<lb/>knew or ſuppoſed what
+               weight euery their beaſtes contayned,<lb/>and ſo raiſing their price thereafter, the
+               Butcher could be no gay<lb type="hyphenInWord"/>ner, but by likewiſe raiſing his
+               price: but the true cauſes of en<lb type="hyphenInWord"/>hanſing the prices both of
+               thoſe and other victualls are not to bee<lb/>diſputed here. &amp;c. The Forren
+               Butchers for a long time ſtoode<lb/>in the high ſtreete of <ref rendition="#stow_1598_CORN1_R" target="mol:LIME1">Limeſtreete warde</ref>, twiſe
+               euerie weeke vz.<lb/> Wedneſday and Saturday, and were ſome gaine to the Ten<lb type="hyphenInWord"/>nantes before whoſe dores they ſtoode, and into whoſe
+               houſes<lb/>they ſet their blockes and ſtalles, on the north ſide of that
+               ſtreete,<lb/>but that aduantage being eſpied, they were taken into <ref target="mol:LEAD1">Leaden<lb/> hall</ref>, there to pay for their ſtandinges to
+               the <name type="org" ref="mol:CHAM12">Chamber of <hi rendition="#stow_1598_CORN1_R">Lon</hi><lb type="hyphenInWord"/><hi rendition="#stow_1598_CORN1_R">don</hi></name>. Thus much for the market vppon <ref rendition="#stow_1598_CORN1_R" target="mol:CORN1">Cornhill</ref>.</p>
+            <p>The chiefe ornamentes in <ref target="mol:CORN1"><hi rendition="#stow_1598_CORN1_R">Cornhil</hi> warde</ref> are theſe. Firſt at<lb/>the Eaſt end thereof, in the
+               middle of the high ſtreete, and at the<lb/>parting of foure wayes, haue ye a water
+               ſtandarde, placed there<lb/>in the yeare <hi rendition="#stow_1598_CORN1_R"><date when-custom="1582" datingMethod="mol:julianSic" calendar="mol:julianSic">1582</date>.</hi> in manner following.</p>
+            <p>A certaine German or Dutch man borne, named <name ref="mol:PMOR1"><hi rendition="#stow_1598_CORN1_R">Peter Mor</hi><lb type="hyphenInWord"/><hi rendition="#stow_1598_CORN1_R">ris</hi></name><hi rendition="#stow_1598_CORN1_R">,</hi>
+               <label place="margin-left">Standarde of<lb/><ref target="mol:THAM2">Thames</ref>
+                     wa<lb type="hyphenInWord"/>ter by <ref target="mol:LEAD1">Leaden<lb/>hall</ref>.</label> hauing made an Artificiall Forcier, for that
+               purpoſe, conueyed<lb/><ref target="mol:THAM2">Thames</ref> water in pipes of Lead,
+               ouer the ſteeple of <ref target="mol:STMA1"><hi rendition="#stow_1598_CORN1_R">S</hi>. <hi rendition="#stow_1598_CORN1_R">Magnus</hi><lb/> Church</ref>, at the
+               north end of <ref target="mol:LOND1"><hi rendition="#stow_1598_CORN1_R">London</hi>
+                  bridge</ref>, and from thence into<lb/>diuers mens houſes, in <ref target="mol:THAM1">Thames ſtreete</ref>, <ref target="mol:NEWF1">New fiſh ſtreete</ref> and<lb/><ref target="mol:GRAC1">Graſſeſtreete</ref>, vp to the northweſt corner of <ref target="mol:LEAD1">Leaden hall</ref>, the<lb/><fw type="catchword">higheſt</fw>
+               <pb n="L3r" facs="molstow:1598|082" xml:id="stow_1598_CORN1_sig_L3r"/>
+               <fw type="header"><ref target="mol:CORN1">Cornhill warde</ref>.</fw>
+               <fw type="pageNum" place="top-right">149</fw> higheſt ground of al the Citie, where
+               the waſt of the maine pipe<lb/><label place="margin-right">The higheſt<lb/> ground of
+                  the<lb/> Citie of <ref target="mol:LOND5">Lon<lb type="hyphenInWord"/>don</ref>.</label> riſing into this Standarde (prouided at the charges of the
+               Citie)<lb/>with foure ſpoutes runneth foure waies, plentifully ſeruing to the<lb/>
+               commoditie of the inhabitantes neare adioyning in their houſes,<lb/>and alſo clenſeth
+               the Channels of the ſtreete towardes <ref target="mol:BISH2"><hi rendition="#stow_1598_CORN1_R">Biſhopſ</hi><lb type="hyphenInWord"/><hi rendition="#stow_1598_CORN1_R">gate</hi></ref><hi rendition="#stow_1598_CORN1_R">, <ref target="mol:ALDG1">Aldegate</ref></hi>, the
+                  Bridge,<note type="editorial" resp="mol:ROTH4">I.e., <ref target="mol:LOND1">London Bridge</ref>.</note> and the <ref target="mol:STOC1">Stockes
+                  market</ref>.</p>
+
+            <p>Then haue ye a fayre Conduite of ſwéete water, caſtellated in<lb/><label place="margin-right">The <ref target="mol:COND3">Tunne<lb/> vpon
+                     Cornhill</ref><lb/> a priſon houſe</label> the middeſt of that warde and
+               ſtreete. This Conduite was firſt<lb/>builded of ſtone, in the yeare <date rendition="#stow_1598_CORN1_R" when-custom="1282" datingMethod="mol:julianSic" calendar="mol:julianSic">1282</date>. by <name ref="mol:HWAL1"><hi rendition="#stow_1598_CORN1_IR">H</hi><hi rendition="#stow_1598_CORN1_R">enry
+                     Walles</hi></name>, Maior of<lb/><ref rendition="#stow_1598_CORN1_R" target="mol:LOND5">London</ref>, to be a priſon for night walkers, &amp; other
+               ſuſpitious per<lb type="hyphenInWord"/>ſons, and was called the <ref target="mol:COND3">Tunne vpon <hi rendition="#stow_1598_CORN1_R">Cornhill</hi></ref>, becauſe the ſame<lb/>was builded ſomewhat in faſhion of a
+               Tonne ſtanding on the one<lb/>end.</p>
+            <p>Alſo without the Weſt ſide of th<hi rendition="#stow_1598_CORN1_IBL">i</hi>s <ref target="mol:COND3">Tunne</ref>, was a fayre well<lb/><label place="margin-right">A
+                  fayre well<lb/> vpon <ref target="mol:CORN2">Cornhil</ref>.</label> of ſpringing
+               water, curbed round with hard ſtone. In the yeare<lb/><date rendition="#stow_1598_CORN1_R" when-custom="1298" datingMethod="mol:julianSic" calendar="mol:julianSic">1298</date>. certaine principall Citizens of <ref rendition="#stow_1598_CORN1_R" target="mol:LOND5">London</ref>, brake vp this
+                  pri<lb type="hyphenInWord"/>ſon called the <ref target="mol:COND3">Tunne</ref>,
+               and tooke out certain priſoners for the which<lb/>they were ſharply puniſhed by long
+               impriſonment, &amp; great fines,<lb/>as in another place I haue ſhewed.</p>
+            <p>In the yeare <date rendition="#stow_1598_CORN1_R" when-custom="1401" datingMethod="mol:julianSic" calendar="mol:julianSic">1401</date>. this priſon
+               houſe called the <ref target="mol:COND3">Tunne</ref> was<lb/>made a Ceſterne for
+               ſweete water conueyed by pipes of Leade frõ<lb/>the towne of <ref rendition="#stow_1598_CORN1_R" target="mol:TYBU1">Tyborne</ref>, and was from
+               thence forth called the <ref target="mol:COND3">con<lb type="hyphenInWord"/>duite
+                  vpon <hi rendition="#stow_1598_CORN1_R">Cornhill</hi></ref>: <label place="margin-right"><ref target="mol:COND3">Conduite vpõ<lb/>
+                  Cornhill</ref>.</label> Then was the wall planked ouer, and a<lb/>ſtrong priſon
+               made of Timber, called a Cage, with a payre of<lb/> ſtockes ſet vpon it, on the top
+               of which Cage was placed a Pillory<lb/>for the puniſhment of Bakers offending in the
+               Aſſiſe of Breade:<lb/>for Millers ſtealeing of Corne at the Mill: and for
+                  baudes<lb/><label place="margin-right">Cage, ſtockes<lb/> and pillorie v<lb type="hyphenInWord"/>pon <ref target="mol:CORN2">Cornhill</ref>.</label> and
+               ſcolds &amp;c. In the yeare <date rendition="#stow_1598_CORN1_R" when-custom="1475" datingMethod="mol:julianSic" calendar="mol:julianSic">1475</date>. <name rendition="#stow_1598_CORN1_R" ref="mol:RDRO1">R. Drope</name> Mayor,
+               dwelling<lb/>in that warde inlarged the Ceſtern of this <ref target="mol:COND3">Conduite</ref>, with an<lb/>eaſt end of ſtone, and lead caſtelated in comely
+               manner. In the<lb/>yeare <date rendition="#stow_1598_CORN1_R" when-custom="1546" datingMethod="mol:julianSic" calendar="mol:julianSic">1546</date><hi rendition="#stow_1598_CORN1_R">.</hi>
+               <name ref="mol:BOWE5">Sir <hi rendition="#stow_1598_CORN1_R">Martin Bowes</hi></name>
+               Maior dwelling in <ref rendition="#stow_1598_CORN1_R" target="mol:LOMB1">Lombard<lb/>ſtreete</ref>, and hauing his backe gate opening into <ref rendition="#stow_1598_CORN1_R" target="mol:CORN2">Cornhill</ref> againſt<lb/>the
+               ſaide Conduite, minded to haue enlarged the Ceſterne there<lb type="hyphenInWord"/>of
+                  <label place="margin-right"><ref target="mol:COND3">Conduite vpõ<lb/>
+                     Cornhil</ref> enlar<lb type="hyphenInWord"/>ged.</label> with a weſt end, like
+               as <name rendition="#stow_1598_CORN1_R" ref="mol:RDRO1">Robert Drope</name> before
+               had don toward<lb/> the Eaſt: view and meaſure of the plot was taken, for this
+               worke,<lb/>but the Pillorie and Cage being remoued, they found the
+               ground<lb/>planked, and the well aforeſaide (worne out of memorie) which<lb/><fw type="signature">L 3</fw>
+               <fw type="catchword" style="margin-top: -1em;">wel</fw>
+               <pb facs="molstow:1598|083" n="L3v" xml:id="stow_1598_CORN1_sig_L3v"/>
+               <fw type="pageNum" place="top-left">150</fw>
+               <fw type="header" style="margin-top: -1em;"><ref target="mol:CORN1">Cornhill
+                     warde</ref>.</fw> well they reuiued and reſtored to vſe, they ſet the Pillorie
+               ſome<lb/> what weſt from the well, and ſo this worke ceaſed.</p>
+            <p>On the North ſide of this ſtreet, from the Eaſt vnto the Weſt<lb/> haue ye diuers
+               fayre houſes for marchantes and other, amongſt<lb/> the which one large houſe is
+               called the <ref target="mol:WEIG1">Wey houſe</ref>, where mar<lb type="hyphenInWord"/>chandizes brought from beyond the ſeas, are to bée weighed at<lb/>the <ref target="mol:WEIG1">Kinges Beame</ref>:<label place="margin-left"><hi rendition="#stow_1598_CORN1_IR">T</hi>he
+                     <ref target="mol:WEIG1">way<lb/>
+                     <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">h</supplied>ouſe</ref> or<lb/>
+                  <ref target="mol:WEIG1">kinges-Beame</ref><lb/>
+                  <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">v</supplied>pon <ref target="mol:CORN2">Cornhil</ref>.</label> This houſe hath a maiſter, and vnder him<lb/>foure maiſter
+               Portars, with Portars vnder them: they haue
+               a<lb/>ſtrong cart, and were vſed to haue foure great horſes, to draw and<lb/><label place="margin-left"><name ref="mol:RLOV1"><supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">S</supplied>ir
+                     Thomas<lb/> Louell</name> his<lb/> gift to the<lb/>
+                  <name type="org" ref="mol:GROC3">Grocers</name>.</label> carrie the wares from the
+               marchants houſes to the beam &amp; backe<lb/>again: now thrée horſes ſerue the turn.
+                  <name ref="mol:RLOV1">Sir <hi rendition="#stow_1598_CORN1_R">Thomas
+                  Louel</hi></name> knight<lb/>builded this houſe, with a fayre front of Tenementes
+               towards the<lb/>ſtreete, all which he gaue to the <name type="org" ref="mol:GROC3">Grocers</name> of <ref target="mol:LOND5" rendition="#stow_1598_CORN1_R">London</ref>, himſelfe<lb/>being free of the Citie, and a brother of that
+               Companie.</p>
+            <p>Then haue yée the ſaide <ref target="mol:FINC1">Finckes lane</ref>, the ſouthende of
+               which<lb/>lane on both the ſides is in <ref target="mol:CORN1"><hi rendition="#stow_1598_CORN1_R">Cornhill</hi> warde</ref>.</p>
+            <p><label place="margin-left">The <ref target="mol:ROYA1">Burſe</ref> v<lb type="hyphenInWord"/>pon <ref target="mol:CORN2">Cornhill</ref>,<lb/> or the
+                     <ref target="mol:ROYA1">Royall<lb/> Exchange</ref>.</label> Then next is the
+                  <ref target="mol:ROYA1">Royall Exchange</ref> erected. In the yere <date rendition="#stow_1598_CORN1_R" when-custom="1566" datingMethod="mol:julianSic" calendar="mol:julianSic">1566</date>.<lb/> after this order, vz<hi rendition="#stow_1598_CORN1_IBL"><supplied resp="mol:ROTH4" reason="gap-in-inking" evidence="external" source="mol:STOW10">:</supplied></hi> certaine houſes vpon
+                  <ref target="mol:CORN2">Cornhill</ref>, and the like<lb/> vpon the backe thereof,
+               in the <ref target="mol:BROA3">warde of Brodeſtreete</ref>, with thrée<lb/><label place="margin-left"><ref target="mol:SWAN10">Swan Alley</ref>.</label> Allies, the
+               firſt called <ref target="mol:SWAN10">Swan Alley</ref>, opening into <ref target="mol:CORN2">Cornhill</ref>, the ſe<lb type="hyphenInWord"/><label place="margin-left"><ref target="mol:NEWA1">New Alley</ref>.</label>cond called
+                  <ref target="mol:NEWA1">New Alley</ref>, paſſing throughout of <ref target="mol:CORN1">Cornhil</ref> into <ref target="mol:BROA3">Brod<lb type="hyphenInWord"/>ſtreete warde</ref>, <label place="margin-left"><ref target="mol:CHRI4">S. Chriſtophers Alley</ref>.</label>ouer againſt <ref target="mol:BART1"><hi rendition="#stow_1598_CORN1_R">S</hi>. <hi rendition="#stow_1598_CORN1_R">Bartilmew lane</hi></ref>, the thirde called<lb/>
+               <label place="margin-left">Eighty houſes<lb/> diſplaced<lb/> for building<lb/> of the
+                     <ref target="mol:ROYA1">Burſe</ref>.<lb/> The Citie<lb/> charged with<lb/>
+                  buildinges of<lb/> the <ref target="mol:ROYA1">Burſe</ref>.</label><ref target="mol:CHRI4"><hi rendition="#stow_1598_CORN1_R">S</hi>. <hi rendition="#stow_1598_CORN1_R">Chriſtophers Alley</hi></ref>, opening into <ref target="mol:BROA3">Brodeſtreete warde</ref>, and<lb/>into <ref target="mol:STCH101"><hi rendition="#stow_1598_CORN1_R">S</hi>. <hi rendition="#stow_1598_CORN1_R">Chriſtophers Parriſh</hi></ref>, conteyning in
+               all foureſcore houſe<lb type="hyphenInWord"/>holdes: were firſt purchaſed by the
+               Citizens of <ref target="mol:LOND5"><hi rendition="#stow_1598_CORN1_IR">L</hi><hi rendition="#stow_1598_CORN1_R">ondon</hi></ref><hi rendition="#stow_1598_CORN1_R">,</hi> for more<lb/> then <hi rendition="#stow_1598_CORN1_R">353</hi><supplied resp="mol:MILL2" source="mol:STOW1" reason="omitted-in-original" evidence="external">2</supplied>. £. and
+               were ſolde for <hi rendition="#stow_1598_CORN1_R">478</hi>. l. to ſuch perſons as
+               ſhoulde<lb/> take them down, and carrie the ſtuffe from thence, alſo the ground<lb/>
+               or plot was made plaine at the charges of the Citie, and then poſ<lb type="hyphenInWord"/>ſeſſion thereof was by certaine Aldermen, in name of the
+               whole<lb/> Citizens giuen to <name ref="mol:GRES2">Sir <hi rendition="#stow_1598_CORN1_R">Thomas Greſham</hi></name> knight, Agent to
+               the<lb/>Queenes Highneſſe,<note type="editorial" resp="mol:LEBE1">I.e., <name ref="mol:ELIZ1">Elizabeth I</name>.</note> thereupon to builde a burſe, or
+               place, for<lb/> Marchantes, to aſſemble in, at his own proper charges: and hee<lb/>
+               on the <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1567-06-07">ſeuenth of Iune</date> laying the firſt ſtone of the
+               foundation, be<lb type="hyphenInWord"/>ing Bricke, accompanied with ſome Aldermen,
+               euery of them<lb/> laide a peece of gold, which the workemen tooke vp, and
+               forthwith<lb/> followed vpon the ſame with ſuch diligence, that by the moneth of
+                  <date notAfter-custom="1567-11" datingMethod="mol:julianSic" calendar="mol:julianSic"><lb/>nouember in the <hi rendition="#stow_1598_CORN1_R">1567</hi></date>.<note type="editorial" resp="mol:JENS1">The word <soCalled>year</soCalled> is
+                  missing.</note> the ſame was couered with ſlate, &amp; ſhort<lb type="hyphenInWord"/><fw type="catchword">ly</fw>
+               <pb n="L4r" facs="molstow:1598|083" xml:id="stow_1598_CORN1_sig_L4r"/>
+               <fw type="header"><ref rendition="#stow_1598_CORN1_R" target="mol:CORN1">Cornhill
+                     warde</ref>.</fw>
+               <fw type="pageNum" place="top-right">151</fw> ly after fully finiſhed. In the yere a
+                  <date when-custom="1570-01-23" datingMethod="mol:julianSic" calendar="mol:julianSic">thouſand fiue hundred ſeauentie<lb/> on the <hi rendition="#stow_1598_CORN1_R">23</hi>. of Ianuarie</date>, the Queenes
+                  Maieſtie,<note type="editorial" resp="mol:LEBE1">I.e., <name ref="mol:ELIZ1">Elizabeth I</name>.</note> attended<lb/> with her Nobillitie, came from her
+               houſe at the <ref target="mol:STRA9">Strande</ref> called<lb/>
+               <label place="margin-right"><name ref="mol:ELIZ1">Queene Eli<lb type="hyphenInWord"/>zabeth</name> cam<supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">e</supplied><lb/> to the <ref target="mol:ROYA1">Burſe</ref>.</label>
+               <ref rendition="#stow_1598_CORN1_R" target="mol:SOME1">Sommerſet houſe</ref>, and
+               entred the citie, by <ref target="mol:TEMP1">Temple Bar</ref>, through<lb/>
+               <ref target="mol:FLEE6">Fléeteſtreete</ref>, <ref target="mol:CHEA1">Cheape</ref>,
+               and ſo by the North ſide of the <ref target="mol:ROYA1">Burſe</ref>, to<lb/>
+               <name ref="mol:GRES2">Sir <hi rendition="#stow_1598_CORN1_R">Thomas
+                  Greſham</hi></name><hi rendition="#stow_1598_CORN1_R">s</hi> in <ref target="mol:BISH3">Biſhopſgate ſtreete</ref>, where ſhe dined,<lb/> after dinner
+               her Maieſtie returning through <ref target="mol:CORN1">Cornhill</ref> entered the
+                  <ref target="mol:ROYA1"><lb/>Burſe</ref> on the ſouthſide, and after that ſhee had
+               viewed euery part<lb/> therof aboue the ground, eſpecially the <ref target="mol:ROYA1">Pawne</ref>, which was richlie<lb/> furniſhed with all ſortes
+               of the fineſt wares in the City: ſhe cau<lb type="hyphenInWord"/>ſed the ſame <ref target="mol:ROYA1">Burſe</ref> by an Herralde and a Trompet to bee procla<lb type="hyphenInWord"/>med the <ref target="mol:ROYA1">Royall Exchange</ref>, and ſo
+               to bee called from thence forth<lb/> and not otherwiſe.</p>
+            <p>Next adioyning to this <ref target="mol:ROYA1">Royall Exchange</ref><label place="margin-right">The <ref target="mol:ROYA1">Burſe</ref><lb/> called the <ref target="mol:ROYA1">Roy<lb type="hyphenInWord"/>all <hi rendition="#stow_1598_CORN1_IR">E</hi></ref><supplied resp="mol:ROTH4" reason="gap-in-inking" evidence="conjecture"><ref target="mol:ROYA1">x</ref></supplied><ref target="mol:ROYA1">change</ref>.</label>
+               remaineth one
+               parte<lb/> of a large ſtone houſe, and is now called the <ref target="mol:CAST6">Caſtle</ref> of ſuch a ſigne,<lb/> at a Tauerne dore there is a paſſage
+               throughout of <ref target="mol:CORN1">Cornhill</ref>,<lb/> into <ref target="mol:THRE1">Thrée needle ſtreete</ref>, the other parte of the ſaide ſtone
+               houſe<lb/> was taken downe, for enlarging the <ref target="mol:ROYA1">Royall
+                  Exchange</ref>: this ſtone<lb/> houſe was ſaide of ſome to haue béene a Church
+               (whereof it had<lb/> no proportion,) of others a Iewes houſe (as though none but<lb/>
+               Iewes had dwelt in ſtone houſes) but that opinion is without war<lb type="hyphenInWord"/>rant: for in the <date calendar="mol:regnal" datingMethod="mol:regnal" when-custom="r_RICH2_01">firſt yeare of <name ref="mol:RICH2"><hi rendition="#stow_1598_CORN1_R">Richarde</hi> the
+                     firſt</name></date>, to preuent the <label place="margin-right">The cauſe of
+                  ſtone houſes builded in <ref target="mol:LOND5">London</ref>.</label> ca<lb type="hyphenInWord"/>ſualties of fire (which often had hapned in the Citie, when
+               the hou<lb type="hyphenInWord"/>ſes were builded of Timber, and couered with Reede or Straw,<lb/>
+               <name rendition="#stow_1598_CORN1_R" ref="mol:FITZ5">Henry Fitz Alewin</name> being
+               Maior, it was decreed that from thenc<lb type="hyphenInWord"/>forth no man ſhould
+               build within the Citie, but of ſtone, vntill a<lb/> certaine height, and to couer the
+               ſame building with ſlate, or brent<lb/> tyle, and this was the verie cauſe of ſuch
+               ſtone buildinges, where<lb type="hyphenInWord"/>of many haue remained till our time:
+               but of late for winning of<lb/> ground, they haue béen taken down, &amp; in place of
+               ſome one of thē<lb/> being low, as but two ſtories aboue the ground, many houſes
+               of<lb/> foure or fiue ſtories high are placed.</p>
+            <p>From this ſtone houſe down to the <ref target="mol:STOC1">Stockes</ref>, are diuers
+               large<lb/> houſes eſpecially for height, for Marchantes and Artificers.</p>
+            <p>On the ſouth ſide of this high ſtreete is<label place="margin-right"><ref target="mol:STPE3">Pariſh Church<lb/> of S. Peter vpō<lb/>
+                  Cornhil</ref>.</label> the <ref target="mol:STPE3">pariſh church of <hi rendition="#stow_1598_CORN1_IR">S</hi>. <lb/><hi rendition="#stow_1598_CORN1_IR">P</hi><hi rendition="#stow_1598_CORN1_R">eter</hi> vpon Cornhill</ref>, which ſeemeth to be of an ancient
+               building:<lb/> but yet not ſo ancient as ſome reporteth, for it hath béene all
+                  late<lb type="hyphenInWord"/>
+               <fw type="signature">L 4</fw>
+               <fw type="catchword" style="margin-top: -1em;">ly</fw>
+               <pb facs="molstow:1598|084" n="L4v" xml:id="stow_1598_CORN1_sig_L4v"/>
+               <fw type="pageNum" place="top-left">152</fw>
+               <fw type="header" style="margin-top: -1em;"><ref rendition="#stow_1598_CORN1_R" target="mol:CORN1">Cornhill warde</ref>.</fw> ly repayred, if not new builded,
+               except the ſteeple, which is ancient:<lb/> the roofe of this Church, and glaſing was
+               finiſhed in the <date calendar="mol:regnal" datingMethod="mol:regnal" when-custom="r_EDWA6">raigne of<lb/>
+                  <name ref="mol:EDWA6"><hi rendition="#stow_1598_CORN1_R">Edwarde</hi> the
+                     fourth</name></date>, as appeareth by Armes of Noble men, and<lb/> Aldermen of
+                  <ref rendition="#stow_1598_CORN1_R" target="mol:LOND5"><hi rendition="#stow_1598_CORN1_IR">L</hi>ondon</ref> then liuing, there remaineth
+               in this Church<lb/> a table wherein it is written, I know not by what authority,
+               but<lb/> of a late hand, that <name ref="mol:LUCI2">king <hi rendition="#stow_1598_CORN1_R"><hi rendition="#stow_1598_CORN1_IR">L</hi>ucius</hi></name> founded the ſame Church, to bee<lb/> an Archbiſhops
+               ſea, and made it the Metropolitane, and chiefe<lb/> Church of his kingdome, and that
+               it ſo endured the ſpace of foure<lb/> hundred yeares, vnto the comming of <name ref="mol:AUGU3"><hi rendition="#stow_1598_CORN1_R">Auguſtine</hi> the
+               Monke</name>.</p>
+            <p>
+               <name ref="mol:JOCI1"><hi rendition="#stow_1598_CORN1_R">Ioceline</hi> of <hi rendition="#stow_1598_CORN1_R">Furneis</hi></name> writeth, that <name rendition="#stow_1598_CORN1_R" ref="mol:THEA3">Thean</name> the firſt
+               Archbiſhop<lb/> of <ref rendition="#stow_1598_CORN1_R" target="mol:LOND5"><hi rendition="#stow_1598_CORN1_IR">L</hi>ondon</ref>, in the raign of <name rendition="#stow_1598_CORN1_R" ref="mol:LUCI2">Lucius</name>, builded the ſaide
+               Church by<lb/> the aide of <name rendition="#stow_1598_CORN1_R" ref="mol:CIRA1">Ciran</name>, chiefe Butler to <name ref="mol:LUCI2">king <hi rendition="#stow_1598_CORN1_R">Lucius</hi></name>, and alſo that <name rendition="#stow_1598_CORN1_R" ref="mol:ELVA1">El<lb type="hyphenInWord"/>uanus</name> the ſecond Archbiſhop, builded a Library<label place="margin-left"><supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">L</supplied>ibrary of <ref target="mol:STPE3"><hi rendition="#stow_1598_CORN1_IR">S</hi>,<lb/>
+                     <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">P</supplied>eters vpon<lb/>
+                     <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">C</supplied>ornhill</ref> now<lb/>
+                  <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">a</supplied> Grammar<lb/>
+                  <supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">ſ</supplied>choole.</label> to the ſame church<lb/>
+               adioyning, and conuerted many of the Druides, learned men in<lb/> the Pagan law to
+               Chriſtianitie. True it is that a Library there<lb/> was pertaining to this Pariſh
+               Church of old time builded of ſtone,<lb/> and of late repayred with Bricke, by the
+               Executors of <name ref="mol:CROS2">Sir <hi rendition="#stow_1598_CORN1_R">Iohn<lb/>
+                     Crosbie</hi></name> Alderman, as his Armes on the ſouth ende doth witnes.</p>
+            <p>This Library hath béene of late time, to wit, within theſe fifety<lb/> yeares well
+               furniſhed of bookes, <name rendition="#stow_1598_CORN1_R" ref="mol:LELA1">Iohn
+                  Leyland</name> viewed and com<lb type="hyphenInWord"/>mended <label place="margin-left"><name ref="mol:LELA1"><supplied resp="mol:ROTH4" reason="scan-cropped" evidence="external" source="mol:STOW10">I</supplied><hi rendition="#stow_1598_CORN1_IR">ohn
+                  Leyland</hi></name>.</label> them, but now thoſe bookes be gone, and the place is
+                  occu<lb type="hyphenInWord"/>pied by a Schoolemaiſter, and his Uſher, ouer a
+               number of ſchol<lb type="hyphenInWord"/>lers learning their Grammar rules, &amp;c.
+               Notwithſtanding before<lb/> that time, a Grammar ſchoole had beene kept in this
+               Pariſh as<lb/> appeareth, <label place="margin-left">Grammar<lb/> ſchooles com<lb type="hyphenInWord"/>manded by<lb/>
+                  <name type="org" ref="mol:PARL2">Parliament</name>,</label> in the <date calendar="mol:regnal" datingMethod="mol:regnal" when-custom="r_HENR2_25">fiue and
+                  twentie of <name ref="mol:HENR2"><hi rendition="#stow_1598_CORN1_R">Henry</hi> the
+                     ſixt</name></date>, it was e<lb type="hyphenInWord"/>nacted by <name type="org" ref="mol:PARL2">Parliament</name>, that foure Grammar ſchooles in <ref rendition="#stow_1598_CORN1_R" target="mol:LOND5">Lon<lb type="hyphenInWord"/>don</ref>, ſhoulde bee maintained, vz. In the pariſhes of <ref rendition="#stow_1598_CORN1_R" target="mol:ALLH106">All-hal<lb type="hyphenInWord"/>lowes</ref>, in <ref target="mol:THAM1">Thames ſtreete</ref>. <ref rendition="#stow_1598_CORN1_R" target="mol:STAN101">S. Andrew in Oldboorne</ref>,
+                  <ref target="mol:STPE103"><hi rendition="#stow_1598_CORN1_R">S. Peters</hi><lb/>
+                  vpon Cornhill</ref>, and <ref target="mol:LLLL1"><hi rendition="#stow_1598_CORN1_R">S. Thomas</hi> of <hi rendition="#stow_1598_CORN1_R">Acars</hi></ref>.<!-- LEBE1 This is a parish. --> The monumentes of<lb/> the dead in
+               this Church be theſe, of <name ref="mol:BOWI1">Sir <hi rendition="#stow_1598_CORN1_R">William Bowyer</hi></name> Maior<lb/>
+               <date rendition="#stow_1598_CORN1_R" when-custom="1543" datingMethod="mol:julianSic" calendar="mol:julianSic">1543</date>. <name ref="mol:HUBE1">Sir <hi rendition="#stow_1598_CORN1_R">Henry Huberthorn</hi></name> Maior, <date rendition="#stow_1598_CORN1_R" when-custom="1546" datingMethod="mol:julianSic" calendar="mol:julianSic">1546</date>. <name ref="mol:MORR3">Sir <hi rendition="#stow_1598_CORN1_R">Chriſtopher<lb/> Morrice</hi></name>, Maiſter
+                  <hi rendition="#stow_1598_CORN1_R">Gunner</hi> of <ref rendition="#stow_1598_CORN1_R" target="mol:ENGL2">England</ref>, to <name ref="mol:HENR1">king <hi rendition="#stow_1598_CORN1_R">Henry</hi> the
+                  eight</name>,<lb/>
+               <name rendition="#stow_1598_CORN1_R" ref="mol:ELRI1">Edward Elrington</name> Eſquier,
+               chief Butler to <name ref="mol:EDWA4"><hi rendition="#stow_1598_CORN1_R">Edward</hi>
+                  the ſixt</name>, and<lb/> diuers other that be defaced.</p>
+            <p><label place="margin-left"><ref target="mol:STMI4"><hi rendition="#stow_1598_CORN1_IR">P</hi>arriſh church<lb/> of <hi rendition="#stow_1598_CORN1_IR">S</hi>, Michaell</ref>.</label> Then haue
+               yee the <ref target="mol:STMI4">pariſh church of <hi rendition="#stow_1598_CORN1_R">S. Michael</hi> Tharchangel</ref>,<lb/> which hath beene a fayre and beutifull
+               Pariſh Church. But<lb/> of late yeares greatlie blemiſhed by the building of foure
+                  <fw type="catchword">Tenemente</fw>
+               <pb n="L5r" facs="molstow:1598|084" xml:id="stow_1598_CORN1_sig_L5r"/>
+               <fw type="header"><ref target="mol:CORN1">Cornehill Warde</ref>.</fw>
+               <fw type="pageNum" place="top-right">153</fw> Tenementes on the North ſide thereof
+               towardes the ſtreete,<lb/> in place of a gréene churchyarde, whereby the church is
+               greatly<lb/> darkened, and otherwiſe annoyed, the faire new ſtéeple or bell To<lb type="hyphenInWord"/>wer was begunne to be new builded in the <date rendition="#stow_1598_CORN1_R" when-custom="1421" datingMethod="mol:julianSic" calendar="mol:julianSic">1421</date>. which being fi<lb type="hyphenInWord"/>niſhed, and a faire ring of fiue belles therein placed. One <name rendition="#stow_1598_CORN1_R" ref="mol:RUSS3">Ruſſe</name> a<lb/> Draper gaue a
+               ſixt Bell, which he named <hi rendition="#stow_1598_CORN1_R">Ruſſe</hi> after his
+               owne<lb/> name, to be nightly rung at eight of the clocke: which bell vſually<lb/>
+               rong by one man more then <hi rendition="#stow_1598_CORN1_R">100</hi>. yeares, of
+               late ouer hayled by <hi rendition="#stow_1598_CORN1_R">4</hi>.<lb/> or <hi rendition="#stow_1598_CORN1_R">5</hi>. at once, hath beene thrice broken, and
+               therefore not rong as<lb/> heretofore. <name rendition="#stow_1598_CORN1_R" ref="mol:RDRO1">Robert Drope</name> Mayor buried <date rendition="#stow_1598_CORN1_R" when-custom="1485" datingMethod="mol:julianSic" calendar="mol:julianSic">1485</date>. on the North<lb/> ſide of the Quire, vnder a
+               faire Tombe of Gray marble, gaue to<lb/> maides marriaiges <hi rendition="#stow_1598_CORN1_R">20</hi>. pounde, to the poore of that Warde <hi rendition="#stow_1598_CORN1_R">10</hi>.<lb/> pound, ſhirtes and ſmockes <hi rendition="#stow_1598_CORN1_R">300</hi>. to the poore at his buriall <hi rendition="#stow_1598_CORN1_R">16</hi>.<lb/> pound, gownes of brodecloth to the
+               poore <hi rendition="#stow_1598_CORN1_R">100</hi>. to priſons, Hoſpi<lb type="hyphenInWord"/>tals and Lazare houſes liberally: hee alſo gaue his houſe inx
+                  <ref target="mol:CORN2">Corn<lb type="hyphenInWord"/>hill</ref> to be ſold, and
+               the price thereof to be ſpent on the amendment<lb/> of high wayes: <name rendition="#stow_1598_CORN1_R" ref="mol:JDRO1">Iohane</name> his wife afterwardes
+               Uice Counteſſe <hi rendition="#stow_1598_CORN1_R">Li<lb type="hyphenInWord"/>ſle</hi>
+               was alſo buried there by her firſt huſband, <date rendition="#stow_1598_CORN1_R" when-custom="1500" datingMethod="mol:julianSic" calendar="mol:julianSic">1500</date>. She gaue<lb/> foureſcore and tenne pounds in money, to the
+               beautifying of that<lb/> church, notwithſtanding the Tombe of them both is pulled
+               down<lb/> and no monument remayneth of them. <name rendition="#stow_1598_CORN1_R" ref="mol:HOUG1">Peter Houghton</name> late Al<lb type="hyphenInWord"/>derman is
+               now buried in their vault <date rendition="#stow_1598_CORN1_R" when-custom="1596" datingMethod="mol:julianSic" calendar="mol:julianSic">1596</date>. <name rendition="#stow_1598_CORN1_R" ref="mol:GRAC5">Iohn Grace</name> Draper<lb/> was
+               buried <date rendition="#stow_1598_CORN1_R" when-custom="1439" datingMethod="mol:julianSic" calendar="mol:julianSic">1439</date>. <name rendition="#stow_1598_CORN1_R" ref="mol:FABI1">Robert Fabian</name> Alderman, that
+               wrote and<lb/> publiſhed a Chronicle of <ref rendition="#stow_1598_CORN1_R" target="mol:ENGL2"><hi rendition="#stow_1598_CORN1_IR">E</hi>ngland</ref> and of
+                  <hi rendition="#stow_1598_CORN1_R">Fraunce</hi>, <date rendition="#stow_1598_CORN1_R" when-custom="1511" datingMethod="mol:julianSic" calendar="mol:julianSic">1511</date>. lyeth<lb/> there with this Epitaph.</p>
+            <q>
+               <!-- Epitaph in Roman type -->
+               <lg style="padding-left: 3em;" rendition="#stow_1598_CORN1_R">
+                  <l><hi rendition="#stow_1598_CORN1_IR">L</hi>ike as the day his courſe doth
+                     conſume,</l>
+                  <l>And the new morrow ſpringeth againe as faſt,</l>
+                  <l>So man and woman by natures cuſtome,</l>
+                  <l>This life to paſſe, at laſt in earth are caſt,</l>
+                  <l>Inioy and ſorrow, which here their time do waſt,</l>
+                  <l>Neuer in one ſtate, but in courſe tranſitorie,</l>
+                  <l>So full of change is of this world the glory.</l>
+               </lg>
+            </q>
+            <p style="text-indent: 0.5em;">His Monument is gone. <name rendition="#stow_1598_CORN1_R" ref="mol:PEAK1">Elizabeth <hi rendition="#stow_1598_CORN1_IR">P</hi>eak</name> widow gaue <g ref="#stow_1598_CORN1_ye">yͤ</g> Patro<lb type="hyphenInWord"/>nage or gift of the
+               benefice to the <name type="org" ref="mol:DRAP3">Drapers</name>, and lyeth buried in
+               the<lb/> belfrey <date rendition="#stow_1598_CORN1_R" when-custom="1518" datingMethod="mol:julianSic" calendar="mol:julianSic">1518</date>. <name rendition="#stow_1598_CORN1_R" ref="mol:GARN2"><hi rendition="#stow_1598_CORN1_IR">R</hi>ichard Garneham</name>
+               <date rendition="#stow_1598_CORN1_R" when-custom="1527" datingMethod="mol:julianSic" calendar="mol:julianSic">1527</date>. <name rendition="#stow_1598_CORN1_R" ref="mol:TRIN3">Edmond Trindel</name><lb/> and <name rendition="#stow_1598_CORN1_R" ref="mol:RSMI1">Robert Smith</name> my Godfathers,
+                  <name rendition="#stow_1598_CORN1_R" ref="mol:DICK1">William Dickſon</name> and
+                  <name rendition="#stow_1598_CORN1_R" ref="mol:DICK2">Mar<lb type="hyphenInWord"/>garet</name> his wife my Godmother did lie in the cloyſter vnder a faire <fw type="signature">L5</fw>
+               <fw type="catchword" style="margin-top: -1em;">Tombe</fw>
+               <pb facs="molstow:1598|085" n="L5v" xml:id="stow_1598_CORN1_sig_L5v"/>
+               <fw type="pageNum" place="top-left">154</fw>
+               <fw type="header" style="margin-top: -1em;"><ref rendition="#stow_1598_CORN1_R" target="mol:CORN1">Cornehill Warde</ref>.</fw> Tombe, now defaced. <name rendition="#stow_1598_CORN1_R" ref="mol:STOW4">Thomas Stow</name> and <name rendition="#stow_1598_CORN1_R" ref="mol:STOW5">Thomas Stow</name> my<lb/>
+               <label place="margin-left"><name ref="mol:TOLU1"><hi rendition="#stow_1598_CORN1_IR">I</hi>ohn Tolus</name><lb/> his gift.</label> grandfather and father: <name rendition="#stow_1598_CORN1_R" ref="mol:TOLU1">Iohn Tolus</name> Alderman <date rendition="#stow_1598_CORN1_R" when-custom="1548" datingMethod="mol:julianSic" calendar="mol:julianSic">1548</date>. he gaue<lb/> to <name rendition="#stow_1598_CORN1_R" ref="mol:WILL9">Iohn Willowby</name> Parſon of that
+                  Church<supplied reason="gap-in-inking" evidence="conjecture" resp="mol:JENS1">,</supplied> to <name rendition="#stow_1598_CORN1_R" ref="mol:LODG1">Thomas
+                  Lodge</name>,<lb/>
+               <name rendition="#stow_1598_CORN1_R" ref="mol:HIND1">G. Hinde</name>, <name rendition="#stow_1598_CORN1_R" ref="mol:BOLD3">P. Bolde</name> Churchwardens, and
+               to their ſucceſſors to<lb type="hyphenInWord"/>wardes the reparations of that Church
+               and the reliefe of the poore<lb/> for euer, his tenement with the appurtenances in
+               the <ref target="mol:STMI104">pariſh of S.<lb/>
+                  <hi rendition="#stow_1598_CORN1_R">Michael</hi></ref> which he had lately
+               purchaſed, of <name rendition="#stow_1598_CORN1_R" ref="mol:RAND3">Aluery
+                  Randolph</name> of<lb/>
+               <hi rendition="#stow_1598_CORN1_R">Badleſmeer</hi> in <hi rendition="#stow_1598_CORN1_R">Kent</hi>: but the pariſh neuer had the gift (nor
+               heard<lb/> thereof by the ſpace of <hi rendition="#stow_1598_CORN1_R">40</hi>. yeares
+               after) ſuch was the conſcience<lb/> of the executors to conceale it to themſelues,
+               and ſuch is the negli<lb type="hyphenInWord"/>gence of the pariſhioners (that being
+               informed thereof) make no<lb/> claime thereunto. <name rendition="#stow_1598_CORN1_R" ref="mol:GONT1"><hi rendition="#stow_1598_CORN1_IR">P</hi>hilip Gonter</name> that
+               was Alderman for a time,<lb/> and gaue <hi rendition="#stow_1598_CORN1_R">400</hi>.
+               pound to be diſcharged thereof, was buried in the<lb/> cloyſter about the yeare <date rendition="#stow_1598_CORN1_R" when-custom="1482" datingMethod="mol:julianSic" calendar="mol:julianSic">1482</date>. and <name rendition="#stow_1598_CORN1_R" ref="mol:GONT2">Anne</name> his wife &amp;c.</p>
+            <p>This pariſh church hath on the ſouth ſide thereof a proper cloi<lb type="hyphenInWord"/>ſter, and a fayre church yarde, with a pulpet croſſe, not
+               much vn<lb type="hyphenInWord"/>like <label place="margin-left">Pulpet croſſe<lb/> in
+                     <ref target="mol:LLLL1"><hi rendition="#stow_1598_CORN1_IR">S</hi>.
+                     Michael<lb/> church yarde</ref>.</label> to that in <ref target="mol:STPA3"><hi rendition="#stow_1598_CORN1_R">Paules</hi> Churchyarde</ref>. <name ref="mol:RUDS1">Sir <hi rendition="#stow_1598_CORN1_R">Iohn Hudſtone</hi></name>
+                  May<lb type="hyphenInWord"/>or, cauſed the ſame in his life time to be builded,
+               and hee deceaſed,<lb/>
+               <date rendition="#stow_1598_CORN1_R" when-custom="1531" datingMethod="mol:julianSic" calendar="mol:julianSic">1531</date>. and was buried in a vawlt vnder the ſaid
+               pulpet croſſe, he<lb/> appointed lands for ſermons to be preached there, but that is
+               gone,<lb/> and his Tombe of marble, before the pulpet is taken away, a<lb type="hyphenInWord"/>mongſt others, namely of <name ref="mol:YAXL1">Doctor <hi rendition="#stow_1598_CORN1_R">Yaxly</hi></name> one of the Phiſitions to <lb/>
+               <name ref="mol:HENR1">King <hi rendition="#stow_1598_CORN1_R">Henry</hi> the
+                  eight</name> that was buried there with his wife, vnder<lb/> a Tombe of
+               marble.</p>
+            <p><label place="margin-left"><ref target="mol:BIRC1">Burcheouers
+               lane</ref>.</label>Then haue ye <ref target="mol:BIRC1">Burcheouers lane</ref>, ſo
+               called of <name rendition="#stow_1598_CORN1_R" ref="mol:BIRC2">Birchouer</name>,
+               the<lb/> firſt builder and owner thereof, now corruptly called <ref target="mol:BIRC1">Birchen<lb/> lane</ref>, the North halfe whereof is of the ſaid
+                  <ref target="mol:CORN1">Cornehill warde</ref>, the<lb/> other part is of <ref target="mol:LANG1"><hi rendition="#stow_1598_CORN1_R">Langborne</hi>
+               ward</ref>.</p>
+            <p>This lane and the high ſtreete neare adioyning hath beene in<lb type="hyphenInWord"/>habited for the moſt parte with wealthy <name ref="mol:DRAP3" type="org">Drapers</name> from <label place="margin-left"><name type="org" ref="mol:UPHO2">Vpholders</name> ſel<lb type="hyphenInWord"/>lers of olde<lb/> ſtuffe in<lb/>
+                  <ref target="mol:CORN1">Cornhill</ref>.</label><ref target="mol:BIRC1">Bircho<lb type="hyphenInWord"/>uers lane</ref> on that ſide the ſtéete downe to the <ref target="mol:STOC1">Stockes</ref>: in the<lb/>
+               <date calendar="mol:regnal" datingMethod="mol:regnal" when-custom="r_HENR2">raigne of
+                     <name ref="mol:HENR2"><hi rendition="#stow_1598_CORN1_R">Henry</hi> the
+                     ſixt</name></date>, had ye for the moſt parte dwelling <name type="org" ref="mol:UPHO2">Frip<lb type="hyphenInWord"/>perers</name> or <name type="org" ref="mol:UPHO2">Upholders</name>, that ſolde olde apparell and houſholde<lb/>
+               ſtuffe.</p>
+            <p>I haue read of a countrey man, that then hauing loſt his hoode<lb/> in <ref target="mol:WEST2">Weſtminſter Hall</ref>, founde the ſame in <ref target="mol:CORN1">Cornehill</ref> hanged out<lb/> to be ſolde, which he
+               challenged, but was forced to buy, or go <fw type="catchword">with<lb type="hyphenInWord"/></fw>
+               <pb n="L6r" facs="molstow:1598|085" xml:id="stow_1598_CORN1_sig_L6r"/>
+               <fw type="header"><ref rendition="#stow_1598_CORN1_R" target="mol:CORN1">Cornehill
+                     Warde</ref>.</fw>
+               <fw type="pageNum" place="top-right">155</fw> without it, for their ſtall (they ſaid)
+               was their market. About <label place="margin-right"><ref target="mol:POPE3">Popeshead
+                     Tauerne</ref> in <ref target="mol:CORN1">Cornehil</ref>.</label><lb/> this time
+               alſo the Wine drawer of the <ref target="mol:POPE3">Popes heade Tauerne</ref><lb/>
+               (ſtanding without the dore in the high ſtréete) tooke the ſame man<lb/> by the
+               ſléeue, and ſaide, ſir will you drinke a pint of wine:<label place="margin-right">Wine one<lb/> pint for a pen<lb type="hyphenInWord"/>nie, &amp; bread<lb/> to
+                  drinke it<lb/> was giuē free<lb/> in euery<lb/> Tauerne.</label> where<lb type="hyphenInWord"/>unto be aunſwered, a penny ſpende I may, and ſo drunke
+               his<lb/> pint, for bread nothing did he pay.</p>
+            <p>This <ref target="mol:POPE3">Popes head Tauerne</ref>, with other houſes
+               adioyning,<lb/> ſtrongly builded of ſtone, hath of olde time béene all in one, per<lb type="hyphenInWord"/>tayning to ſome great eſtate, or rather to the King of this
+                  realme,<lb/><label place="margin-right">The <ref target="mol:KING12">kings<lb/>
+                     houſe in<lb/> Cornehill</ref>.</label> as may bee ſuppoſed both by the
+               largeneſſe thereof, and by the<lb/> armes, to wit, thrée Lyons paſſant, which was the
+               whole armes<lb/> of <ref rendition="#stow_1598_CORN1_R" target="mol:ENGL2">England</ref>, before the <date when-custom="r_EDWA3" datingMethod="mol:regnal" calendar="mol:regnal">raigne of <name ref="mol:EDWA3"><hi rendition="#stow_1598_CORN1_R">Edward</hi> the third</name></date>, that
+               quartered<lb/> them with the Armes of <hi rendition="#stow_1598_CORN1_R">Fraunce</hi>, thrée <hi rendition="#stow_1598_CORN1_R">Flower de <hi rendition="#stow_1598_CORN1_IR">L</hi>uces</hi>.</p>
+            <p>Theſe Armes of <ref rendition="#stow_1598_CORN1_R" target="mol:ENGL2"><hi rendition="#stow_1598_CORN1_IR">E</hi>ngland</ref> ſupported betwéene two
+               Angels, are<lb/>
+               <label place="margin-right">Arms of <ref target="mol:ENGL2">Eng<lb type="hyphenInWord"/>land</ref> ſuppor<lb type="hyphenInWord"/>ted by
+                  Angels.</label> fayre and largely grauen in ſtone on the fore front towardes
+               the<lb/> high ſtréet, ouer the dore or ſtawle of one great houſe, lately for<lb/>
+               many years poſſeſſed by <name ref="mol:GONT1">M. <hi rendition="#stow_1598_CORN1_R">Philip Guntar</hi></name>, the <ref target="mol:POPE3">Popes head Ta<lb type="hyphenInWord"/>uerne</ref> is on the backe part thereof, towards the
+               ſouth, as alſo one<lb/> other houſe called the ſtone houſe in <ref target="mol:LOMB1">Lombard ſtréete</ref>.</p>
+            <p>Others ſay, this was <name ref="mol:JOHN1">king <hi rendition="#stow_1598_CORN1_R">Iohn</hi></name><hi rendition="#stow_1598_CORN1_R">s</hi> houſe, which might
+               ſo be, for<lb/> I find in a written copie of <name rendition="#stow_1598_CORN1_R" ref="mol:PARI3">Mathew Paris</name> his hiſtorie, that in the<lb/> yeare <date rendition="#stow_1598_CORN1_R" when-custom="1232" datingMethod="mol:julianSic" calendar="mol:julianSic">1232</date>. <name ref="mol:HENR7"><hi rendition="#stow_1598_CORN1_R"><hi rendition="#stow_1598_CORN1_R">H</hi>enry</hi> the third</name> ſent <name rendition="#stow_1598_CORN1_R" ref="mol:BURG1">Hubert de <hi rendition="#stow_1598_CORN1_IR">B</hi>urgho</name>
+               Earle of<lb/>
+               <label place="margin-right"><name ref="mol:BURG1"><hi rendition="#stow_1598_CORN1_IR">H</hi>ubert de Burgho</name> Earle<lb/> of Kent ſent<lb/> to <ref target="mol:CORN1">Cornehill</ref>.</label> Kent, to <ref target="mol:CORN1">Cornehill</ref> in <ref rendition="#stow_1598_CORN1_R" target="mol:LOND5">London</ref>, there to anſwere all matters ob<lb type="hyphenInWord"/>iected
+               againſt him, where he wiſely acquited himſelfe. The <ref target="mol:POPE3">Popes<lb/> heade Tauerne</ref> hath a foote way through, from <ref target="mol:CORN2">Cornehill</ref> into<lb/>
+               <ref target="mol:LOMB1">Lombard ſtréet</ref>. And downe lower on the high ſtréete of
+                  <ref target="mol:CORN1">Cornhill</ref><lb/> is there one other way through by the
+                  <ref target="mol:CARD2">Cardinals Hat Tauerne</ref>,<lb/><label place="margin-right"><hi rendition="#stow_1598_CORN1_IR">T</hi>he <ref target="mol:CARD2">Cardinals hatte <hi rendition="#stow_1598_CORN1_IR">T</hi>auerne</ref></label> into <ref target="mol:LOMB1">Lombard ſtréete</ref>.
+               And ſo let this ſuffice for <ref target="mol:CORN1">Cornehill warde</ref>.<lb/></p>
+            <p style="text-align: center; text-indent: 0; margin-left: auto; margin-right: auto;"><!-- This paragraph is centred and tapered. -->In which be Gouernors an Alderman,
+               his Deputie, Com<lb type="hyphenInWord"/>mon Counſellors foure, Conſtables foure,
+                  Scauin<lb type="hyphenInWord"/>gers foure, Wardemote inqueſt <hi rendition="#stow_1598_CORN1_R">16</hi>. and a<lb/> Beadle: it is charged to the
+                  fif<lb type="hyphenInWord"/>téene, at xvj. pound.</p>
+            <fw rendition="#stow_1598_CORN1_R" type="catchword">Langborne</fw>
+         </div>
+      </body>
+
+   </text>
+
+</TEI>

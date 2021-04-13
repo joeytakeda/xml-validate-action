@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="validate" default="validate">
+    
+    <property name="rng" value="test/schema/tei_all.rng"/>
+    <property name="dir" value="test/xml"/>
+    <property name="include" value="**/**.xml"/>
+    
+    <property name="rngFile" location="${rng}"/>
+    <property name="absoluteDir" location="${dir}"/>
+   
+    
+    <condition property="notInstalled">
+       <not>
+           <and>
+               <available type="file" file="lib/jing.jar"/>
+               <available type="dir" file="lib/schematron"/>
+               <available type="file" file="lib/saxon10HE.jar"/>
+           </and>  
+       </not>
+    </condition>
+    
+    <target name="install" if="notInstalled">
+        <delete dir="lib"/>
+        <mkdir dir="lib"/>
+        <get src="https://repo1.maven.org/maven2/com/thaiopensource/jing/20091111/jing-20091111.jar" dest="lib/jing.jar"/>
+        <get src="https://github.com/joeytakeda/xsl-schematron/archive/refs/tags/0.9.0.zip" dest="lib/schematron.zip"/>
+        <get src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.3/Saxon-HE-10.3.jar" dest="lib/saxon10HE.jar"/>
+        <unzip src="lib/schematron.zip" dest="lib/schematron">
+            <cutdirsmapper dirs="1"/>
+        </unzip>
+        
+    </target>
+    
+    <target name="rng" depends="install">
+        <echo message="Validating against ${rng}"/>
+        <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask">
+            <classpath path="lib/jing.jar"/>
+        </taskdef>
+        <jing rngfile="${rngFile}" failOnError="true">
+            <fileset dir="${absoluteDir}">
+                <include name="**/**.xml"/>
+            </fileset>
+        </jing>
+    </target>
+    
+    <target name="sch" depends="install">
+        <echo message="Validating against schematron contained within ${rng}"/>
+        <java jar="lib/saxon10HE.jar" fork="true" failonerror="true">
+            <arg line="-xsl:lib/schematron/xsl/validate.xsl"/>
+            <arg line="-s:lib/schematron/xsl/validate.xsl"/>
+            <arg line="rng=${rngFile}"/>
+            <arg line="dir=${absoluteDir}"/>
+            <arg line="failOnError=true"/>
+        </java>
+    </target>
+
+    <target name="validate" depends="rng, sch"/>
+
+    
+
+    
+    
+</project>

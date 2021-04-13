@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cattle1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cattle</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>See the <ref target="legal.xml">legal</ref> page for information about republication. The recommended citation for this document can be found below (in the standalone XML version).</p>
+         <ab type="citations"><listBibl><bibl type="mla" n="MLA" xml:id="Cattle1_citation_MLA"><author><name ref="people.xml#WE1">Eaton, Winnifred</name> (<name ref="people.xml#WE1">Watonna, Onota</name>)</author>. <title level="m">Cattle</title>. <pubPlace>New York</pubPlace>, <publisher ref="organizations.xml#Watt">W.J. Watt</publisher>, <date when="1924">1924</date>. <title level="m">The Winnifred Eaton Archive</title>, edited by Mary Chapman and Jean Lee Cole, v. 1.0, 16 August 2020, <ref target="https://winnifredeatonarchive.org/Cattle1.html">https://winnifredeatonarchive.org/Cattle1.html</ref>.</bibl></listBibl></ab></publicationStmt>
+         <sourceDesc>
+            <bibl copyOf="bibliography.xml#bibl36"><author><name ref="#WE1">Eaton, Winnifred</name> (<name ref="#WE1">Watonna, Onota</name>)</author>. <title level="m">Cattle</title>. <pubPlace>New York</pubPlace>, <publisher ref="#Watt">W.J. Watt</publisher>, <date when="1924">1924</date>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="taxonomies.xml#docPrimarySource" scheme="taxonomies.xml#docType"/>
+            <catRef scheme="taxonomies.xml#genre" target="taxonomies.xml#genreNovel"/>
+            <catRef scheme="taxonomies.xml#exhibit" target="taxonomies.xml#Alberta"/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc><p>See <ref target="editorial_principles.xml">Editorial Principles</ref>.</p></encodingDesc><revisionDesc status="empty">
+         <change who="#JT1" when="2020-08-15" status="empty">Removed primary source people from <gi>respStmt</gi> using XSLT.</change>
+         <change who="#SL1" status="empty" when="2020-05-14">Added author and title.</change>
+         <change who="#SL1" status="empty" when="2019-08-23">Added facs.</change>
+         <change who="#JT1" status="empty" when="2019-04-11">Created file from bibliography entry bibl36 using XSLT.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="standoff"><body><listPerson><person xml:id="WE1" copyOf="people.xml#WE1">
+               <persName>
+                  <reg>Winnifred Eaton</reg>
+                  <forename>Winnifred</forename>
+                  <surname>Eaton</surname>
+               </persName>
+               <birth when="1875-08-21"/>
+               <death when="1954-04-08"/>
+               <note>
+                  <p>See the <ref target="timeline.xml">Biographical Timeline</ref> for biographical information on Winnifred Eaton.</p>
+               </note>
+            </person><person xml:id="JT1" copyOf="people.xml#JT1">
+               <persName>
+                  <reg>Joey Takeda</reg>
+                  <forename>Joey</forename>
+                  <surname>Takeda</surname>
+               </persName>
+               <note>
+                  <p>Joey Takeda is the Technical Director of <title level="m">The Winnifred Eaton Archive</title> and the User Interface Developer at the Digital Humanities Innovation Lab (Simon Fraser University). He is also an M.A. student in English at the University of British Columbia where his research focuses on Indigenous and diasporic Canadian literature; he is currently completing a digital edition of <title level="m">His Royal Nibs</title>.</p>
+               </note>
+               
+            </person><person xml:id="SL1" copyOf="people.xml#SL1">
+               <persName>
+                  <reg>Sydney Lines</reg>
+                  <forename>Sydney</forename>
+                  <surname>Lines</surname>
+               </persName>
+               <note><p>Sydney Lines is a Ph.D. student in English at the University of British Columbia, a research assistant for the UBC <title level="m"><ref target="https://publichumanities.ubc.ca/">Public Humanities Hub</ref></title>, and Project Manager of <title level="m">The Winnifred Eaton Archive</title>. Her research focuses on the nationalist myth-making of long nineteenth-century representations of Old Norse literature and culture in the British Isles.</p></note>
+            </person></listPerson><listOrg><org xml:id="Watt" copyOf="organizations.xml#Watt">
+               <orgName>W. J. Watt and Company</orgName>
+               <note><p>New York City-based publishing company.</p></note>
+            </org></listOrg></body></text><text facs="facsimiles/Cattle.pdf">
+      <body>
+         <div>
+            <gap reason="noTranscriptionAvailable"/>
+         </div>
+      </body>
+   </text>
+</TEI>

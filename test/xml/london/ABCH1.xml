@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright University of Victoria.
+$Date: 2020-08-31 08:16:14 -0700 (Mon, 31 Aug 2020) $
+$Id: ABCH1.xml 17311 2020-08-31 15:16:14Z mrothwell $
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ABCH1" version="5.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abchurch Lane</title>
+                
+                <respStmt>
+                    <resp ref="molresp:aut">Author<date when="2008"/></resp>
+                    <name ref="mol:JENS1">Janelle Jenstad</name>
+                </respStmt>
+            <respStmt>
+                    <resp ref="molresp:aut">Author<date when="2008"/></resp>
+                    <name ref="mol:CHER1">Melanie Chernyk</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp ref="molresp:top">Toponymist<date when="2008"/></resp>
+                    <name ref="mol:JENS1">Janelle Jenstad</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="molresp:mrk">Encoder<date when="2008"/></resp>
+                    <name ref="mol:CHER1">Melanie Chernyk</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp ref="molresp:mrk">Encoder<date when="2008"/></resp>
+                    <name ref="mol:JENS1">Janelle Jenstad</name>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp ref="molresp:prg">Programmer<date notAfter="2011"/></resp>
+                    <name ref="mol:ARNL1">Stewart Arneil</name>
+                </respStmt>
+                
+                           
+              
+            <respStmt>
+<resp ref="molresp:dtm">Data Manager<date notBefore="2015"/></resp>
+<name ref="mol:LAND2">Tye Landels</name>
+</respStmt>
+<respStmt>
+               <resp ref="molresp:prg">Junior Programmer<date notBefore="2015"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:prg">Programmer<date notBefore="2011"/></resp>
+               <name ref="mol:HOLM3">Martin Holmes</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:rth">Associate Project Director<date notBefore="2015"/></resp>
+               <name ref="mol:MCFI1">Kim McLean-Fiander</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:pdr">Project Director<date notBefore="1999"/></resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+         </titleStmt>
+            
+         <publicationStmt>
+      <publisher><title level="m">The Map of Early Modern London</title></publisher><idno type="URL">http://mapoflondon.uvic.ca/includes.xml</idno><pubPlace>Victoria, BC, Canada</pubPlace><address>
+        <addrLine>Department of English</addrLine>
+        <addrLine>P.O.Box 3070 STNC CSC</addrLine>
+        <addrLine>University of Victoria</addrLine>
+        <addrLine>Victoria, BC</addrLine>
+        <addrLine>Canada</addrLine>
+        <addrLine>V8W 3W1</addrLine>
+    </address><date when="2016">2016</date><distributor>University of Victoria</distributor><idno type="ISBN">978-1-55058-519-3</idno><authority>
+          <name ref="mol:JENS1">Janelle Jenstad</name>
+          <email>london@uvic.ca</email>
+        </authority><availability>
+            <p>Copyright held by <title level="m">The Map of Early Modern London</title> on behalf of the contributors.</p>
+            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+              <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. </p>
+            </licence>
+            <p>Further details of licences are available from our
+              <ref target="mol:licence">Licences</ref> page. For more
+              information, contact the project director, <name ref="mol:JENS1">Janelle Jenstad</name>, for
+              specific information on the availability and licensing of content
+              found in files on this site.</p>
+        </availability>
+    </publicationStmt>
+    
+            <sourceDesc><p>Born digital.</p></sourceDesc>
+        </fileDesc>
+      <profileDesc>
+      <textClass>
+    <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtBornDigital"/>
+          <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtEncyclopediaLocationStreet"/>
+      </textClass> 
+      <abstract>
+        <p><ref target="mol:ABCH1">Abchurch Lane</ref> runs north-south from
+          <ref target="mol:LOMB1">Lombard Street</ref> to <ref target="mol:CAND1">Candlewick (Cannon) Street</ref>. The
+          Agas Map labels it <quote><ref target="mol:ABCH1">Abchurche
+            lane</ref></quote>. It lies mainly in <ref target="mol:CAND2">Candlewick
+              Street Ward</ref>, but part of it serves as the boundary between <ref target="mol:LANG1">Langbourne Ward</ref> and <ref target="mol:CAND2">Candlewick Street Ward</ref>.</p>
+      </abstract>
+     
+    </profileDesc>
+  
+        <encodingDesc>
+    <listPrefixDef>
+        <prefixDef ident="mol" matchPattern="(.+)(#.+)?" replacementPattern="../../$1.htm$2">
+          <p>Most MoEML documents, or significant fragments with <att>xml:id</att> attributes, can
+            be addressed using the <code>mol:</code> prefix and accessed through the web application
+            with their id + <code>.xml</code>.</p>
+        </prefixDef>
+        <prefixDef ident="molagas" matchPattern="(.+)" replacementPattern="http://mapoflondon.uvic.ca/agas.htm?locIds=$1">
+          <p>The molagas prefix points to the shape representation of a location on 
+            MoEML’s OpenLayers3-based
+          rendering of the Agas Map.</p>
+        </prefixDef>
+        <prefixDef ident="moleebo" matchPattern="([0-9]+)\|([0-9]+)" replacementPattern="http://eebo.chadwyck.com/fetchimage?vid=$1&amp;page=$2&amp;width=1200">
+          <p>Links to page-images in the Chadwyck-Healey <title level="m">Early English Books Online</title> (EEBO)
+            repository. Note that this is a subscription service, and may not be accessible to those
+            accessing it from locations outside member institutions.</p>
+        </prefixDef>
+        <prefixDef ident="molebba" matchPattern="(.+)" replacementPattern="http://ebba.english.ucsb.edu/ballad/$1">
+          <p>Links to page-images in the <title level="m">English Broadside Ballad Archive</title> (EBBA).</p>
+        </prefixDef>
+        <prefixDef ident="mdt" matchPattern="(.+)" replacementPattern="includes.xml#$1">
+          <p>The mdt (MoEML Document Type) prefix used on <gi>catRef</gi>/<att>target</att> points
+            to a central taxonomy in the includes file.</p>
+        </prefixDef>
+        <prefixDef ident="mdtlist" matchPattern="(.+)" replacementPattern="$1.xml">
+          <p>The mdtlist (MoEML Document Type listing) prefix used in linking attributes points to a listings page constructed from a category in the central MDT taxonomy in the includes file. There are two variants, one with the plain <att>xml:id</att> of the category, meaning all documents in the specified category, and one with the suffix <q>_subcategories</q>, meaning all subcategories of the category.</p>
+        </prefixDef>
+        <prefixDef ident="molgls" matchPattern="(.+)" replacementPattern="GLOSS1.xml#$1">
+          <p>The molgls (MoEML gloss) prefix used on <gi>term</gi>/<att>corresp</att> points
+            to a a glossary entry in the GLOSS1.xml file.</p>
+        </prefixDef>
+        <prefixDef ident="molvariant" matchPattern="(.*)\|(.+)" replacementPattern="spelling_variants.xml#$2">
+          <p>This molvariant prefix is used on <gi>ref</gi>/<att>target</att> attributes during automated 
+          generation of gazetteer index files. It points to an element in the generated variant spellings
+          listing file which lists all documents which contain a particular spelling variant for a 
+          location.</p>
+        </prefixDef>
+        <prefixDef ident="molajax" matchPattern="(.+)" replacementPattern="../../ajax/$1.xml">
+          <p>This molajax prefix is used on <gi>ref</gi>/<att>target</att> attributes during the static build 
+          process, to specify links which point to MoEML resources which should not be loaded into the source 
+          page during standalone processing; instead, these should be turned into links to the XML source 
+          documents, and at HTML page load time, these should be turned into AJAX calls. This is to handle 
+          the scenario in which a page such as an A-Z index of the whole site would end up containing 
+          virtually the whole site inside itself.</p>
+        </prefixDef>
+        <prefixDef ident="molstow" matchPattern="(.+)|(.+)" replacementPattern="http://hcmc.uvic.ca/stow/$1/SL$1_$2.jpg">
+          <p>The molstow prefix is used on <att>facs</att> attributes to link to the HCMC verison of the Stow facsimiles.
+          Usually the first group is the year (1633) and then last is the image number (0001).</p>
+        </prefixDef>
+      </listPrefixDef>
+            
+                <p>Our editorial and encoding practices are documented in detail in the <ref target="mol:praxis">Praxis</ref> section of our website.</p>
+            
+        </encodingDesc>
+  
+        
+      <!--
+        Changes recorded here are only major changes or those resulting from 
+        automated processing. Later changes should be placed first. A complete
+        record of the history of any of our files is available through the Subversion
+        log.
+      -->
+      <revisionDesc status="published">
+      <change who="mol:TAKE1" when="2016-02-27">Added <gi>sourceDesc</gi> information for born-digital documents.</change>
+         <change who="mol:TAKE1" when="2015-06-23">Standardized <gi>respStmt</gi>s for JENS1, MCFI1, and HOLM3 and added TAKE1 as Junior Programmer.</change>
+         <change who="mol:HOLM3" when="2014-09-29">Added XInclude for <gi>listPrefixDef</gi> in the header.</change>
+         <change who="mol:HOLM3" when="2013-12-19">Added global publicationStmt through XInclude.</change>
+        <change who="mol:JENS1" when="2013-11-17">Removed byline and created <gi>respStatement</gi>s.</change>
+         <change who="mol:HOLM3" when="2013-08-23">Eliminated superfluous catRef elements from the header.</change>
+         <change who="mol:HOLM3" when="2013-08-23">Added <gi>catRef</gi> elements based on the <gi>place</gi>/<att>type</att> values 
+          in the document.</change>
+         <change who="mol:HOLM3" when="2013-08-13">Put <gi>change</gi> elements inside <gi>revisionDesc</gi> into the correct (latest first) order.</change>
+         <change who="mol:HOLM3" when="2013-08-12">Added <gi>profileDesc</gi> containing document type information expressed in <gi>catRef</gi> elements.</change>
+         <change who="mol:HOLM3" when="2013-02-04">Converted @rend to @style, through XSLT transformation.
+      </change>
+         <change who="mol:HOLM3" when="2012-09-10">Added <gi>front</gi> element with <gi>docTitle</gi> as part of a
+      normalization process. This will be used as the definitive page title on rendering.</change>
+         <change when="2011-10" who="mol:HOLM3">Various updates and fixes made through XSLT, to standardize and normalize encoding practices.</change>
+         <change who="mol:HOLM3" when="2011-09">
+                <list rend="simple">
+                    <item>Data in the old INDEX1.xml was merged into this file in the form of a <gi>facsimile</gi> element and a <gi>listPlace</gi> in the body of the text.</item>
+                    <item>Various markup errors were fixed, and markup was normalized to some degree, to make it valid against tei_all.</item>
+                </list>
+            </change>
+         <change who="mol:JENS1" when="2008-09-05">Created file.</change>
+      </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        
+      <surface>
+        <graphic url="agas_full.jpg"/>
+        <zone cert="high" xml:id="ABCH1_agas" points="17255,5911 17255,5644 17281,5484 17314,5303 17345,5182"/>
+      </surface>
+    </facsimile>
+    <text>
+      <front>
+         <docTitle>
+            <titlePart type="main">Abchurch Lane</titlePart>
+         </docTitle>
+      </front>
+        <body>
+            <div type="placeInfo" xml:id="ABCH1_placeInfo">
+                <head>Abchurch Lane</head>
+                <listPlace>
+                    <place>
+                        <placeName>Abchurch Lane</placeName>
+                      <location source="mol:GOOG1" resp="mol:HOLM3">
+                         
+                        <geo>51.51209690109405,-0.08773945715900788 51.51235891239416,-0.08749603624695183 51.51262667133795,-0.08728524229368352</geo>
+                        <geo>51.51125619286238,-0.0883807249651244 51.51159518259738,-0.08812560207860246 51.51195508204328,-0.08782160420778685</geo>
+                         
+                          <!--<geo>51.5126437718363,-0.08729658711413532 51.51216419772185,-0.08772710344653546 51.51209640341445,-0.08781401237548737 51.51203875229663,-0.08777584836078592 51.51195020139325,-0.08788744133252958 51.51187110123623,-0.08794465823732246 51.51156077078622,-0.08820281837002175 51.5112584039158,-0.088408222951700</geo>-->
+                          
+                        </location>
+                        <location source="mol:LAAR1 http://archive.museumoflondon.org.uk/laarc/catalogue/siteinfo.asp?id=4926" resp="mol:JENS1">
+                            <geo>51.5123897,-0.0875297</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </div>
+            <div>
+                <p>
+                    <ref target="mol:ABCH1">Abchurch Lane</ref> runs north-south from
+                            <ref target="mol:LOMB1">Lombard Street</ref> to <ref target="mol:CAND1">Candlewick (Cannon) Street</ref>. The
+                        Agas Map labels it <quote><ref target="mol:ABCH1">Abchurche
+                        lane</ref></quote>.  It lies mainly in <ref target="mol:CAND2">Candlewick
+                            Street Ward</ref>, but part of it serves as the boundary between <ref target="mol:LANG1">Langbourne Ward</ref> and <ref target="mol:CAND2">Candlewick Street Ward</ref>.</p>
+                <p>While the lane clearly takes its name from the church built therein, the
+                        etymology is nonetheless obscure. <name ref="mol:STOW6">Stow</name> refers to <ref target="mol:ABCH1">Abchurch Lane</ref> only twice, both times in his
+                        <quote>beating the bounds</quote> of the two wards. The reference in <ref target="mol:LANG1">Langbourne Ward</ref> is terse, but the <ref target="mol:CAND2">Candlewick Street Ward</ref> reference
+                        elaborates the indeterminacy of <name ref="mol:STOW6">Stow</name>’s research:</p>
+                <cit><quote>Then is <ref target="mol:ABCH1">Abchurch lane</ref>, which is on
+                        both the sides, almost wholy of this ward [<ref target="mol:CAND2">Candlewick Street Ward</ref>], the parish Church there (called of <ref target="mol:STMA27">saint Marie Abchurch</ref>, <ref target="mol:ABCH1">Apechurch</ref>, or <ref target="mol:ABCH1">Vpchurch</ref> as I haue read it) standeth somewhat neere
+                        vnto the south ende thereof, on a rising ground: it is a faire Church[.]</quote>
+                 <ref type="bibl" target="mol:STOW1">1.218</ref></cit>
+                <p>On the Agas Map, the church appears on the west side of <ref target="mol:ABCH1">Abchurch Lane</ref>, about a third of the way up. It is
+                        marked with the letter U (<ref type="bibl" target="mol:PROC1">Prockter and
+                            Taylor 23, 33</ref>). While the church was built in the twelfth century
+                            (<ref type="bibl" target="mol:SMIT2">Smith 11</ref>), the street is first
+                        mentioned in written records in the thirteenth century (<ref type="bibl" target="mol:EKWA1">Ekwall 159</ref>). Ekwall speculates that the church took
+                        its name from <quote>an early incumbent</quote> named Abba or Aba, a documented Old
+                        English name (<ref type="bibl" target="mol:EKWA1">159</ref>). Weinreb and
+                        Hibbert speculate that the name was originally <quote><ref target="mol:ABCH1">Upchurch</ref></quote>, referring to the topography of the
+                        street. The church stands on slightly rising ground (<ref type="bibl" target="mol:WEIN1">Weinreb and Hibbert 2</ref>), as <name ref="mol:STOW6">Stow</name> mentions.</p>
+                <p>The <ref target="mol:FIRE1">Great Fire of 1666</ref> destroyed the medieval church building. <ref target="mol:STMA27">St. Mary Abchurch</ref> was rebuilt by
+                            <name ref="mol:WREN1">Sir Christopher Wren</name>, with
+                        woodwork by <name ref="mol:GIBB1">Grinling Gibbons</name> (<ref type="bibl" target="mol:SMIT2">Smith 11</ref>).<!-- Left off here on 5 Sept. 2008.  Janelle continued working on her own on Sept. 8)-->
+                        Extensively damaged by a bomb during the Second World War, the church has now
+                        been restored and is still home to an active parish.</p>
+                <p>The street has been home to a number of famous landmarks, mainly having to do
+                        with food. In the early seventeenth century, <quote>the lane was renowned for the
+                        cakes referred to in <name ref="mol:WEBS1">John Webster</name>’s
+                            <title level="m"><ref type="bibl" target="mol:WEBS2">Northward Ho</ref></title> (1607) and sold by <name ref="mol:WELL1">Mother
+                        Wells</name> who had her shop here</quote> (<ref type="bibl" target="mol:WEIN1">Weinreb
+                            and Hibbert 2</ref>). Later, it became known for an eating establishment
+                        named Pontack’s, popular with the Augustan satirists <name ref="mol:POPE1">Pope</name> and <name ref="mol:SWIF1">Swift</name>; Pontack’s served French cuisine (<ref type="bibl" target="mol:WEIN1">Weinreb and Hibbert 2, 610</ref>). Until 1991, the elite
+                        Gresham Club for businessmen stood at 15 <ref target="mol:ABCH1">Abchurch Lane</ref> EC4 (<ref type="bibl" target="mol:WEIN1">Weinreb and Hibbert 338</ref>); the building is now home to another private members’
+                        club (<ref target="http://en.wikipedia.org/wiki/Gresham_Club">Wikipedia</ref>). </p>
+                <p>Another famous institution once operated in <ref target="mol:ABCH1">Abchurch Lane</ref>. The insurance company Lloyd’s of London began in
+                        a coffeehouse once owned by <name ref="mol:LLOY1">Edward Lloyd</name>
+                        in <ref target="mol:TOWE3">Tower Street</ref> in 1688. The
+                        underwriters moved to the corner of <ref target="mol:LOMB1">Lombard Street</ref> and <ref target="mol:ABCH1">Abchurch
+                            Lane</ref> in 1692, where they continued to offer marine insurance and
+                        eventually other insurance services until they moved into the second <ref target="mol:ROYA1">Royal Exchange</ref> in 1774 (<ref type="bibl" target="mol:WEIN1">Weinreb and Hibbert 464–65</ref>; see also
+                    the <ref target="https://www.lloyds.com/about-lloyds/history/corporate-history">Lloyd’s
+                            website</ref>.</p>
+                <!--Abchurch Street now is bisected by--> 
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright University of Victoria.
+$Date: 2020-06-26 09:42:06 -0700 (Fri, 26 Jun 2020) $
+$Id: MONU1.xml 16203 2020-06-26 16:42:06Z lucassimpson $
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="MONU1">
+
+  
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+            <title>Monuments of Honour</title>
+
+
+            <respStmt>
+               <resp ref="molresp:aut">Author<date when-custom="1624" datingMethod="mol:julianSic"/></resp>
+               <name ref="mol:WEBS1">John Webster</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:prt">Printer<date when-custom="1624" datingMethod="mol:julianSic"/></resp>
+               <name ref="mol:OKES1">Nicholas Okes</name>
+            </respStmt>
+
+            <respStmt>
+               <resp ref="molresp:trc">First Transcriber<date when="2014"/></resp>
+               <name type="org" ref="mol:EEBO3">EEBO-TCP</name>
+           
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:trc">MoEML Transcriber<date when="2014"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+          <respStmt>
+            <resp ref="molresp:mrk">Markup Editor<date when="2018-09"/></resp>
+            <name ref="mol:TEMP6">Chase Templet</name>
+          </respStmt>
+          <respStmt>
+            <resp ref="molresp:mrk">Markup Editor<date when="2019"/></resp>
+            <name ref="mol:SIMP5">Lucas Simpson</name>
+          </respStmt>
+          <respStmt>
+            <resp ref="molresp:mrk">Encoder<date when="2019"/></resp>
+            <name ref="mol:LEBE1">Kate LeBere</name>
+          </respStmt>
+            <respStmt>
+               <resp ref="molresp:mrk">Encoder<date when="2014"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+          
+           <respStmt>
+               <resp ref="molresp:top">Toponymist<date when="2014"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+          
+            <!--          <respStmt>
+            <resp ref="molresp:mrk">Markup Editor<date when="2013"/></resp>
+            <name ref="mol:XXXX"></name>
+          </respStmt>-->
+            <!--          <respStmt>
+            <resp ref="molresp:pfr">Copy Editor<date when="2013"/></resp>
+            <name ref="mol:XXXX"></name>
+          </respStmt>-->
+            <respStmt>
+          	    <resp ref="molresp:cse">CSS Editor</resp>
+          	    <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+          <respStmt>
+            <resp ref="molresp:cse">CSS Editor</resp>
+            <name ref="mol:HORN6">Chris Horne</name>
+          </respStmt>  
+          <respStmt>
+<resp ref="molresp:dtm">Data Manager<date notBefore="2015"/></resp>
+<name ref="mol:LAND2">Tye Landels</name>
+</respStmt>
+<respStmt>
+               <resp ref="molresp:prg">Junior Programmer<date notBefore="2015"/></resp>
+               <name ref="mol:TAKE1">Joey Takeda</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:prg">Programmer<date notBefore="2011"/></resp>
+               <name ref="mol:HOLM3">Martin Holmes</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:rth">Associate Project Director<date notBefore="2015"/></resp>
+               <name ref="mol:MCFI1">Kim McLean-Fiander</name>
+            </respStmt>
+            <respStmt>
+               <resp ref="molresp:pdr">Project Director<date notBefore="1999"/></resp>
+               <name ref="mol:JENS1">Janelle Jenstad</name>
+            </respStmt>
+         </titleStmt>
+        
+         <publicationStmt>
+      <publisher><title level="m">The Map of Early Modern London</title></publisher><idno type="URL">http://mapoflondon.uvic.ca/includes.xml</idno><pubPlace>Victoria, BC, Canada</pubPlace><address>
+        <addrLine>Department of English</addrLine>
+        <addrLine>P.O.Box 3070 STNC CSC</addrLine>
+        <addrLine>University of Victoria</addrLine>
+        <addrLine>Victoria, BC</addrLine>
+        <addrLine>Canada</addrLine>
+        <addrLine>V8W 3W1</addrLine>
+    </address><date when="2016">2016</date><distributor>University of Victoria</distributor><idno type="ISBN">978-1-55058-519-3</idno><authority>
+          <name ref="mol:JENS1">Janelle Jenstad</name>
+          <email>london@uvic.ca</email>
+        </authority><availability>
+            <p>Copyright held by <title level="m">The Map of Early Modern London</title> on behalf of the contributors.</p>
+            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+              <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. </p>
+            </licence>
+            <p>Further details of licences are available from our
+              <ref target="mol:licence">Licences</ref> page. For more
+              information, contact the project director, <name ref="mol:JENS1">Janelle Jenstad</name>, for
+              specific information on the availability and licensing of content
+              found in files on this site.</p>
+        </availability>
+    </publicationStmt>
+    
+        <sourceDesc>
+          <p>
+         Original transcription from EEBO-TCP, STC <idno type="STC">25175</idno>; new transcription by Joey Takeda. DEEP <idno type="DEEP">721</idno>. File checked and standardized by Chase Templet, following the 2018 transcription guidelines.</p>
+        </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      <textClass>
+    <catRef scheme="mdt:molDocumentTypes" target="mdt:mdtPrimarySourceLibraryMayoral"/>
+          </textClass>
+        <abstract>
+          <p>Commemorative pageant book prepared for the inauguration of Sir John Gore as Lord Mayor of London in 1624.
+            Pageants coordinated by John Webster on behalf of the Worshipful Company of the Merchant Taylors.
+            Book printed by Nicholas Okes. Diplomatic transcription prepared by the MoEML Team. See https://mapoflondon.uvic.ca/MONU1.htm for full credits and editorial procedures.</p>
+        </abstract>
+    </profileDesc>
+  
+
+      <encodingDesc>
+        <listPrefixDef>
+        <prefixDef ident="mol" matchPattern="(.+)(#.+)?" replacementPattern="../../$1.htm$2">
+          <p>Most MoEML documents, or significant fragments with <att>xml:id</att> attributes, can
+            be addressed using the <code>mol:</code> prefix and accessed through the web application
+            with their id + <code>.xml</code>.</p>
+        </prefixDef>
+        <prefixDef ident="molagas" matchPattern="(.+)" replacementPattern="http://mapoflondon.uvic.ca/agas.htm?locIds=$1">
+          <p>The molagas prefix points to the shape representation of a location on 
+            MoEML’s OpenLayers3-based
+          rendering of the Agas Map.</p>
+        </prefixDef>
+        <prefixDef ident="moleebo" matchPattern="([0-9]+)\|([0-9]+)" replacementPattern="http://eebo.chadwyck.com/fetchimage?vid=$1&amp;page=$2&amp;width=1200">
+          <p>Links to page-images in the Chadwyck-Healey <title level="m">Early English Books Online</title> (EEBO)
+            repository. Note that this is a subscription service, and may not be accessible to those
+            accessing it from locations outside member institutions.</p>
+        </prefixDef>
+        <prefixDef ident="molebba" matchPattern="(.+)" replacementPattern="http://ebba.english.ucsb.edu/ballad/$1">
+          <p>Links to page-images in the <title level="m">English Broadside Ballad Archive</title> (EBBA).</p>
+        </prefixDef>
+        <prefixDef ident="mdt" matchPattern="(.+)" replacementPattern="includes.xml#$1">
+          <p>The mdt (MoEML Document Type) prefix used on <gi>catRef</gi>/<att>target</att> points
+            to a central taxonomy in the includes file.</p>
+        </prefixDef>
+        <prefixDef ident="mdtlist" matchPattern="(.+)" replacementPattern="$1.xml">
+          <p>The mdtlist (MoEML Document Type listing) prefix used in linking attributes points to a listings page constructed from a category in the central MDT taxonomy in the includes file. There are two variants, one with the plain <att>xml:id</att> of the category, meaning all documents in the specified category, and one with the suffix <q>_subcategories</q>, meaning all subcategories of the category.</p>
+        </prefixDef>
+        <prefixDef ident="molgls" matchPattern="(.+)" replacementPattern="GLOSS1.xml#$1">
+          <p>The molgls (MoEML gloss) prefix used on <gi>term</gi>/<att>corresp</att> points
+            to a a glossary entry in the GLOSS1.xml file.</p>
+        </prefixDef>
+        <prefixDef ident="molvariant" matchPattern="(.*)\|(.+)" replacementPattern="spelling_variants.xml#$2">
+          <p>This molvariant prefix is used on <gi>ref</gi>/<att>target</att> attributes during automated 
+          generation of gazetteer index files. It points to an element in the generated variant spellings
+          listing file which lists all documents which contain a particular spelling variant for a 
+          location.</p>
+        </prefixDef>
+        <prefixDef ident="molajax" matchPattern="(.+)" replacementPattern="../../ajax/$1.xml">
+          <p>This molajax prefix is used on <gi>ref</gi>/<att>target</att> attributes during the static build 
+          process, to specify links which point to MoEML resources which should not be loaded into the source 
+          page during standalone processing; instead, these should be turned into links to the XML source 
+          documents, and at HTML page load time, these should be turned into AJAX calls. This is to handle 
+          the scenario in which a page such as an A-Z index of the whole site would end up containing 
+          virtually the whole site inside itself.</p>
+        </prefixDef>
+        <prefixDef ident="molstow" matchPattern="(.+)|(.+)" replacementPattern="http://hcmc.uvic.ca/stow/$1/SL$1_$2.jpg">
+          <p>The molstow prefix is used on <att>facs</att> attributes to link to the HCMC verison of the Stow facsimiles.
+          Usually the first group is the year (1633) and then last is the image number (0001).</p>
+        </prefixDef>
+      </listPrefixDef>
+        <editorialDecl>
+          <p>These digital editions are diplomatic transcriptions<!--tag with link to instructions for diplomatic transcriptions, when ready -TL-->. Our goal has been to provide clean, readable TEI transcriptions of all the extant mayoral shows from 1585 to 1639. Because this corpus has never before been made available in one place, we provide XML base texts that other scholars can repurpose according to our Creative Commons Licence.</p><p>MoEML transcriptions of the mayoral shows are based intially on the <ref type="bibl" target="mol:EEBO1">EEBO-TCP</ref> transcriptions. A MoEML research assistant or contributing scholar has carefully checked the TCP transcription at least once against the EEBO images (and sometimes against the Early English Books I microfilms when the film is clearer). We silently correct errors in TCP transcriptions and fill in many of the gaps left by TCP transcribers. When we make surmises about characters or supply characters in places where the text has been cropped, damaged, overinked, or underinked, we record our supplied values using <gi>supplied</gi>. The transcription is checked again by another MoEML research assistant, and finally by the <name ref="mol:JENS1">Project Director</name> or <name ref="mol:MCFI1">Assistant Project Director</name>. Users may report transcription errors via the Send Feedback link on each page.</p>
+          
+          <p>We treat title pages, dedications, and prefaces as front matter, encoded with the <gi>front</gi> element. We treat speeches, narrative descriptions, and interpretations as the body of the text, encoded with the <gi>body</gi> element. We treat colophons and concluding statements, including the word <quote>Finis</quote>, as back matter, encoded with the <gi>back</gi> element.
+                            </p>
+          
+          <normalization method="silent">
+            
+            <p>Our practice has been to preserve most of the typographical, orthographical, and compositorial features of the original text. We use <ref target="mol:encoding_practices#encoding_practices_text_styles_CSS">CSS styling</ref> to describe the peculiarities of font and justification. We also include links to the page images on <ref type="bibl" target="mol:EEBO2">EEBO</ref>; users who subscribe to EEBO may thus view the pages at any point and judge our transcription thereof for themselves.</p><p>Our encoders follow these rules for preserving or regularizing the text:
+                
+                <table rows="11" cols="2">
+                    <row role="label">
+                        <cell role="label" rows="1" cols="1">
+                            Textual Component
+                        </cell>
+                        <cell role="label" rows="1" cols="1">
+                            Rule
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Long ſ
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>TCP transcriptions do not preserve the long ſ. We have restored the long ſ through a series of find-and-replace functions based on typical early modern printing house habits, followed by a careful human checking against the digital images of the original.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Capitalization
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>We preserve the capitalization of the source, including the second upper-case letter after a woodblock dropped capital.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Italicization
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>We preserve the italicization of words by tagging them with a <gi>hi</gi> element with a <att>style</att> value of <val>font-style: italic;</val>. We consider italicization to be a <!--<term corresp="molgls:BICO1">-->bibliographic code<!--</term>--> rather than a <!--<term corresp="molgls:LICO1">-->linguistic code<!--</term>-->.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Interchangeable Characters
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>We retain the interchangeable u/v and i/j and the use of vv for w. These are not marked up with any encoding.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Ligatures
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>We retain the vowel digraphs  using the appropriate Unicode characters (e.g., æ). Typographical ligatures (e.g., ﬂ) have been silently expanded.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Nasal Tildes
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>We retain the nasal tilde over vowels (e.g., õ) using the appropriate Unicode characters.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Spacing Within Lines
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                     <p>MoEML closes up extra spaces between words and punctuation marks. However, we retain the spacing in authorial initials, such as A. M. (for Anthony Munday). We have added a single space after a comma when the comma has been used to separate two words.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Lineation
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>MoEML preserves the line breaks in verse sections and the line wrapping in prose sections of mayoral shows. Prose line breaks have been encoded with a self-closing <gi>lb</gi> element. All line breaks in verse are produced by the use of <gi>l</gi> elements contained by <gi>lg</gi> elements.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Hyphenation
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>MoEML transcriptions of mayoral shows preserve the hyphenation of words, both within and at the end of lines.</p>
+                        </cell>
+                    </row>
+                    <row role="data">
+                        <cell role="data" rows="1" cols="1">
+                            Quotation Marks
+                        </cell>
+                        <cell role="data" rows="1" cols="1">
+                            <p>All quotation marks are retained in the text and are represented by appropriate Unicode
+                                characters. We do not use the <gi>quote</gi> element for quotations in primary-source texts. MoEML practice calls for curly apostrophes and straight double quotation marks in both transcriptions and born-digital texts.</p>
+                        </cell>
+                    </row>
+                </table>
+                </p>
+            
+          </normalization>
+          
+          <interpretation>
+            <p>We have interpreted and encoded toponyms, names, and dates. The encoding of toponyms requires some research to point the toponym to the right location file (and thence to the map), but the relative stability of the processional route has meant that we have high confidence in our encoding of toponyms in the mayoral shows. When our encoding has veered into interpretation, such as in our decision to encode abstract nouns as allegorical characters even when it is not completely clear that the abstraction is embodied by an actor, we have encoded with the goal of building analytical capacity into our texts, such as the capacity for users to search for characters like Time across the corpus of mayoral shows. For our treatment of early modern dates, see our encoding instructions at <ref target="mol:encoding_dates">Encode a Date</ref>. Other than toponyms, names, and dates, we have undertaken no interpretative encoding.</p>
+          </interpretation>
+          
+        </editorialDecl>
+        <tagsDecl>
+        </tagsDecl>
+        <p>Our editorial and encoding practices are documented in detail in the <ref target="mol:praxis">Praxis</ref> section of our website.</p>
+      </encodingDesc>
+  
+      
+      <!--
+        Changes recorded here are only major changes or those resulting from 
+        automated processing. Later changes should be placed first. A complete
+        record of the history of any of our files is available through the Subversion
+        log.
+      -->
+      <revisionDesc status="draft">
+        <change who="mol:TEMP6" when="2019-07-10">Deleted all rendition elements in header.</change>
+        <change who="mol:HORN6" when="2019-06-05">Checked CSS.</change>
+        <change who="mol:TAKE1" when="2019-05-09">Added <att>xml:id</att>s to <gi>pb</gi> elements using utilities/add_sig_ids_to_shows.xsl.</change>
+        <change who="mol:TEMP6" when="2018-08-30">Started fixing file with JJ</change>
+<change who="mol:ELHA1" when="2018-08-01">Collapsed element rendition using XSLT.</change>
+      <change who="mol:TAKE1" when="2018-04-28">Changed calendar value from "julian" to "julianSic" using XSLT.</change>
+         <change who="mol:TAKE1" when="2015-06-23">Standardized <gi>respStmt</gi>s for JENS1, MCFI1, and HOLM3 and added TAKE1 as Junior Programmer.</change>
+         <change who="mol:HOLM3" when="2014-09-29">Added XInclude for <gi>listPrefixDef</gi> in the header.</change>
+         <change who="mol:TAKE1" when="2014-05-07">Pasted in MOEML transcription into document.</change>
+         <change who="mol:HOLM3" when="2013-12-19">Added global publicationStmt through XInclude.</change>
+         <change who="mol:HOLM3" when="2013-08-23">Eliminated superfluous catRef elements from the header.</change>
+         <change who="mol:HOLM3" when="2013-08-13">Put <gi>change</gi> elements inside <gi>revisionDesc</gi> into the correct (latest first) order.</change>
+         <change who="mol:HOLM3" when="2013-08-12">Added <gi>profileDesc</gi> containing document type information expressed in <gi>catRef</gi> elements.</change>
+         <change who="mol:BUTT1" when="2013-06-04">Created document</change>
+      </revisionDesc>
+      </teiHeader>
+    
+  
+
+  <text style="width: 35em; padding-left: 3em; padding-right: 3em;">
+   <front> 
+     <titlePage style="text-align:center;">
+       <pb facs="molproq:2240915328|1" n="A1r" xml:id="MONU1_sig_A1r"/>
+         
+         <docTitle>
+       
+           <titlePart style="display: block; font-size: 300%; text-align: center; padding-bottom: 1.5rem;" type="main">Monuments of Honor.</titlePart>
+           <titlePart type="desc" style="display: block; text-align: center; padding-bottom: 1rem;"><hi style="font-size: 160%;">Deriued from remarkable Antiquity, and</hi><lb/>
+           <hi style="font-size: 125%; word-spacing: 1pt;">Celebrated in the Honorable City of <ref target="mol:LOND5" style="font-style: italic;">London</ref>, at the</hi><lb/>
+           <hi style="font-size: 125%; letter-spacing: .4pt;">ſole Munificent charge and expences of the</hi><lb/>
+           <hi style="font-size:100%;">Right Worthy and Worſhipfull Fraternity, of</hi><lb/>
+           <hi style="font-size:85%;">the Eminent</hi> <hi style="font-size: 75%; letter-spacing:0.25em; font-variant:small-caps;"><name type="org" ref="mol:META1" style=" font-size: 115%; font-variant: small-caps;">Merchant-taylors</name>.</hi>
+           </titlePart>
+           <titlePart style="display: block; text-align: center; padding-bottom: 1rem;" type="main">
+           <hi style="font-size:125%;">Directed in their moſt affectionate Loue, at the</hi><lb/>
+           <hi style="font-size:120%; font-style: italic;">Confirmation of their right <hi style="word-spacing:0.6rem;">Worthy Brother</hi></hi><lb/>
+             <hi style="font-size:100%; word-spacing: .1rem;"><name style="font-variant:small-caps; letter-spacing: 4pt;" ref="mol:GORE1">Iohn Gore</name> in the High Office of His</hi><lb/>
+           <hi style="font-size:85%; font-style:italic;">Maieſties Liuetenant ouer this His Royoll</hi><lb/>
+           <hi style="font-size:85%;">Chamber.</hi>
+           </titlePart>
+           <titlePart style="display: block; text-align: center; padding-bottom: 1rem;" type="main">
+           <hi style="font-size: 115%;">Expreſſing in a Magnificent Tryumph, all the Pageants,</hi><lb/>
+           <hi style="font-size:100%; font-style:italic; word-spacing: .2rem;">Chariots of Glory, Temples of Honor, beſides a</hi><lb/>
+           <hi style="font-size:85%;">ſpecious and goodly Sea <hi style="word-spacing: -2pt;">Tryumph, as</hi> well particularly</hi><lb/>
+           <hi style="font-size:85%;">to the Honor of the City, as generally to the</hi><lb/>
+           <hi style="font-size:85%;">Glory of this our Kingdome.</hi>
+           </titlePart>
+       </docTitle>
+       
+       <byline style="padding-bottom: 1rem;"><hi style="font-size:125%;"><hi style="font-style:italic;">Invented and Written</hi> by <name ref="mol:WEBS1">Iohn Webſter</name></hi><lb/>
+       <hi style="font-size:85%;">Merchant-Taylor.</hi></byline>
+       
+       <epigraph>
+         <q>
+           —–<foreign xml:lang="la">
+             Non norunt hæc monumenta mori</foreign>.</q><!--note type="editorial" resp="mol:TAKE1">Webster appears to have taken this epigraph from <ref type="bibl" target="mol:MART6">Martial’s <title level="m">Epigrammata</title> X. 12</ref>.  The line translates to <quote>these monuments know nothing of death.</quote></note--><!--Can we 'hide' these quotations mark?-->
+       </epigraph>
+       
+       <figure style="padding-top: 2.5rem; padding-bottom: 2.5rem;">
+         <figDesc>Printer’s ornament</figDesc></figure><lb/>
+       <docImprint style="font-size:125%;"><hi style="font-style:italic;">Printed at</hi>
+         <pubPlace><ref target="mol:LOND5">London</ref></pubPlace> <hi style="font-style:italic;">by</hi>
+         <publisher>
+           <name ref="mol:OKES1">Nicholas Okes</name></publisher>.
+         <docDate><date when-custom="1624" calendar="mol:julianSic" datingMethod="mol:julianSic" style="letter-spacing: .1rem;">1624</date></docDate>.</docImprint>
+     </titlePage>
+   </front>
+    <body>
+      <pb facs="molproq:2240915328|2" n="A1v" xml:id="MONU1_sig_A1v"/>
+     <pb facs="molproq:2240915328|2" n="A2r" xml:id="MONU1_sig_A2r"/>  
+         
+      <figure style="padding-top: 2.5rem; padding-bottom: 2.5rem;">
+        <figDesc>Printer’s ornament</figDesc></figure>
+      
+      <div type="dedicatoryEpistle" xml:id="MONU1_dedicatoryEpistle">
+        <salute style="display:block; text-align:center; text-align:center; padding-bottom: 1rem;">
+          <hi style="font-size:275%; word-spacing: .5rem; letter-spacing: .2rem;">TO THE RIGHT</hi><lb/>
+    <hi style="font-size: 150%; word-spacing: .1rem;">VVorthy Deſeruer of this ſo Noble</hi><lb/>
+          <hi style="font-size: 115%;">a Ceremony this Day Confirde vpon</hi><lb/>
+          <hi style="font-size: 100%;">Him, <name ref="mol:GORE1" style="font-variant:small-caps; letter-spacing: .2rem;">Iohn Gore</name> Lord Maior</hi><lb/>
+    <hi style="font-size: 100%;">and Chancelor of the renowned</hi><lb/>
+    <hi style="font-size: 90%;">City of <ref target="mol:LOND5" style="font-style:italic;">London</ref>.</hi>
+    </salute>
+      
+        <p style="margin-left: 6rem; font-size: 115%;" xml:id="MONU1_d2e544_1" next="#MONU1_d2e544_2"><hi style="float: left; font-size: 700%; margin-right: 0.05em; margin-top: .2rem; padding: 0; line-height: 85%; display: inline-block; border: solid 1pt black;" xml:id="MONU1_WCI_1">M</hi>Y Worthy Lord, theſe<lb/>
+    preſentmentes which<lb/>
+    were <choice><abbr>intẽded</abbr><expan>intended</expan></choice> principally<lb/>
+    for your Honor, and for<lb/>
+    Illuſtrating the worth of<lb/>
+    that worthy <choice><abbr>Corporatiõ</abbr><expan>Corporation</expan></choice><lb/>
+    (whereof you are a Member) come now<lb/>
+    humbly to kiſſe your Lordſhips handes;<lb/>
+    and to preſent the Inuentor of them to that<lb/>
+    ſeruice, which (my ability expreſt in this)<lb/>
+    may call me to (vnder your Lordſhips fa<lb type="hyphenInWord"/>
+    </p>
+        
+        <fw type="signature" style="text-align: right; margin-right: 15rem; letter-spacing: .25rem; font-size: 100%;">A2</fw>
+        <fw type="catchword" style="text-align: right; margin-right: 8rem; margin-top: -1.2rem; font-size: 100%;">uor)</fw>
+        <pb facs="molproq:2240915328|3" n="A2v" xml:id="MONU1_sig_A2v"/>
+        
+        <fw type="header" style="font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">The Epiſtle Dedicatory.</fw>
+        
+        <p style="margin-left: 6rem; padding-bottom: 2rem; font-size: 115%;" xml:id="MONU1_d2e544_2" prev="#MONU1_d2e544_1">
+    uor) to you, do you honor, and the City ſer<lb type="hyphenInWord"/>
+    uice in the quality of a Scholler: aſſuring<lb/>
+    your Lordſhip, I ſhall neuer either to your<lb/>
+    eare, or table preſſe vnmannerly, or imper<lb type="hyphenInWord"/>
+    tinently. My indeuours this way haue recei<lb type="hyphenInWord"/>
+    ued grace, and alowance from your worthy<lb/>
+    brothers (that were ſuperviſors of the coſt<lb/>
+    of theſe Tryumphs) &amp; my hope is, that they<lb/>
+    ſhall ſtand no leſſe reſpected in your eye,<lb/>
+    nor vnder valued in your worthy Iudge<lb type="hyphenInWord"/>
+    ment<hi style="font-style: italic;">:</hi> which fauours done to one borne<lb/>
+    free of your Company, and your ſeruant;<lb/>
+    ſhall euer be acknowledged by him, ſtands<lb/>
+      interreſted</p>
+        
+    <p style=" text-align: right; margin-right: 6rem; font-style:italic; font-size: 135%; padding-bottom: 1.5rem;">To your Lordſhip in all duty,</p>
+        
+        <signed style="text-align:right; margin-right: 6rem; display:block; padding-bottom: 2rem; font-variant:small-caps; word-spacing: .5rem; letter-spacing: .15rem; font-size: 115%;"><name ref="mol:WEBS1">Iohn Webster</name>.</signed>
+        
+        <fw type="catchword" style="text-align: right; margin-right: 6rem; font-size: 115%; padding-bottom: 10rem; font-size: 100%;">Monu-</fw></div>
+      
+      <pb facs="molproq:2240915328|3" n="A3r" xml:id="MONU1_sig_A3r"/>
+    <div type="show" xml:id="MONU1_Show">
+      <figure style="padding-bottom: 3rem; padding-top: 2rem;"><figDesc>Printer’s Ornament</figDesc></figure>
+      
+      <head style="text-align: center;font-size:300%; padding-bottom: 1.5rem;">Monuments of<lb/>
+      Honor.</head>
+      
+      <p xml:id="MONU1_d2e656_1" next="#MONU1_d2e656_2" style="margin-left: 6rem;"><hi style="float: left; font-size: 900%; padding: 0 2rem; margin: .3rem 1.3rem .5rem 0; line-height: 90%; display: inline-block; border: solid 1pt black;" xml:id="MONU1_WCI_2">I</hi> <hi style="margin-left:-0.6rem;">Could</hi> in this my Preface <hi style="font-style: italic;">(</hi>by<lb/>
+        as great light of <name ref="mol:LEAR1">Learning</name> as<lb/>
+        any formerly imployed, in<lb/>
+        this ſeruice) can attaine, to de<lb type="hyphenInWord"/>
+        liuer to You the Original and<lb/>
+        cauſe of all Tryumphes, their<lb/>
+        exceſſiue coſt in the Time of<lb/>
+        the <hi style="font-style:italic;">Romans</hi>: I could likewiſe<lb/>
+        with ſo Noble Amplification make a ſuruey of the<lb/>
+        worth, and glory of the Triumphs of the precedent<lb/>
+        times in this Honorable City of <ref target="mol:LOND5" style="font-style:italic;">London</ref>: That<lb/>
+        were my work of a bigger bulke, they ſhold remaine<lb/>
+        to all Poſterity: but both my Pen, and ability this<lb/>
+        way are confin’d in too narrow a Circle: Nor haue<lb/>
+        I ſpace enough in this ſo ſhort a Volume to expreſſe<lb/>
+        onely with rough lines, and a
+        <supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">f
+        </supplied>aint ſhadow <hi style="font-style: italic;">(</hi>as the<lb/>
+        Painters phraſe is<hi style="font-style: italic;">)</hi><!--ORGS1:Painter Stainers?--> Firſt the great care and alacrity<lb/>
+        of the right Worſhipful the Maſter and Wardens,<lb/>
+        and the reſt of the ſelected and Induſtrious Com<lb type="hyphenInWord"/>
+        </p>
+      
+      <fw type="signature" style="text-align: right; margin-right: 14rem; letter-spacing: .25rem; font-size: 100%;">A3</fw>
+      <fw type="catchword" style="text-align: right; margin-right: 8rem; margin-top: -1.2rem; font-size: 100%;">mittees,</fw>
+        
+        <pb facs="molproq:2240915328|4" n="A3v" xml:id="MONU1_sig_A3v"/>
+        
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+      <p xml:id="MONU1_d2e656_2" prev="#MONU1_d2e656_1" style="margin-left: 6rem;">
+        mitees; both for the curious and iudging election<lb/>
+        of the Subiect, for the preſent Spectacles; and next<lb/>
+        that the working or mechanicke part of it might<lb/>
+        be anſwerable to the Invention: Leauing therefore<lb/>
+        theſe worthy Gentlemen to the embraces, and<lb/>
+        thankes of the right Honorable and worthy Pretor;<lb/>
+        and my ſelfe vnder the ſhaddow of their Creſt,<lb/>
+        (which is a ſafe one) for ’tis the Holy Lambe in the<lb/>
+        Sunne-beames: I do preſent to all modeſt and in<lb type="hyphenInWord"/>
+        different Iudges theſe my preſent endeavours.</p> 
+      
+      <p style="margin-left: 6rem; text-indent: 1em;" xml:id="MONU1_d2e757_1" next="#MONU1_d2e757_2">I faſhioned for the more amplefying the ſhew<lb/>
+        vpon the water two Eminent Spectacles, in maner<lb/>
+        of a Sea-Triumph. The firſt furniſht with fower<!--note type="editorial" resp="mol:TAKE1">I.e., <quote>One who cleanses</quote> (<ref type="bibl" target="mol:OEDI1"><title level="m">OED</title> fow, v.</ref>).</note--><lb/>
+        Perſons; In the front <name ref="mol:OCEA1" style="font-style:italic;">Oceanus</name> and <name ref="mol:THET1" style="font-style:italic;">Thetis</name>, behind<lb/>
+        them, <name ref="mol:THAM3" style="font-style:italic;">Themeſis</name> and <name ref="mol:MEDW2" style="font-style:italic;">Medway</name>: the two riuers on<lb/><!--KMF: Should we tag Medway/Thames as an allegorical character?-->
+        whom the Lord Mayor extends his power, as farre<lb/>
+        as from <hi style="font-style: italic;">Stanes</hi> to <hi style="font-style: italic;">Rocheſter</hi>. The other ſhew is of<lb/>
+        a faire Terreſtiall Globe, Circled about in conue<lb type="hyphenInWord"/>
+        nient Seates, with ſeauen of our moſt famous Na<lb type="hyphenInWord"/>
+        uigators: as, <name ref="mol:DRAK1">Sr. <hi style="font-style:italic;">Francis Drake</hi></name>, <name ref="mol:HAWK1">Sr. <hi style="font-style:italic;">Iohn Haukins</hi></name>,<lb/>
+        <name ref="mol:FROB1">Sr. <hi style="font-style:italic;">Martine Furbiſher</hi></name>, <name ref="mol:GILB4">Sr. <hi style="font-style:italic;">Humfery Gilbert</hi></name>, <name ref="mol:CAVE1" xml:id="MONU1_CAVE1_1" next="#MONU1_CAVE1_2">Cap</name><lb type="hyphenInWord"/>
+        <name ref="mol:CAVE1" xml:id="MONU1_CAVE1_2" prev="#MONU1_CAVE1_1">taine <hi style="font-style:italic;">Thomas Cauendiſh</hi></name>, <name ref="mol:CARL3" xml:id="MONU1_CARL3_1" next="#MONU1_CARL3_2">Captaine <hi style="font-style:italic;">Chriſtopher</hi></name><lb/>
+        <name style="font-style:italic;" ref="mol:CARL3" xml:id="MONU1_CARL3_2" prev="#MONU1_CARL3_1">Carlile</name>, and <name ref="mol:DAVI8">Captaine <hi style="font-style:italic;">Iohn Dauis</hi></name>. The conceite<lb/>
+        of this Deuice to be, that in regard the two Riuers<lb/>
+        pay due Tribut of waters to the Seas. <name ref="mol:OCEA1" style="font-style:italic;">Oceanus</name> in<lb/>
+        gratefull recompence returnes the memory of<lb/>
+        theſe ſeauen worthy Captaines, who haue made<lb/>
+        <ref target="mol:ENGL2" style="font-style:italic;">England</ref> ſo famous in remoteſt partes of the<lb/>
+        world. Theſe two ſpectacles, at my Lord Maiors<lb/>
+        taking water at the <ref target="mol:THRE3" style="font-style:italic;">Three Cranes</ref>, aproaching my<lb/>
+        </p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 6rem; font-size: 100%;">Lords</fw>
+        <pb facs="molproq:2240915328|4" n="A4r" xml:id="MONU1_sig_A4r"/>
+        
+      <fw type="header" style="font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+      <p xml:id="MONU1_d2e757_2" prev="#MONU1_d2e757_1" style="margin-left: 6rem; padding-bottom: 1.5rem;">
+        Lords <hi style="font-style:italic;">Barge</hi>: after a peale of Sea-thunder from the<lb/><!--KMF would this refer to a certain barge?-->
+        other ſide the water; theſe ſpeeches betweene<lb/>
+        <name ref="mol:OCEA1" style="font-style:italic;">Oceanus</name> and <name ref="mol:THET1" style="font-style:italic;">Thetis</name> follow.</p> 
+      
+      <label place="inline" style="text-align: center; padding-bottom: 1.5rem; font-size: 115%;"><name ref="mol:OCEA1">Oceanus</name> <hi style="font-style:italic;">and</hi> <name ref="mol:THET1">Thetis</name>.</label>    
+      
+      <label place="inline" style="text-align: center;"><name ref="mol:THET1">Thetis</name>.</label>  
+      <lg style="margin-left: 6rem; font-style:italic;">
+        <l><hi style="float: left; font-style: normal; font-size: 180%; margin-right: 0.05em; line-height: 90%; display: inline-block;" xml:id="MONU1_DC_1">W</hi>Hat braue Sea Muſicke bids vs Welcome, harke!<!--CT I'm limited by the scan quality here, but I actually think that this might be a question mark that is partially cut off, leaving it as an exclamation point because they are relatively common.--></l> 
+          <l>Sure this is <hi style="font-style:normal;">Venice</hi>, and the day Saint <hi style="font-style: normal;">Marke</hi>,<!--KMF: Does this refer to a particular holiday?--></l> 
+          <l>In which the <hi style="font-style:normal;">Duke</hi> and <hi style="font-style:normal;">Senats</hi>, their courſe hold</l>
+          <l>To wed our <hi style="font-style:normal;">Empire</hi> with a Ring of Gold.</l></lg> 
+      
+        <label place="inline" style="text-align: center;"><name ref="mol:OCEA1">Oceanus</name>.</label>
+        <lg xml:id="MONU1_d2e967_1" next="#MONU1_d2e967_2" style="margin-left: 6rem; font-style: italic;"><l>No <name ref="mol:THET1" style="font-style:normal;">Thetis</name> y’are miſtaken, we are led</l>
+          <l>W<supplied resp="mol:TAKE1" reason="ink-smudged" evidence="internal">ith</supplied> infinite delight from the Lands h<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">e</supplied>ad<hi style="font-style: normal;">:</hi></l>
+          <l>In ken of goodly ſhipping and yo<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">n</supplied> bridge,</l>      
+          <l><hi style="font-style:normal;">Venice</hi> had neare the like ſuruey that ridge,</l>
+          <l>Of ſtately buildings which the riuer Hem,</l>
+          <l>And grace the ſiluer ſtreame, as the ſtreame them<hi style="font-style: normal;">:</hi></l> 
+          <l>That beautious ſeate is <ref target="mol:LOND5" style="font-style:normal;">London</ref> ſo much fam’d,</l> 
+          <l>Where any Nauigable Sea is nam’d;</l> 
+          <l>And in that bottome Eminent Marchants plac’t,</l> 
+          <l>As rich, and venturous as euer grac’t,</l> 
+          <l><hi style="font-style:normal;">Venice</hi> or <hi style="font-style: normal;">Europe</hi> theſe two Riuers heare,</l> 
+          <l>Our followers may tell you where we are;</l> 
+          <l>This <name ref="mol:THAM3" style="font-style:normal;">Thameſis</name>, that <hi style="font-style:normal;">Mid-way</hi> who are ſent,</l> 
+          <l>To you most worthy Pretor to preſent,</l> 
+          <l>Acknowledgment of duty neare ſhall err,</l> 
+          <l>From <hi style="font-style:normal;">Stanes</hi> vnto the Ancient <hi style="font-style:normal;">Rocheſter</hi>;</l> 
+          <l>And now to grace their Tryumph in reſpect,</l> 
+          <l>Theſe pay vs tribute, we are pleaſd to ſelect</l>
+          </lg>
+      
+      <fw type="catchword" style="text-align: right; font-style: italic; margin-right: 5rem; font-size: 100%;">Seuen</fw>
+          
+          <pb facs="molproq:2240915328|5" n="A4v" xml:id="MONU1_sig_A4v"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+        <lg xml:id="MONU1_d2e967_2" prev="#MONU1_d2e967_1" style="margin-left: 6rem; font-style: italic; padding-bottom: 1rem;"> 
+          <l>Seuen worthy Nauigators out by name,</l> 
+          <l>Seated beneath this Globe;<!--KMF does Globe here pun on the Globe theatre? Perhaps add editorial comment?--><!-- JJ says no. Such comments  --> whoſe ampl<supplied resp="mol:TAKE1" reason="ink-smudged" evidence="internal">e</supplied> fame</l> 
+          <l>In the remoteſt part a’ the earth is found,</l> 
+          <l>And ſome of them haue circled the Globe round<hi style="font-style: normal;">:</hi></l> 
+          <l>Theſe you obſerue are liuing in your eye,</l> 
+          <l>And ſo they ought, for worthy men neare dye<hi style="font-style: normal;">:</hi></l> 
+          <l><name ref="mol:DRAK1" style="font-style: normal;">Drake</name>, <name ref="mol:HAWK1" style="font-style: normal;">Hawkins</name>, <name ref="mol:FROB1" style="font-style: normal;">Furbiſher</name>, <name ref="mol:GILB4" style="font-style: normal;">Gilbert</name>, braue Knights,</l> 
+          <l>That brought home gold, and honor from ſea fights,</l> 
+          <l><name ref="mol:CAVE1" style="font-style: normal;">Candiſh</name>, <name ref="mol:CARL3" style="font-style: normal;">Carlile</name>, and <name ref="mol:DAVI8" style="font-style: normal;">Dauis</name>, and to theſe,</l> 
+          <l>So many worthies I could adde at Seas,</l> 
+          <l>Of this bold Nation, it would enuy ſtrike,</l> 
+          <l>I th’ reſt ath’ World, who cannot ſhew the like;</l> 
+          <l>Tis action valews honor as the flint,</l> 
+          <l>Looke blacke and feeles like ice, yet from within’t,</l> 
+          <l>Their ar<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">e</supplied>
+            ſtrooke ſparkes which to the darkeſt nights,</l> 
+          <l>Yeeld quicke and p<supplied resp="mol:SIMP5" reason="ink-smudged" evidence="external" source="mol:WEBS5">erc</supplied>ing food for ſeuerall lights.</l></lg> 
+      
+        <label place="inline" style="text-align: center; padding-bottom: .25rem;"><name ref="mol:THET1">Thetis</name>.</label> 
+        <lg style="margin-left: 6rem;font-style:italic; padding-bottom: 1rem;">
+          <l>You haue quickned well my memory, and now</l> 
+          <l>Of this your gratefull Tryumph I allow,</l> 
+          <l><name ref="mol:HONO1" style="font-style: normal;">Honor</name> lookes cleare and ſpreads her beames at large,</l> 
+          <l>From the graue Senate ſeated in that Barge,<!--KMF:Is this a particular barge?--></l> 
+          <l>Rich Lading ſwell your bottomes, a bleſt Gale,</l> 
+          <l>Follow your ventures that they neuer faile;</l> 
+          <l>And may you liue ſucceſſiuely to weare,</l> 
+          <l>The Ioy of this day<!--Do we know the particular day of this show?-->, each man his whole yeare.</l>
+        </lg>
+   
+      <p xml:id="MONU1_d2e1210_1" next="#MONU1_d2e1210_2" style="margin-left: 6rem; text-indent: 1.5em;">This Shew hauing tendred this ſeruice to my<lb/>
+        Lord vppon the Water, is after to be conueyed a<lb/>
+        Shore, and in conuenient place employd for ador<lb type="hyphenInWord"/>
+        </p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 7.5rem; font-size: 100%;">ning</fw>
+        <pb facs="molproq:2240915328|5" n="B1r" xml:id="MONU1_sig_B1r"/>
+        
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+      <p xml:id="MONU1_d2e1210_2" prev="#MONU1_d2e1210_1" style="margin-left: 6rem;">
+        ning the reſt of the Triumph. After my Lord Maiors<lb/>
+        landing, and comming paſt <ref target="mol:PAUL1"><hi style="font-style:italic;">Paules</hi> Chaine</ref>, there<lb/>
+        firſt attends for his Honor in <ref target="mol:STPA3"><hi style="font-style:italic;">Pauls</hi> Church-yarde</ref>,<lb/>
+        a beautifull Spectacle, called the <hi style="font-style:italic;">Temple of Honor</hi>,<lb/>
+        the Pillars of which are bound about with Roſes,<lb/>
+        and other beautifull Flowers, which ſhoot vp to the<lb/>
+        adorning of the Kings Maieſties Armes on the top<lb/>
+        of the Temple.</p>
+        <p style="margin-left: 6rem; text-indent: 1.5em;">In the higheſt ſeate a Perſon repreſenting <name ref="mol:TROY1" style="font-style:italic;">Troy<lb type="hyphenInWord"/>
+        nouant</name> or the <name ref="mol:LOND6">City</name>, in throned in rich Habilaments,<lb/>
+        beneath her as admiring her peace and felicity, ſit<lb/>
+          fiue eminent Cities, as <name ref="mol:ANTW2" style="font-style:italic;">Antwerpe</name>, <name ref="mol:PARI7" style="font-style:italic;">Paris</name>, <name ref="mol:ROME3" style="font-style:italic;">Rome</name>, <name ref="mol:VENI1" style="font-style:italic;">Venice</name><lb/>
+          and <name ref="mol:CONS9" style="font-style:italic;">Conſtantinople</name>: vnder theſe ſit fiue famous<lb/>
+          Schollers and Poets of this our Kingdome, as <name ref="mol:CHAU1">Sir<lb/>
+            <hi style="font-style:italic;">Ieffery Chaucer</hi></name>, the learned <name ref="mol:GOWE4" style="font-style:italic;">Gower</name>, the excellent<lb/>
+          <name ref="mol:LYDG1" style="font-style:italic;">Iohn Lidgate</name>, the ſharpe witted <name ref="mol:MORE1">Sr. <hi style="font-style:italic;">Thomas Moore</hi></name>,<lb/>
+        and laſt as worthy both Souldier and Scholler, <name ref="mol:SIDN1">Sir<lb/>
+          <hi style="font-style:italic;">Phillip Sidney</hi></name>, theſe being Celebrators of honor,<lb/>
+        and the perſeruers both of the names of men, and<lb/>
+        memories of Cities aboue, to poſterity.</p>
+        
+      <p xml:id="MONU1_d2e1329_1" next="#MONU1_d2e1329_2" style="margin-left: 6rem; text-indent: 1.5em;">I preſent riding afore this <hi style="font-style:italic;">Temple</hi>, <name ref="mol:RYAL1" style="font-style:italic;">Henry de<lb/>
+          Royall</name>, the firſt Pilgrime or Gatherer of quartridge<lb/>
+          for this Company; and <name ref="mol:YAKE1" style="font-style:italic;">Iohn of Yeackſley</name>, <name ref="mol:EDWA3">King <hi style="font-style:italic;">Ed</hi><lb type="hyphenInWord"/>
+            <hi style="font-style:italic;">ward</hi> the third</name>s Pavillion maker, who purchaſt our<lb/>
+          Hall in the <date calendar="mol:regnal" when-custom="r_EDWA3_06" datingMethod="mol:regnal">ſixt yeare of the aforeſayd Kings gouern<lb type="hyphenInWord"/><!--JT>KMF: calendar=regnal or julian?-->
+          ment</date>: Theſe liued in <name ref="mol:EDWA1"><hi style="font-style:italic;">Edward</hi> the firſt</name>s time like<lb type="hyphenInWord"/>
+          wiſe, (in the <date calendar="mol:regnal" when-custom="r_EDWA1_06" datingMethod="mol:regnal">ſixt of whoſe Raigne</date>, this Company<lb/>
+          was confirmed a Guild or Corporation by the<lb/>
+          name of <name type="org" ref="mol:META1">Taylors, and Linnin Armores</name>, with power<lb/>
+          to chooſe a Maiſter and Wardens at Midſomer)<lb/>
+          </p>
+
+      <fw type="signature" style="text-align: center; font-size: 100%;">B</fw>
+      <fw type="catchword" style="text-align: right; margin-top: -1.2rem; margin-right: 7rem; font-size: 100%;">theſe</fw>
+          
+          <pb facs="molproq:2240915328|6" n="B1v" xml:id="MONU1_sig_B1v"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+      <p xml:id="MONU1_d2e1329_2" prev="#MONU1_d2e1329_1" style="margin-left: 6rem;">
+          theſe are decently habited and hooded according<lb/>
+          to the ancient manner: My Lord is heere ſaluted<lb/>
+          with two Speeches, firſt by <name ref="mol:TROY1" style="font-style:italic;">Troynouant</name> in theſe<lb/>
+          lines following.</p>
+      
+      <label place="inline" style="text-align: center;">The <hi style="font-style:italic;">ſpeech of</hi> <name ref="mol:TROY1">Troynouant</name>.</label>
+      
+        <lg style="font-style:italic; margin-left: 6rem; font-style: italic; padding-bottom: 1rem;"><l><name ref="mol:HIST4"><hi style="float: left; font-style: normal; font-size: 350%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;font-style:normal;" xml:id="MONU1_DC_2">H</hi>Iſtory</name>, <name ref="mol:TRUT1">Truth</name>, and <name ref="mol:VERT1">Vertue</name> ſeeke by name,</l> 
+          <l>To celebrate the <name type="org" ref="mol:META1" style="font-style:normal;">Merchant-Taylors</name> fame,</l> 
+          <l>That <name ref="mol:RYAL1" style="font-style:normal;">Henry de Royall</name>, this wee call</l> 
+          <l>Worthy <name ref="mol:YAKE1" style="font-style:normal;">Iohn Yeackſley</name> purchaſt firſt their Hall;</l><!--JT discern/tag which Hall this is-->
+          <l>And thus from low beginnings their oft-ſprings</l> 
+          <l>Societies claime Brother-hoods of Kings.</l> 
+          <l><hi style="font-style: normal;">I</hi> <name ref="mol:TROY1" style="font-style:normal;">Troynovant</name> plac’t eminent in the eye</l> 
+          <l>Of theſe admire at my felicity<choice resp="mol:KAET1"><sic><hi style="font-style: italic; transform:rotate(-180deg);">:</hi></sic><corr><hi style="font-style: italic;">:</hi></corr></choice></l> 
+          <l>Fiue Cities, <name ref="mol:ANTW2" style="font-style:normal;">Antwerpe</name> and the ſpacious <name ref="mol:PARI7" style="font-style:normal;">Paris</name>,</l> 
+          <l><name ref="mol:ROME3" style="font-style:normal;">Rome</name>, <name ref="mol:VENI1" style="font-style:normal;">Venice</name>, and the <name ref="mol:CONS9" style="font-style:normal;">Turkes Metropilis</name><hi style="font-style: normal;">:</hi></l> 
+          <l>Beneath theſe, fiue learned Poets worthy men,</l> 
+          <l>Who do eternize braue acts by their pen;</l> 
+          <l><name ref="mol:CHAU1" style="font-style:normal;">Chaucer</name>, <name ref="mol:GOWE4" style="font-style:normal;">Gower</name>, <name ref="mol:LYDG1" style="font-style:normal;">Lidgate</name>, <name ref="mol:MORE1" style="font-style:normal;">Moore</name> and for our time</l> 
+          <l><name ref="mol:SIDN1" style="font-style:normal;">Sr. Phillip Sidney</name>, glory of our clime,</l> 
+          <l>Theſe beyond death a fame to Monarckes giue,</l> 
+          <l>And theſe make Cities and Societies liue.</l></lg>
+      
+      <label place="inline" style="text-align: center; padding-bottom: .5rem;">The next deliuered by him, repreſents <name ref="mol:SIDN1">Sir<lb/>
+        <hi style="font-style: italic;">Phillip Sidney</hi></name>.</label>
+        
+        <lg xml:id="MONU1_d2e1540_1" next="#MONU1_d2e1540_2" style="margin-left: 6rem; font-style: italic;"><l><hi style="float: left; font-style: normal; font-size: 350%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;" xml:id="MONU1_DC_3">T</hi>O Honor by our Wrightings Worthy men,</l> 
+          <l>Flowes as a duty from a iudging pen,</l> 
+          <l>And when we are emploid in ſuch ſweet praiſe,</l> 
+          <l>Bees ſwarme and leaue their honey on our bayes<hi style="font-style: normal;">:</hi></l> 
+          <l>Euermore Muſically Verſes runne,</l> 
+          <l>When the loth’d vaine of flattery they ſhun.</l>
+          </lg>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 6rem; font-style: italic; font-size: 100%;">Suruey</fw>
+      <pb facs="molproq:2240915328|6" n="B2r" xml:id="MONU1_sig_B2r"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+        <lg xml:id="MONU1_d2e1540_2" prev="#MONU1_d2e1540_1" style="margin-left: 6rem; font-style: italic; padding-bottom: 1rem;"> 
+          <l>Suruey moſt Noble Pretor what ſucceedes,</l> 
+          <l>Vertue low bred aſpiring to high deedes.</l></lg>
+      
+       <p style="margin-left: 6rem; text-indent: 1.5em;">Theſe paſſing on, in the next place, my Lord is<lb/>
+        incountred with the perſon of <name ref="mol:HAWK2">S. <hi style="font-style:italic;">Iohn Hawkwood</hi></name> in<lb/>
+        compleate Armour, his plume and Feath<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">e</supplied>r for his<lb/>
+        Horſes ſhafforne of the Companies colours, white<lb/>
+         and Wa<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">t</supplied>chet:<!--note type="editorial" resp="mol:TAKE1">White and watchet (<quote>A light blue colour</quote>) were the <name type="org" ref="mol:META1">Merchant Taylors’ Company</name> colours (<ref type="bibl" target="mol:OEDI1"><title level="m">OED</title> watchet, n.1.a.</ref>)</note--> this worthy Knight, did moſt wor<lb type="hyphenInWord"/>
+        thy ſeruice, in the <date calendar="mol:regnal" when-custom="r_EDWA3" datingMethod="mol:regnal">time of <name ref="mol:EDWA3"><hi style="font-style:italic;">Edward</hi> the third</name></date> in<lb/>
+        F<hi style="font-style: italic;">rance</hi>, after ſerued as Generall.</p>
+      <p style="margin-left: 6rem; text-indent: 1.5em; padding-bottom: 1rem;">Diuers Princes of <hi style="font-style:italic;">Italy</hi>, went to the Holy-land,<lb/>
+          and in his returne backe, dyed at F<hi style="font-style:italic;">lorence</hi>, and there<lb/>
+          lyes buried with a faire Monument ouer him: This<lb/>
+          worthy Gentleman was Free of our Company; and<lb/>
+          thus I prepare him to giue my Lord entertainment.</p>
+      
+      <label place="inline" style="text-align: center; padding-bottom: 1rem;"><name ref="mol:HAWK2">Sir <hi style="font-style:italic;">Iohn Hawkwood</hi></name><hi style="font-style:italic;">s</hi> Speech.<lb/></label>
+      
+      <lg style="margin-left: 6rem; font-style:italic; padding-bottom: 1rem;"><l><hi style="float: left; font-style: normal; font-size: 350%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;font-style:normal;" xml:id="MONU1_DC_4">M</hi>Y birth was meane, yet my deſeruings grew</l> 
+          <l>To eminence, and in <hi style="font-style:normal;">France</hi> a high pitch flew,</l> 
+          <l>From a poore common Souldier I attaind,</l> 
+          <l>The ſtile of Captaine, and then Knight-hood gaind;</l> 
+          <l>S<supplied resp="mol:SIMP5" reason="ink-smudged" evidence="internal">e</supplied>rud the <name ref="mol:EDWA2" style="font-style:normal;">Blacke Prince</name> in <hi style="font-style:normal;">France</hi> in all his warrs;</l> 
+          <l>Then went t’the Holy-land, thence brought my ſcars.</l> 
+          <l>And wearied body which no danger feard.</l> 
+          <l>To <hi style="font-style:normal;">Florence</hi> where it nobly lyes Inteerd,</l> 
+          <l>There <name ref="mol:HAWK2">Sir <hi style="font-style:normal;">Iohn Hawkewood</hi></name>s memory doth liue,</l> 
+          <l>And to the <name type="org" ref="mol:META1" style="font-style:normal;">Merchant-Taylors</name> fame doth giue.</l></lg>
+        
+<p xml:id="MONU1_d2e1728_1" next="#MONU1_d2e1728_2" style="margin-left: 6rem;">After him followes a Triumphant <hi style="font-style:italic;">Chariot</hi> with the<lb/>
+        </p>
+      <fw type="signature" style="letter-spacing: .25rem; text-align: center;">B2</fw>
+      <fw type="catchword" style="text-align: right; margin-right: 5rem; margin-top: -1.2rem; font-size: 100%;">Armes</fw>
+       
+        <pb facs="molproq:2240915328|7" n="B2v" xml:id="MONU1_sig_B2v"/>
+        
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e1728_2" prev="#MONU1_d2e1728_1" style="margin-left: 6rem;">
+        Armes of the <name type="org" ref="mol:META1">Merchant-Taylors</name>, colored and guilt<lb/>
+        in ſeueral places of it, and ouer it, there is ſupported<lb/>
+        for a Cannopy, a rich and very ſpatious Pauillion,<lb/>
+        coloured Crimſon, with a Lyon Paſſant: this is<lb/>
+        drawne with fower horſes, <hi style="font-style: italic;">(</hi>for Porters would haue<lb/>
+        made it moue tottering and Improperly.<hi style="font-style: italic;">)</hi> In the<lb/>
+        <hi style="font-style:italic;">Chariot</hi> I place for the honor of the Company (of<lb/>
+        which Records remaine in the Hall:) Eight Famous<lb/>
+        Kings of this Land, that haue bin free of this Wor<lb type="hyphenInWord"/>
+        ſhipfull Company.</p> 
+        
+<p xml:id="MONU1_d2e1782_1" next="#MONU1_d2e1782_2" style="text-indent: 1.5em; margin-left: 6rem;">Firſt the Victorious <name ref="mol:EDWA3"><hi style="font-style:italic;">Edward</hi> the Third</name>, that firſt<lb/>
+          quartered the Armes of <hi style="font-style:italic;">France</hi> with <ref target="mol:ENGL2" style="font-style:italic;">England</ref>, next<lb/>
+          the Munificent <name ref="mol:RICH1"><hi style="font-style:italic;">Richard</hi> the Second</name>, that kept Ten-<lb/><!--Hyphenated compound, so not hyphenInWord-->
+          Thouſand daily in his Court in <foreign xml:lang="frm">Checkróule</foreign>, By him<lb/>
+          the Graue and diſcreet <name ref="mol:HENR4" xml:id="MONU1_HENR4_1" next="#MONU1_HENR4_2"><hi style="font-style:italic;">Henry</hi> the <hi style="font-style:italic;">Fou</hi></name><supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal"><name ref="mol:HENR4" xml:id="MONU1_HENR4_2" prev="#MONU1_HENR4_1" next="#MONU1_HENR4_3">r</name></supplied><name style="font-style:italic;" ref="mol:HENR4" xml:id="MONU1_HENR4_3" prev="#MONU1_HENR4_2">th</name>, in the<lb/>
+          next Chayres the Scourge and Terrour of <hi style="font-style:italic;">France</hi>,<lb/>
+          <name ref="mol:HENR8"><hi style="font-style:italic;">Henry</hi> the Fifth</name>, and by him his religious, though<lb/>
+          vnfortunate Sonne, <name ref="mol:HENR2"><hi style="font-style:italic;">Henry</hi> the ſixt</name>: the two next<lb/>
+          Chayres are ſupplied with the Perſons of the Ama<lb type="hyphenInWord"/>
+          rous and Perſonable <name ref="mol:EDWA6"><hi style="font-style:italic;">Edward</hi> the Fourth</name> (for ſo<lb/>
+  <name ref="mol:COMM7" style="font-style:italic;">Phillip Commineus</name>, and <name ref="mol:MORE1">Sir <hi style="font-style:italic;">Thomas Moore</hi></name> deſcribe<lb/>
+          him) the other with the bad man, but the good<lb/>
+          King, <name ref="mol:RICH3"><hi style="font-style:italic;">Richard</hi> the third</name>, for ſo the Lawes he made<lb/>
+          in his <date calendar="mol:regnal" when-custom="r_RICH3" datingMethod="mol:regnal">ſhort Gouernment</date> doe Illuſtrate him; But<lb/>
+          laſtly in the moſt Eminent part of the <hi style="font-style:italic;">Chariot</hi> I<lb/>
+          place the wiſe and politique <name ref="mol:HENR5"><hi style="font-style:italic;">Henry</hi> the Seauenth</name>,<lb/>
+          houlding the Charter by which the Company was<lb/>
+          Improued from the Title of Linin-Armorers into<lb/>
+  the name of Maſter and Wardens of <name type="org" ref="mol:META1">Merchant-<lb/>
+            Taylors of Saint <hi style="font-style:italic;">Iohn Baptiſt</hi></name>. The Chayres of theſe<lb/>
+          </p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 5rem; font-size: 100%;">Kings</fw>
+      <pb facs="molproq:2240915328|7" n="B3r" xml:id="MONU1_sig_B3r"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e1782_2" prev="#MONU1_d2e1782_1" style="margin-left: 6rem;">
+          Kings that were of the Houſe of <hi style="font-style:italic;">Lancaſter</hi> are gar<lb type="hyphenInWord"/>
+          niſht with artificiall Red Roſes, the reſt with white,<lb/>
+          but the Vniter of the deuiſion and houſes, <name ref="mol:HENR5">Henry<lb/>
+          the Seauenth</name>, both with White and Red, from<lb/>
+          whence his Royall Maieſty how raigning tooke his<lb/>
+          <hi style="font-style:italic;">Motto</hi>: for one peice of his Coyne, <foreign xml:lang="la">Henricus roſas<lb/>
+            regna Iacobus</foreign>.</p><!--KMF would Henricus and Iacobus be tagged in this instance?-->
+        <p style="margin-left: 6rem; text-indent: 1.5em; padding-bottom: 1.5rem;">The ſpeaker in this <hi style="font-style:italic;">Pageant</hi> is <name ref="mol:EDWA3"><hi style="font-style:italic;">Edward</hi> the third</name>,<lb/>
+          the laſt Line of his ſpeech is repeated by all the reſt<lb/>
+          in the <hi style="font-style:italic;">Chariot</hi>.</p>
+      
+      <label place="inline" style="text-align: center; font-size: 120%; padding-bottom: 1rem;"><name ref="mol:EDWA3"><hi style="font-style: italic;">Edward</hi> the Third</name>.</label>
+      
+        <lg style="margin-left: 6rem; font-style:italic; padding-bottom: .5rem;"><l><hi style="float: left; font-style: normal; font-size: 350%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;font-style:normal;" xml:id="MONU1_DC_5">V</hi>Iew whence the <name type="org" ref="mol:META1">Merchanttaylors</name> honor ſprings</l> 
+      <l>From this moſt Royall Conuenticle of Kings<hi style="font-style: normal;">:</hi></l> 
+      <l>Eight that Succeſſiuely wore <hi style="font-style:normal;"><ref target="mol:ENGL2">England</ref>s</hi> Crowne</l> 
+      <l>Held it a ſpeciall honor, and renowne<hi style="font-style: normal;">:</hi></l> 
+      <l><hi style="font-style: normal;">(</hi>The Society was ſo worthy, and ſo good<hi style="font-style: normal;">)</hi></l> 
+      <l>T’vnite themſelues into their Brotherhood.</l> 
+      <l>Thus <name ref="mol:TIME2">Time</name>, and <name ref="mol:INDU1">Induſtry</name> attaine the priſe,</l> 
+      <l>As Seas from Brookes, as brookes from Hillocks riſe,</l>
+      <l>Let all good men this ſentence oft repeate,</l> 
+      <l>By vnity the ſmalleſt things grow great.</l></lg> 
+      
+      <label place="inline" style="text-align: center; font-size: 92%;">The Kings.</label> 
+        <l style="margin-left: 6rem; padding-bottom: 0.5rem; font-style:italic;">By vnity the ſmalleſt things grow great.</l> 
+        
+        <p style="margin-left: 6rem; text-indent:1em; padding-bottom: 1rem;">And this repetition was proper, for it is the Com<lb type="hyphenInWord"/>
+          panies Motto: <foreign xml:lang="la">Concordia paruæres creſcunt</foreign>.</p>
+
+      
+      
+<p xml:id="MONU1_d2e2047_1" next="#MONU1_d2e2047_2" style="margin-left: 6rem; text-indent: 1.5em;">After this Pageant rides <name ref="mol:ANNE3">Queene <hi style="font-style:italic;">Anne</hi></name>, wife to<lb/>
+        <name ref="mol:RICH1"><hi style="font-style:italic;">Richard</hi> the ſecond</name>, free likewiſe of this Company,
+        </p>
+      
+      <fw type="signature" style="letter-spacing: .25rem; text-align: center; font-size: 100%;">B3</fw>
+      <fw type="catchword" style="text-align: right; margin-right: 5.5rem; margin-top: -1.2rem; font-size: 100%;">nor</fw>
+        
+        <pb facs="molproq:2240915328|8" n="B3v" xml:id="MONU1_sig_B3v"/>
+        
+      <fw type="header" style="font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e2047_2" prev="#MONU1_d2e2047_1" style="margin-left: 6rem;">
+        nor let it ſeeme ſtrange, for beſides her, there were<lb/>
+        two Dutcheſſe, fiue Counteſſes, and two Barron<lb type="hyphenInWord"/>
+        neſſes free of this Society, ſ<supplied resp="mol:TAKE1" reason="ink-smudged" evidence="internal">e</supplied>uenteene Princes and<lb/>
+        Dukes, one Arch-biſhop, one and thirty Earles,<lb/>
+        (beſides thoſe made with Noble Prince) <name ref="mol:HENR9" style="font-style: italic;">Henry</name>, one<lb/>
+        Vicount, twenty foure Biſhops, ſixty ſix Barons,<lb/>
+        ſeuen Abbotts, ſ<supplied resp="mol:TAKE1" reason="gap-in-inking" evidence="internal">e</supplied>uen prior; or ſubprior, and with<lb/>
+        <name ref="mol:HENR9">Prince <hi style="font-style: italic;">Henry</hi></name> in the yeare <date when-custom="1607" datingMethod="mol:julianSic" calendar="mol:julianSic">1607</date>. the <name ref="mol:STUA1">Duke of <hi style="font-style:italic;">Linox</hi></name>,<lb/>
+        the Earles of <name ref="mol:HOWA13" style="font-style:italic;">Nottingham</name>, <name ref="mol:HOWA14" style="font-style:italic;">Suffolke</name>, <name ref="mol:HOWA6" style="font-style:italic;">Arundel</name>, <name ref="mol:VERE3" style="font-style:italic;">Oxford</name>,<lb/>
+        <name ref="mol:SOME5" style="font-style:italic;">Worceſter</name>, <name ref="mol:HERB2" style="font-style:italic;">Pembrooke</name>, <name ref="mol:ESSE2" style="font-style:italic;">Eſſex</name>, <name ref="mol:HOWA15" style="font-style:italic;">Northampton</name>, <name ref="mol:CECI2" style="font-style:italic;">Saliſbury</name>,<lb/>
+        <name ref="mol:HERB7" style="font-style:italic;">Montgomery</name>, the <name ref="mol:DRUM1">Earle of <hi style="font-style:italic;">Perth</hi></name>, <name ref="mol:CECI4">Vicount <hi style="font-style:italic;">Cran<lb type="hyphenInWord"/>
+          borne</hi></name>: Barons, the <name ref="mol:EUER1">Lord <hi style="font-style:italic;">Euers</hi></name>, <name ref="mol:CARE7" style="font-style:italic;">Hunſden</name>, <name ref="mol:JHAY1" style="font-style:italic;">Hayes</name>,<lb/>
+        <!--unknown name here--><hi style="font-style: italic;">Borley</hi>, Mr. <name ref="mol:HOWA16" style="font-style:italic;">Howard</name>, Mr. <name ref="mol:SHEF1" style="font-style:italic;">Sheffield</name>, <name ref="mol:HARI4">Sir <hi style="font-style:italic;">Iohn Harrin<lb type="hyphenInWord"/>
+          ton</hi></name>, <name ref="mol:CHAL3">Sir <hi style="font-style:italic;">Thomas Chaliner</hi></name>, beſides States of the<lb/>
+        Low-Countries, and <name ref="mol:CARO1">Sir <hi style="font-style:italic;">Noel Caroone</hi></name> their Legier<lb/>
+        Embaſſadour.<!--note type="editorial" resp="mol:TAKE1">We are particularly indebted to <ref type="bibl" target="mol:GUNB1">Gunby, Carnegie, and Jackson 3:270-294</ref> for their biographical identifications.</note--></p> 
+        
+<p xml:id="MONU1_d2e2222_1" next="#MONU1_d2e2222_2" style="margin-left: 6rem; text-indent: 1.5em;">And in regard our Company are ſtild <name type="org" ref="mol:META1">Brethren<lb/>
+          of the Fraternity of St. <hi style="font-style:italic;">Iohn Baptiſt</hi></name>, and that the<lb/>
+          ancient Knights of St. <hi style="font-style:italic;">Iohn of Ieruſalem</hi>, (to which<lb/>
+          now demoliſht Houſe<!--note resp="mol:LEBE1" type="editorial">According to <ref type="bibl" target="mol:GUNB1">Gunby, Carnegie, and Jackson 3:270-294</ref>, this was demolished in <date calendar="mol:julianSic" datingMethod="mol:julianSic" when-custom="1549">1549</date>. It was also known as Knights Hospitallers.</note--> in <ref target="mol:STJO2">St. <hi style="font-style: italic;">Iohns</hi> Streete</ref>, our<lb/>
+          Company then vſing to go to offer, it is recorded<lb/>
+          <name ref="mol:HENR5"><hi style="font-style:italic;">Henry</hi> the ſeuenth</name> then accompaning them, gaue<lb/>
+          our M<hi style="font-size:75%; vertical-align: .4rem;">r</hi>. the vpper hand,) becauſe theſe Knights, I<lb/>
+          ſay, were inſtituted to ſecure the way for Pilgrimes;<lb/>
+          in the deſert, I preſent therefore two of the Wor<lb type="hyphenInWord"/>
+          thieſt Brothers of this <name type="org" ref="mol:META1">Society of St. <hi style="font-style:italic;">Iohn Baptiſt</hi></name> I<lb/>
+          can find out in Hyſtory. The firſt <name ref="mol:SAVO2" style="font-style:italic;">Amade le Graunde</name>,<lb/>
+          by whoſe ayde <hi style="font-style:italic;">Rhodes</hi> was recouered from the<lb/>
+          <hi style="font-style:italic;">Turkes</hi>, and the order of Anuntiade or Salutati<lb type="hyphenInWord"/>
+          on inſtituted with that of foure letters <hi style="letter-spacing: 2pt;">FER</hi>T, ſig<lb type="hyphenInWord"/></p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 5rem; font-size: 100%;">nifying</fw>
+      <pb facs="molproq:2240915328|8" n="B4r" xml:id="MONU1_sig_B4r"/>
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e2222_2" prev="#MONU1_d2e2222_1" style="margin-left: 6rem;">
+          nifying, <foreign xml:lang="la">Fortitudo Eius Rhodum Tenuit</foreign>; and the o<lb type="hyphenInWord"/>
+          ther of <foreign xml:lang="fr">Mounſieur</foreign> <name ref="mol:VALE1" style="font-style:italic;">Iean Valet</name>, who defended <hi style="font-style:italic;">Malta</hi><lb/>
+          from the <hi style="font-style: italic;">Turkes</hi> inuation, and expeld them from<lb/>
+          that impregnable Key of Chriſtendome this<lb/>
+          ſtild, Great Maiſter of <hi style="font-style:italic;">Malta</hi>, that Gouernour of<lb/>
+          <hi style="font-style:italic;">Rhodes</hi>.</p>
+        <p style="margin-left: 6rem; text-indent: 1.5em;">Next I bring our two Sea Tryumphs, and af<lb type="hyphenInWord"/>
+          ter that, the Shippe called the <hi style="font-style:italic;">Holy-Lambe</hi>, which<lb/>
+        brings hanging in her Shrowdes the Golden-<lb/>
+        Fleece, the conceite of this being that God is<lb/>
+        the Guide and Protector of all Proſperous Ven<lb type="hyphenInWord"/>
+        tures.</p>
+        <p style="margin-left: 6rem; text-indent: 1.5em;">To ſecond this, follow the two beaſts, the Lyon<lb/>
+          and Cammell proper to the Armes of the Com<lb type="hyphenInWord"/>
+          pany; on the Camell rides a <hi style="font-style:italic;">Turke</hi>, ſuch as vſe to<lb/>
+          Trauaile with Carauans, and one the Lyon a<lb/>
+          Moore or wild <hi style="font-style:italic;">Numidian</hi>.<!--note type="editorial" resp="mol:TAKE1">Numidia was <quote>an ancient kingdom and later a Roman province, situated in North Africa in an area corresponding roughly to present-day Algeria</quote> (<ref type="bibl" target="mol:OEDI1"><title level="m">OED</title> Numidian, n.</ref>).</note--></p>
+        
+<p xml:id="MONU1_d2e2389_1" next="#MONU1_d2e2389_2" style="text-indent: 1.5em; margin-left: 6rem;">The fourth eminent Pagiant, I call the <hi style="font-style:italic;">Monu<lb type="hyphenInWord"/>
+       ment of <name ref="mol:CHAR10">Charity</name> <hi style="font-style:normal;">and</hi> <name ref="mol:LEAR1">Learning</name></hi>, this faſhioned like<lb/>
+       a beautifull Garden with all kind of flowers, at the<lb/>
+       foure Corners, foure artificiall Bird Cages, with<lb/>
+       variety of Birds in them: this for the beauty of the<lb/>
+       Flowers, and melody of the Birds, to repreſent a<lb/>
+       Spring in Winter: in the middeſt of the Garden,<lb/>
+       vnder one Elme-tree, ſits the famous and worthy<lb/>
+          Patriot <name ref="mol:WHYT1">Sir <hi style="font-style:italic;">Thomas White</hi></name>; who had a dreame that<lb/>
+       hee ſhould build a Colledge where two bodies<lb/>
+       of an Elme ſprang from one roote, and beeing<lb/>
+          inſpired to it by God, firſt rod to <hi style="font-style:italic;">Cambridge</hi>,<lb/>
+       to ſee if he could find any ſuch, Failing of it there,<lb/>
+       </p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 6rem; font-size: 100%;">went</fw>
+       <pb facs="molproq:2240915328|9" n="B4v" xml:id="MONU1_sig_B4v"/>
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e2389_2" prev="#MONU1_d2e2389_1" style="margin-left: 6rem;">
+       went to Oxford and ſurueighing all the grounds, in<lb/>
+       and neere the Vniuerſity, at laſt in Gloſter-Hall-<lb/>
+       garden, he found one that ſomewhat reſembled it,<lb/>
+       vpon which he reſolued to endow it with larger re<lb type="hyphenInWord"/>
+       uenew, and to increaſe the foundation, hauing<lb/>
+       ſet men at worke vpon it, and riding one day out at<lb/>
+       the North-Gate at Oxford, he ſpied on his right<lb/>
+       hand the ſelfe ſame Elme had bin figurd him in his<lb/>
+       dreame, wherevpon he giues o’re his former pur<lb type="hyphenInWord"/>
+       poſe, of ſo amply inlarging Gloſter-Hall (yet<lb/>
+       not without a large exhibition to it) purchaſes the<lb/>
+       ground where the Elme ſtood: and in the ſame<lb/>
+          place built the Colledge of <hi style="font-style:italic;">Saint Iohn Baptiſt</hi>, and<lb/>
+       to this day the Elme growes in the Garden, care<lb type="hyphenInWord"/>
+       fully preſerued; as beeing vnder God a motiue to<lb/>
+       their worthy foundation.</p> 
+        <p style="margin-left: 6rem; text-indent: 1.5em;">This I haue heard Fellowes of the Houſe of ap<lb type="hyphenInWord"/>
+        proued credit, and no way ſuperſtitiouſly giuen,<lb/>
+        affirme to haue bin deliuered from man to man,<lb/>
+          ſince the firſt building of it, and that <name ref="mol:WHYT1">Sir <hi style="font-style:italic;">Thomas<lb/>
+            White</hi></name> inuiting the <name ref="mol:KING9">Abbot of <hi style="font-style:italic;">Oſnye</hi></name> to dinner in the<lb/>
+        aforeſayd Hall, In the Abbots preſence, and the<lb/>
+        hearing of diuers other graue perſons affirm’d by<lb/>
+        Gods Inſpiration in the former receited maner, he<lb/>
+        built and endowed the Colledge.</p>
+        
+<p xml:id="MONU1_d2e2516_1" next="#MONU1_d2e2516_2" style="text-indent: 1.5em; margin-left: 6rem;">This relation is ſomwhat with the largeſt, only<lb/>
+          to giue you better light of the figure: the cheife per<lb type="hyphenInWord"/>
+          ſon in this is, <name ref="mol:WHYT1">Sir <hi style="font-style:italic;">Thomas White</hi></name>, ſitting in his Emi<lb type="hyphenInWord"/>
+          nent Habit of Lord Maior, on the one hand ſits<lb/>
+          <name ref="mol:CHAR10" style="font-style:italic;">Charity</name> with a Pellican on her head, on the other<lb/>
+          </p>
+      
+      <fw type="catchword" style="text-align: right; font-style:italic; margin-right: 6rem; font-size: 100%;"><name ref="mol:LEAR1">Learning</name></fw>
+          <pb facs="molproq:2240915328|9" n="C1r" xml:id="MONU1_sig_C1r"/>
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e2516_2" prev="#MONU1_d2e2516_1" style="margin-left: 6rem; padding-bottom: 1rem;">
+          <name ref="mol:LEAR1">Learning</name><!--note type="editorial" resp="mol:TAKE1"><quote>Learning</quote> should be italicized, as shown through the italicization of <name ref="mol:CHAR10">Charity</name> and the catchword <quote style="font-style:italic;">Learning</quote>.</note--> with a booke in one hand, and a Lawrel<lb/>
+          Wreath in the other, behind him is the Colledge<lb/>
+          of St. <hi style="font-style:italic;">Iohn Baptiſt</hi> in <hi style="font-style:italic;">Oxford</hi> exactly modeld, two<lb/>
+          Cornets which for more pleaſure anſwere one and<lb/>
+          another interchangably, and round about the<lb/>
+          Pageant ſit twelue of the foure and twentie Cities,<lb/>
+          (for more would haue ouer-burthened it<hi style="font-style: italic;">)</hi> to which<lb/>
+          this worthy Gentleman hath beene a charitable<lb/>
+          Benefactor when my Lord approaches to the front<lb/>
+          of this peece: <name ref="mol:LEAR1" style="font-style:italic;">Learning</name> humbles her ſelfe to him in<lb/>
+          theſe enſuing verſes.</p>
+      
+      <label place="inline" style="text-align: center; font-style:italic; padding-bottom: 1rem; font-size: 120%;">The Speech of <name ref="mol:LEAR1" style="font-style:normal;">Learning</name>.</label>
+        
+<lg xml:id="MONU1_d2e2603_1" next="#MONU1_d2e2603_2" style="margin-left: 6rem; font-style: italic;"><l><hi style="float: left; font-style: normal; font-size: 200%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;font-style:normal; font-weight:900;" xml:id="MONU1_DC_6">T</hi>O expreſſe what happineſſe the Country yeilds,</l>
+      <l>The Poets faign’d Heauen in th’Elizian fields;</l>
+      <l>We figure here a Garden, freſh and new,</l>
+      <l>In which the chiefeſt of our bleſſings grew:</l>
+      <l>This worthy Patriot here, <name ref="mol:WHYT1" style="font-style:normal;">Sr. Thomas White</name>,</l>
+      <l>Whilst he was liuing had a dreame one night,</l>
+      <l>He had built a Colledge and giuen liuing too’t,</l>
+      <l>Where two Elme-bodies ſprang vp from on root;</l>
+      <l>And as he dreamt, moſt certaine tis he found,</l>
+      <l>The Elme neare <hi style="font-style:normal;">Oxford</hi>, and vpon that Ground,</l>
+      <l>Built Saint <hi style="font-style: normal;">Iohns</hi> Colledge, <name ref="mol:TRUT1">Truth</name> can testifie</l>
+      <l>His merrit, whilſt his <name ref="mol:FAIT1">Faith</name> and <name ref="mol:CHAR10">Charity</name></l>
+      <l>Was the true compaſſe, meaſur’d euery part,</l>
+      <l>And tooke the latitude of his Chriſtian heart;</l>
+      <l><name ref="mol:FAIT1">Faith</name> kept the center, <name ref="mol:CHAR10">Charity</name> walkt this round,</l>
+      <l>Vntill a true circumference was found;</l>
+          </lg>
+      
+      <fw type="signature" style="text-align: center; font-style: normal; font-size: 100%;">C</fw>
+      <fw type="catchword" style="text-align: right; font-style: italic; margin-right: 6rem; margin-top: -1.2rem; font-size: 100%;">And</fw>
+          
+          <pb facs="molproq:2240915328|10" n="C1v" xml:id="MONU1_sig_C1v"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+      <lg xml:id="MONU1_d2e2603_2" prev="#MONU1_d2e2603_1" style="margin-left: 6rem; font-style: italic;">
+      <l>And may the Impreſſion of this figure ſtrike,</l>
+      <l>Each worthy Senator to do the like.</l></lg>
+      <p style="margin-left: 6rem; text-indent: 1.5em;">The laſt, I call the <hi style="font-style:italic;">Monument of Gratitude</hi>, which<lb/>
+        thus dilates it ſelfe.</p>
+        
+<p xml:id="MONU1_d2e2707_1" next="#MONU1_d2e2707_2" style="margin-left: 6rem; text-indent: 1.5em;">Vppon an Artificiall Rocke, ſet with mother of<lb/>
+          Pearle; and ſuch other precious ſtones, as are found<lb/>
+          in quarries, are placed foure curious Paramids<lb/>
+          charged with the Princes Armes, the three Fea<lb type="hyphenInWord"/>
+          thers, which by day yeeld a glorious ſhew, and<lb/>
+          by night a more goodly, for they haue lights in<lb/>
+          them, that at ſuch time as my Lord Maior returnes<lb/>
+          from <ref target="mol:STPA2" style="font-style: italic;">Pauls</ref>, ſhall make certaine ouals and ſquares,<lb/>
+          reſemble pretious ſtones, the Rocke expreſſes the<lb/>
+          riches of the Kingdome <name ref="mol:HENR9">Prince <hi style="font-style:italic;">Henry</hi></name> was borne<lb/>
+          Heire to, the Piramids, which are Monuments for<lb/>
+          the Dead, that hee is deceaſed: on the top of this<lb/>
+          reſts halfe a Celeſtiall Globe, in the middeſt of this<lb/>
+          hangs the Holy Lambe in the Sunbeames, on<lb/>
+          either ſide of theſe, an Angell, vpon a pedeſtall<lb/>
+          of gold ſtands the figure of <name ref="mol:HENR9">Prince <hi style="font-style:italic;">Henry</hi></name> with his<lb/>
+          Coronet, George and Garter; in his left hand hee<lb/>
+          holds a Circklet or Crimſon Veluet, charged with<lb/>
+          foure Holy Lambes, ſuch as our Company chooſe<lb/>
+          Maſters with; in ſeuerall Cants beneath ſits, firſt<lb/>
+          Magiſtracy tending a Bee Hiue, to expreſſe his<lb/>
+          Grauety in Youth, and forward induſtry to haue<lb/>
+          proued an ab<supplied resp="mol:TAKE1" reason="ink-smudged" evidence="internal">ſ</supplied>olute Gouernour: Next <name ref="mol:LIBE2">Liberality</name>,<lb/>
+          by her a Dromedary ſhewing his ſpeed and alacrety<lb/>
+          in gratifying his Followers: Nauigation with a<lb/>
+          <hi style="font-style:italic;">Iacobs</hi> Staffe and Compaſſe, expreſſing that his de<lb type="hyphenInWord"/>
+          </p>
+      
+      <fw type="catchword" style="text-align: right; margin-right: 5rem; font-size: 100%;">ſire</fw>
+          <pb facs="molproq:2240915328|10" n="C2r" xml:id="MONU1_sig_C2r"/>
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<p xml:id="MONU1_d2e2707_2" prev="#MONU1_d2e2707_1" style="margin-left: 6rem;">
+          ſire that his reading that way, might in time grow<lb/>
+          to the practicke &amp; building, to that purpoſe one of<lb/>
+          the goodlieſt Ships was euer launcht in the Riuer:<lb/>
+          in the next Vnanimity with a Chaplet of Lyllies, in<lb/>
+          her lap a ſheafe of Arrowes, ſhewing he loued No<lb type="hyphenInWord"/>
+          bility, and Communalty with an intire heart. Next<lb/>
+          <name ref="mol:INDU1" style="font-style:italic;">Induſtry</name> on a hill where Antes are whording vp<lb/>
+          Corne, expreſſing his forward inclination to all<lb/>
+          Noble exerciſe: Next <name ref="mol:CHAS1" style="font-style:italic;">Chaſtity</name>, by her a Vnicorne,<lb/>
+          ſhewing it is guide to all other vertues, and cleares<lb/>
+          the Fountaine head from all poyſon: <name ref="mol:JUST1" style="font-style:italic;">Iuſtice</name> with<lb/>
+          her properties: Then <name ref="mol:OBED1" style="font-style:italic;">Obedience</name>, by her an Elephant<lb/>
+          the ſtrongeſt Beaſt, but moſt obſeruant to man of<lb/>
+          any Creature: Then <name ref="mol:PEAC3" style="font-style:italic;">Peace</name> ſleeping vpon a Canon,<lb/>
+          alluding to the eternall Peace he now poſſeſſes: <name ref="mol:FORT3" style="font-style:italic;">For<lb type="hyphenInWord"/>
+          titude</name> a Pillar in one hand, a Serpent wreath’d a<lb type="hyphenInWord"/>
+          bout the other, to expect his height of minde, and<lb/>
+          the expectation of an vndaunted reſolution. Theſe<lb/>
+          twelue thus ſeated, I figure <name ref="mol:LOYA1" style="font-style:italic;">Loyalty</name> as well ſworne<lb/>
+          Seruant to this City, as to this Company, and at<lb/>
+          my Lord Maiors comming from <ref target="mol:STPA3" style="font-style:italic;">Pauls</ref>, and going<lb/>
+          downe <ref target="mol:WOOD1" style="font-style:italic;">Wood-ſtreete</ref>,<!--note type="editorial" resp="mol:TAKE1">This speech would be given at the <quote>Lordhship’s gate;</quote> thus, <name ref="mol:GORE1">John Gore</name> presumably lived on <ref target="mol:WOOD1">Wood Street</ref>.</note--> <name ref="mol:SAVO2" style="font-style:italic;">Amade le Graunde</name> deliuers this<lb/>
+          Speech vnto him.</p>
+     
+      <label place="inline" style="text-align: center; font-size: 130%;"><hi style="font-style:italic; font-style: italic;">The Speech of</hi> <name ref="mol:SAVO2">Amade le Graunde</name>.</label>
+      
+      <lg xml:id="MONU1_d2e2902_1" next="#MONU1_d2e2902_2" style="margin-left: 6rem; font-style: italic;"><l><hi style="float: left; font-style: normal; font-size: 350%; margin-right: 0.05em; padding: 0; line-height: 90%; display: inline-block;font-style:normal;" xml:id="MONU1_DC_7">O</hi>F all the Triumphs which your eye has view’d</l> 
+      <l>This the fayre Monument of <hi style="font-style:normal;">Gratitud</hi>;</l> 
+      <l>This cheefly ſhould your eye, and eare Imploy</l> 
+      <l>That was of al your <hi style="font-style:normal;">Brother-hood</hi> the Ioy,</l>
+      <l>Worthy <name ref="mol:HENR9">Prince <hi style="font-style:normal;">Henry</hi></name> fames best preſident,</l> 
+      <l>Cald to a higher Court of Parliament,</l>
+          </lg>
+      
+      <fw type="signature" style="text-align: center; letter-spacing: .25rem; font-size: 100%;">C2</fw>
+      <fw type="catchword" style="text-align: right; font-style: italic; margin-top: -1.2rem; margin-right: 5rem; font-size: 100%;">In</fw>
+          
+          <pb facs="molproq:2240915328|11" n="C2v" xml:id="MONU1_sig_C2v"/>
+          
+      <fw type="header" style=" font-style: italic; font-size: 150%; padding-bottom: .5rem; text-align: center;">Monuments of <hi style="font-style:normal;">Honor.</hi></fw>
+      
+<lg xml:id="MONU1_d2e2902_2" prev="#MONU1_d2e2902_1" style="margin-left: 6rem; padding-bottom: 1rem; font-style: italic;">
+      <l>In his full ſtrength of Youth and height of blood,</l> 
+      <l>And which Crownd all, when he was truely good<hi style="font-style: normal;">:</hi></l> 
+      <l>On <name ref="mol:VERT1">Vertue</name>, and on <name ref="mol:WORT1">Worth</name> he ſtill was throwing</l> 
+  <l>Moſt bounteous ſhewers, where er’e he found them <hi style="position: relative; float: right; margin-right: 6.2rem;">(growing,</hi></l>
+       <l>He neuer did diſguiſe his wayes by Art</l> 
+      <l>But ſhooted his intents vnto his hart,</l> 
+      <l>And lou’d to do good, more for goodneſſe ſake,</l> 
+      <l>Then any retribution man could make.</l> 
+      <l>Such was this Prince,<!--note type="editorial" resp="mol:LEBE1"><name ref="mol:HENR9">Prince Henry Frederick</name>.</note--> ſuch are the noble hearts;</l> 
+      <l>who when they dye, yet dye not in all parts<hi style="font-style: normal;">:</hi></l> 
+      <l>But from the <hi style="font-style:normal;">Integrety</hi> of a Braue mind,</l>
+      <l>Leaue a moſt Cleere and Eminent Fame behind.</l> 
+      <l>Thus hath this Iewell not quite loſt his Ray,</l> 
+      <l>Only caſ’d vp ’gainſt a more glorious day.</l>
+      <l>And bee’t rememberd that our Company</l> 
+      <l><hi style="font-style: normal;">H</hi>aue not forgot him who ought ner’e to dye<hi style="font-style: normal;">:</hi></l> 
+      <l>Yet, wherfore ſhould our ſorrow giue him dead,</l> 
+      <l>When a new <hi style="font-style:normal;">Phnæix</hi> ſprings vp in his ſtead<hi style="font-style: normal;">:</hi></l> 
+      <l>That as he ſeconds him in euery grace,</l> 
+      <l>May ſecond him in <hi style="font-style:normal;">Brother-hood</hi>, and place.</l>
+      <l>Good reſt my Lord, <name ref="mol:INTE2" style="font-style:normal;">Integrity</name> that keeps</l> 
+      <l>The ſafeſt Watch and breeds the ſoundeſt ſleeps.</l> 
+      <l>Make the laſt day of this your houlding ſeate,</l> 
+      <l>Ioyfull as this; or rather more compleate.</l></lg> 
+      
+        <p style="margin-left: 6rem; font-size: 80%; text-indent: .5em; padding-bottom: 1rem;">I could, a more curious and Elaborate way haue expreſt my ſelfe<lb/>
+        in theſe my endeauors, but to haue bin rather too teadious in my<lb/>
+        Speeches, or too weighty, might haue troubled my Noble Lord,<lb/>
+        and puſled the vnderſtanding of the Common People; ſuffice it, I<lb/>
+        hope ’tis well, and if it pleaſe his Lordſhip, and my Wort<supplied resp="mol:TAKE1" reason="ink-smudged" evidence="internal">h</supplied>y Im<lb type="hyphenInWord"/>
+        ployers, I am amply ſati<supplied resp="mol:TAKE1" reason="faded-ink" evidence="internal">ſ</supplied>fied.</p>
+      
+      <trailer style="text-align: center; font-size:125%;">FINIS.</trailer>
+    </div>
+  </body>
+  </text>
+</TEI>
