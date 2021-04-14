@@ -12,6 +12,6 @@ jobs:
       - name: Test the action
         uses: ./
         with:
-            rng: ${{ GITHUB_WORKSPACE }}/test/schema/tei_all.rng
-            dir: ${{ GITHUB_WORKSPACE}}/test/xml
+            rng: ${{ github.workspace }}/test/schema/tei_all.rng
+            dir: ${{ github.workspace }}/test/xml
         
