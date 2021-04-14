@@ -7,8 +7,12 @@ inputs:
   dir:
     description: 'Directory of XML files to validate'
     required: true
+  failOnError:
+    description: "Whether or not the build should fail on error"
+    required: false
+    default: true
 runs:
   using: "composite"
   steps:
-    - run: ant -f ${{ github.action_path }}/build.xml -Drng=${{ inputs.rng }} -Ddir=${{ inputs.dir }}
+    - run: ant -f ${{ github.action_path }}/build.xml -Drng=${{ inputs.rng }} -Ddir=${{ inputs.dir }} -DfailOnError=${{ inputs.failOnError }}
       shell: bash
