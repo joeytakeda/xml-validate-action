@@ -6,6 +6,7 @@ inputs:
     required: true
   dir:
     description: 'Directory of XML files to validate'
+    required: true
 runs:
   using: "composite"
   steps:

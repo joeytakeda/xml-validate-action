@@ -11,4 +11,7 @@ jobs:
           java-version: 1.8
       - name: Test the action
         uses: ./
+        with:
+            rng: ${{ GITHUB_WORKSPACE }}/test/schema/tei_all.rng
+            dir: ${{ GITHUB_WORKSPACE}}/test/xml
         
