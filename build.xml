@@ -1,47 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="validate" default="validate">
+    <description>
+        This is a build for validating a set of XML files against a RelaxNG schema (using Jing)
+        and a schematron schema (either embedded within the RelaxNG or as an external file).
+        
+        To run, cd in this directory and do:
+        
+        ant
+        
+        That should validate all of the files in the /test/ directory.
+        
+        The three properties you'll like want to set are:
+        
+        * rng: The RelaxNG schema (default is TEI all)
+        * dir: The directory that contains all of your XML files
+        * failOnError: Whether an invalidity should fail the build (default true)
+        
+        This build also fetches the necessary libraries for validating (Jing, Saxon, and an XSL
+        pipeline for validating against an Schematron schema). If you'd rather use your own copies
+        and stop the build from fetching them, you can change the destination path; those properties are:
+        
+        * saxon: The saxon jar (i.e. path/to/my/saxon8.4he.jar)
+        * jing: The jing jar (i.e. path/to/my/local/jing.jar)
+        * xsl-schematron: The local path to the xsl-schematron directory. Note that since
+        the XSL schematron stuff is bespoke, there's really no reason that this should be set.
+    </description>
     
+    <!--**********************************************
+        *                  PROPERTIES                *
+        **********************************************-->
+   
+   <!--User configured relaxng file-->
     <property name="rng" value="test/schema/tei_all.rng"/>
+    
+   <!--User configured directory that contains the XML files to validate--> 
     <property name="dir" value="test/xml"/>
+    
+    <!--User configured switch for failure-->
     <property name="failOnError" value="true"/>
     
+    <!--Local to the Jing jar for validating against the RelaxNG schema-->
+    <property name="jing" value="${basedir}/lib/jing.jar"/>
+    
+    <!--Local path to Saxon--> 
+    <property name="saxon" value="${basedir}/lib/saxon10HE.jar"/>
+    
+    <!--Path to the schematron implementation-->
+    <property name="xsl-schematron" value="${basedir}/lib/xsl-schematron"/>
+    
+    
+    <!--**********************************************
+        *              PRIVATE PROPERTIES            *
+        **********************************************-->
+    
+    <!--These are just derived from the properties set above, 
+        so these should not be overriden-->
+    
+    <!--The absolute filename for the RNG-->
     <property name="rngFile" location="${rng}"/>
+    
+    <!--The absolute directory for the directory of files to validate-->
     <property name="absoluteDir" location="${dir}"/>
     
-    <property name="jing" value="${basedir}/lib/jing.jar"/>
-    <property name="xsl-schematron" value="${basedir}/lib/xsl-schematron"/>
-    <property name="saxon" value="${basedir}/lib/saxon10HE.jar"/>
+    <!--**********************************************
+        *               CONDITIONS                   *
+        **********************************************-->
+    
+    <!--Sets of conditions for determining if a lib
+        need to be downloaded or not-->
     
     <condition property="jingAvailable">
         <available type="file" file="${jing}"/>
     </condition>
-    
-    <condition property="xslSchematronAvailable">
-        <available type="dir" file="${xsl-schematron}"/>
-    </condition>
-    
     <condition property="saxonAvailable">
         <available type="file" file="${saxon}"/>
     </condition>
+    <!--Note that xslSchematron is a dir-->
+    <condition property="xslSchematronAvailable">
+        <available type="dir" file="${xsl-schematron}"/>
+    </condition>
+    <!--Set whether or not all are already available-->
+    <condition property="allAvailable">
+        <and>
+            <istrue value="${jingAvailable}"/>
+            <istrue value="${xslSchematronAvailable}"/>
+            <istrue value="${saxonAvailable}"/>
+        </and>
+    </condition>
+    
+    <!--**********************************************
+        *                   TARGETS                  *
+        **********************************************-->
+    
     
     <target name="getJing" unless="${jingAvailable}">
+        <description>
+            target: getJing
+            
+            Fetches the Jing jar from the Maven repo, if necessary
+        </description>
         <get src="https://repo1.maven.org/maven2/com/thaiopensource/jing/20091111/jing-20091111.jar" dest="${jing}"/>        
     </target>
     
     <target name="getSaxon" unless="${saxonAvailable}">
+        <description>
+            target: getSaxon
+            
+            Fetches the Saxon jar from the Maven repo, if necessary.
+            
+            <!--TODO: Allow for more flexibility in terms of updates-->
+        </description>
         <get src="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.3/Saxon-HE-10.3.jar" dest="${saxon}"/>
     </target>
     
     <target name="getXslSchematron" unless="${xslSchematronAvailable}">
+        <description>
+            target: getSaxon
+            
+            Fetches the XSL-schematron release from GitHub, if necessary
+            
+            <!--TODO: Allow for more flexibility in terms of updates-->
+        </description>
         <get src="https://github.com/joeytakeda/xsl-schematron/archive/refs/tags/0.9.0.zip" dest="${xsl-schematron}.zip"/>
         <unzip src="${xsl-schematron}.zip" dest="${xsl-schematron}">
             <cutdirsmapper dirs="1"/>
         </unzip>
     </target>
     
-    <target name="install" depends="getJing, getSaxon, getXslSchematron"/>
-    
+    <target name="install" unless="${allAvailable}" depends="getJing, getSaxon, getXslSchematron">
+        <description>
+            target: install
+            
+            Calls all of the other fetching targets if it needs to.
+        </description>
+    </target>
+
     <target name="rng" depends="install">
+        <description>
+            target: rng
+            
+            Validates all XML files in a directory against a RelaxNG schema
+        </description>
         <echo message="Validating against ${rng}"/>
         <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask">
             <classpath path="${jing}"/>
@@ -54,6 +153,11 @@
     </target>
     
     <target name="sch" depends="install">
+        <description>
+            target: rng
+            
+            Validates all XML files in a directory against a schematron schema
+        </description>
         <echo message="Validating against schematron contained within ${rng}"/>
         <java jar="${saxon}" fork="true" failonerror="${failOnError}">
             <arg line="-xsl:${xsl-schematron}/xsl/validate.xsl"/>
