@@ -162,7 +162,10 @@
         <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask">
             <classpath path="${jing}"/>
         </taskdef>
-        <jing rngfile="${rngFile}" failOnError="${failOnError}">
+        <jing rngfile="${rngFile}" failOnError="${failOnError}" checkid="false">
+            <!--Note @checkid must be false for dealing with mixed-namespace
+                TEI collections; this is a longstanding problem and forcing
+                to false is probably the easiest way around it-->
             <fileset dir="${absoluteDir}">
                 <include name="**/**.xml"/>
             </fileset>
@@ -171,7 +174,7 @@
     
     <target name="sch" depends="install">
         <description>
-            target: rng
+            target: sch
             
             Validates all XML files in a directory against a schematron schema
         </description>
