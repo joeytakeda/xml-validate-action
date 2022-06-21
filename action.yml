@@ -11,8 +11,12 @@ inputs:
     description: "Whether or not the build should fail on error"
     required: false
     default: true
+  exclude:
+    description: "Regex of documents to exclude"
+    required: false
+    default: ''
 runs:
   using: "composite"
   steps:
-    - run: ant -f ${{ github.action_path }}/build.xml -Drng=${{ inputs.rng }} -Ddir=${{ inputs.dir }} -DfailOnError=${{ inputs.failOnError }}
+    - run: ant -f ${{ github.action_path }}/build.xml -Drng=${{ inputs.rng }} -Ddir=${{ inputs.dir }} -DfailOnError=${{ inputs.failOnError }} -Dexclude=${{ inputs.exclude }}
       shell: bash
