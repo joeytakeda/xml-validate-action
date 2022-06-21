@@ -15,6 +15,7 @@
         * rng: The RelaxNG schema (default is TEI all)
         * dir: The directory that contains all of your XML files
         * failOnError: Whether an invalidity should fail the build (default true)
+        * exclude: A regex pattern of URIs to exclude
         
         This build also fetches the necessary libraries for validating (Jing, Saxon, and an XSL
         pipeline for validating against an Schematron schema). If you'd rather use your own copies
@@ -47,6 +48,9 @@
     
     <!--Path to the schematron implementation-->
     <property name="xsl-schematron" value="${basedir}/lib/xsl-schematron"/>
+    
+    <!--Regex pattern of URIs to exclude from validation-->
+    <property name="exclude" value=""/>
     
     
     <!--**********************************************
@@ -181,6 +185,7 @@
             <arg line="-s:${xsl-schematron}/xsl/validate.xsl"/>
             <arg line="rng=${rngFile}"/>
             <arg line="dir=${absoluteDir}"/>
+            <arg line="exclude=${exclude}"/>
             <arg line="failOnError=${failOnError}"/>
         </java>
     </target>
